@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0B0E12;
+  color: #E5E7EA;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Aurora gradient backdrop for hero sections */
+.bg-aurora {
+  background:
+    radial-gradient(60% 60% at 20% 10%, rgba(184,134,43,0.18) 0%, rgba(184,134,43,0) 60%),
+    radial-gradient(50% 50% at 85% 20%, rgba(217,174,74,0.12) 0%, rgba(217,174,74,0) 60%),
+    radial-gradient(70% 70% at 50% 100%, rgba(184,134,43,0.10) 0%, rgba(184,134,43,0) 60%),
+    #0B0E12;
+}
+
+/* Subtle dotted grid */
+.bg-grid {
+  background-image:
+    radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Brass gradient text */
+.text-brass-gradient {
+  background: linear-gradient(135deg, #F2E3B8 0%, #D9AE4A 40%, #B8862B 70%, #75541B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Glassmorphism panels */
+.glass {
+  background: rgba(19, 23, 28, 0.55);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(184, 134, 43, 0.18);
+}
+
+/* Shimmer for CTAs */
+.shimmer {
+  background-image: linear-gradient(
+    110deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.18) 50%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Focus rings */
+*:focus-visible {
+  outline: 2px solid #D9AE4A;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* CSS-only marquee (replaces framer-motion useAnimationFrame). The track
+   contains the photo set duplicated twice; translating by -50% loops
+   seamlessly. transform-only animation = composited, no main-thread cost. */
+@keyframes marquee-slide {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+.marquee-track {
+  animation: marquee-slide 60s linear infinite;
+  will-change: transform;
+}
+@media (max-width: 767px) {
+  .marquee-track { animation-duration: 32s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}
+

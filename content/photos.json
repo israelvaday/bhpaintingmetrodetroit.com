@@ -1,0 +1,483 @@
+[
+  {
+    "id": "logo-master-on-navy",
+    "src": "/logo.png",
+    "alt": "BH Painting Metro Detroit navy and gold paint roller logo",
+    "category": "brand",
+    "kind": "brand",
+    "services": [
+      "brand"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "ratio": 1,
+    "orientation": "square",
+    "bytes": 43223,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "logo-icon-square",
+    "src": "/logo-256.png",
+    "alt": "BH Painting Metro Detroit BH logo icon",
+    "category": "brand",
+    "kind": "brand",
+    "services": [
+      "brand"
+    ],
+    "width": 256,
+    "height": 256,
+    "ratio": 1,
+    "orientation": "square",
+    "bytes": 8004,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "logo-large-square",
+    "src": "/logo-512.png",
+    "alt": "BH Painting Metro Detroit large BH logo",
+    "category": "brand",
+    "kind": "brand",
+    "services": [
+      "brand"
+    ],
+    "width": 512,
+    "height": 512,
+    "ratio": 1,
+    "orientation": "square",
+    "bytes": 18642,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "branding-hero-metro",
+    "src": "/photos/branding-generated--hero-painting-metro-detroit.png",
+    "alt": "BH Painting Metro Detroit professional painter working in a protected Michigan home",
+    "category": "branding-generated",
+    "kind": "hero",
+    "services": [
+      "interior-painting",
+      "exterior-painting",
+      "cabinet-painting",
+      "commercial-painting",
+      "deck-fence-staining",
+      "trim-door-painting",
+      "ceiling-painting",
+      "rental-turnover-painting",
+      "wallpaper-removal",
+      "color-consultation"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 763231,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "branding-map-metro",
+    "src": "/photos/branding-generated--metro-detroit-map.png",
+    "alt": "BH Painting Metro Detroit service area across Metro Detroit, MI",
+    "category": "branding-generated",
+    "kind": "brand",
+    "services": [
+      "brand"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 849055,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-interior-painting",
+    "src": "/photos/service-hero-interior-painting.png",
+    "alt": "Interior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 735375,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-exterior-painting",
+    "src": "/photos/service-hero-exterior-painting.png",
+    "alt": "Exterior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "exterior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 1123659,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-cabinet-painting",
+    "src": "/photos/service-hero-cabinet-painting.png",
+    "alt": "Cabinet painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "cabinet-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 726042,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-commercial-painting",
+    "src": "/photos/service-hero-commercial-painting.png",
+    "alt": "Commercial painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "commercial-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 863736,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-deck-fence-staining",
+    "src": "/photos/service-hero-deck-fence-staining.png",
+    "alt": "Deck and fence staining by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "deck-fence-staining"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 1106123,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-trim-door-painting",
+    "src": "/photos/service-hero-trim-door-painting.png",
+    "alt": "Trim and door painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "trim-door-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 648810,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-ceiling-painting",
+    "src": "/photos/service-hero-ceiling-painting.png",
+    "alt": "Ceiling painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "ceiling-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 736245,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-rental-turnover-painting",
+    "src": "/photos/service-hero-rental-turnover-painting.png",
+    "alt": "Rental turnover painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "rental-turnover-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 722862,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-wallpaper-removal",
+    "src": "/photos/service-hero-wallpaper-removal.png",
+    "alt": "Wallpaper removal by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "wallpaper-removal"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 759247,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "service-hero-color-consultation",
+    "src": "/photos/service-hero-color-consultation.png",
+    "alt": "Color consultation by BH Painting Metro Detroit in Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "color-consultation"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 710665,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--interior-living-room",
+    "src": "/photos/painting-gallery--interior-living-room.png",
+    "alt": "Professional painter finishing a protected Metro Detroit living room — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "interior",
+    "kind": "work",
+    "services": [
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 716576,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--exterior-brick-home",
+    "src": "/photos/painting-gallery--exterior-brick-home.png",
+    "alt": "Exterior trim painting on a brick Michigan home — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "exterior",
+    "kind": "work",
+    "services": [
+      "exterior-painting",
+      "trim-door-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 1094607,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--cabinet-finish",
+    "src": "/photos/painting-gallery--cabinet-finish.png",
+    "alt": "Smooth cabinet-grade finish applied in a controlled work area — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "cabinets",
+    "kind": "work",
+    "services": [
+      "cabinet-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 680684,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--commercial-office",
+    "src": "/photos/painting-gallery--commercial-office.png",
+    "alt": "Protected Metro Detroit office during professional painting — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 725292,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--deck-staining",
+    "src": "/photos/painting-gallery--deck-staining.png",
+    "alt": "Semi-transparent stain applied to clean Michigan deck boards — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "wood-staining",
+    "kind": "work",
+    "services": [
+      "deck-fence-staining"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 882438,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--trim-detail",
+    "src": "/photos/painting-gallery--trim-detail.png",
+    "alt": "Crisp professional finish on interior window trim and baseboard — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "trim-doors",
+    "kind": "work",
+    "services": [
+      "trim-door-painting",
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 641111,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--ceiling-rolling",
+    "src": "/photos/painting-gallery--ceiling-rolling.png",
+    "alt": "Professional ceiling painting above a fully protected room — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "ceilings",
+    "kind": "work",
+    "services": [
+      "ceiling-painting",
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 763121,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--rental-turnover",
+    "src": "/photos/painting-gallery--rental-turnover.png",
+    "alt": "Vacant Metro Detroit apartment prepared for new residents — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "rental-turnover",
+    "kind": "work",
+    "services": [
+      "rental-turnover-painting",
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 721795,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--wallpaper-removal",
+    "src": "/photos/painting-gallery--wallpaper-removal.png",
+    "alt": "Careful wallpaper removal with floor protection — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "wallpaper",
+    "kind": "work",
+    "services": [
+      "wallpaper-removal",
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 759247,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--color-sampling",
+    "src": "/photos/painting-gallery--color-sampling.png",
+    "alt": "Interior color samples reviewed beside permanent finishes — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "color",
+    "kind": "work",
+    "services": [
+      "color-consultation",
+      "interior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 756729,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--exterior-siding",
+    "src": "/photos/painting-gallery--exterior-siding.png",
+    "alt": "Durable exterior finish applied to prepared Michigan siding — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "exterior",
+    "kind": "work",
+    "services": [
+      "exterior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 951455,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--occupied-office",
+    "src": "/photos/painting-gallery--occupied-office.png",
+    "alt": "After-hours office painting with desks and floors protected — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 788852,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--front-door",
+    "src": "/photos/painting-gallery--front-door.png",
+    "alt": "Deep navy finish on a Metro Detroit home's front door — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "trim-doors",
+    "kind": "work",
+    "services": [
+      "trim-door-painting",
+      "exterior-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 1101866,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "painting-gallery--multifamily-hallway",
+    "src": "/photos/painting-gallery--multifamily-hallway.png",
+    "alt": "Apartment hallway repainted in carefully planned sections — BH Painting Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial-painting",
+      "rental-turnover-painting"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 690143,
+    "source": "openrouter-generated"
+  }
+]
