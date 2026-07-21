@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+Host: https://bhpaintingmetrodetroit.com
+Sitemap: https://bhpaintingmetrodetroit.com/sitemap.xml
