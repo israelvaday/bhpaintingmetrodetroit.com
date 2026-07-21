@@ -1,6 +1,6 @@
 /**
  * Finalize the painting asset set without additional API calls:
- * - build the BH paint-roller logo from a deterministic vector master
+ * - build logo derivatives from the approved master (with vector fallback)
  * - replace legacy property cards with current painting imagery
  * - fill any missing gallery/service variant from a current painting asset
  * - rebuild the photo catalog
@@ -32,10 +32,12 @@ const logoSvg = Buffer.from(`
   <text x="212" y="700" fill="#FFF6DF" font-family="Arial, Helvetica, sans-serif" font-size="256" font-weight="900" letter-spacing="-24">BH</text>
 </svg>
 `);
+const approvedLogo = at("assets/logo-master.png");
+const logoInput = existsSync(approvedLogo) ? approvedLogo : logoSvg;
 
 for (const size of [1024, 512, 256]) {
   const name = size === 1024 ? "logo.png" : `logo-${size}.png`;
-  await sharp(logoSvg).resize(size, size).png({ compressionLevel: 9 }).toFile(at(`public/${name}.new`));
+  await sharp(logoInput).resize(size, size).png({ compressionLevel: 9 }).toFile(at(`public/${name}.new`));
 }
 
 for (const size of [1024, 512, 256]) {
@@ -46,11 +48,11 @@ for (const size of [1024, 512, 256]) {
   renameSync(source, target);
 }
 
-await sharp(logoSvg)
-  .resize(512, 512)
+await sharp(logoInput)
+  .resize(256, 256)
   .png({ compressionLevel: 9 })
   .toFile(at("app/icon.png"));
-await sharp(logoSvg)
+await sharp(logoInput)
   .resize(180, 180)
   .png({ compressionLevel: 9 })
   .toFile(at("app/apple-icon.png"));

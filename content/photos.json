@@ -12,7 +12,7 @@
     "height": 1024,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 43223,
+    "bytes": 644642,
     "source": "openrouter-generated"
   },
   {
@@ -28,7 +28,7 @@
     "height": 256,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 8004,
+    "bytes": 38625,
     "source": "openrouter-generated"
   },
   {
@@ -44,7 +44,7 @@
     "height": 512,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 18642,
+    "bytes": 190443,
     "source": "openrouter-generated"
   },
   {

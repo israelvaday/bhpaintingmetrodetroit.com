@@ -67,6 +67,14 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-US" className={`${inter.variable} ${jakarta.variable} ${mono.variable}`}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              'if(location.protocol==="http:"&&location.hostname==="bhpaintingmetrodetroit.com"){location.replace("https://"+location.host+location.pathname+location.search+location.hash)}',
+          }}
+        />
+      </head>
       <body className="font-sans bg-ink-950 text-ink-50 antialiased">
         <Navbar />
         <main>{children}</main>

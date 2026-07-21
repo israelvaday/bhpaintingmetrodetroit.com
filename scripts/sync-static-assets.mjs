@@ -44,8 +44,8 @@ function write(rel, buf) {
   console.log("[sync-static-assets] wrote", rel, `(${buf.length} bytes)`);
 }
 
-const icon = readIfExists("icon");
-const apple = readIfExists("apple-icon");
+const icon = readIfExists("icon.png") ?? readIfExists("icon");
+const apple = readIfExists("apple-icon.png") ?? readIfExists("apple-icon");
 const og = readIfExists("opengraph-image");
 
 if (icon) {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { cn } from "@/lib/cn";
 import { BIZ } from "@/lib/business";
 
@@ -7,18 +8,24 @@ import { BIZ } from "@/lib/business";
 export function LogoMark({
   className,
   title = BIZ.name,
+  priority = false,
 }: { className?: string; title?: string; priority?: boolean }) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   return (
     <span
-      role="img"
-      aria-label={title}
       className={cn(
-        "relative grid h-10 w-10 select-none place-items-center overflow-hidden rounded-xl border border-brass-400/70 bg-gradient-to-br from-brass-300 via-brass-500 to-brass-700 font-display text-[11px] font-black tracking-[-0.08em] text-ink-950 shadow-lg shadow-brass-500/20",
+        "relative block h-10 w-10 shrink-0 select-none overflow-hidden rounded-xl border border-brass-400/60 bg-ink-900 shadow-lg shadow-brass-500/20",
         className
       )}
     >
-      BH
-      <span aria-hidden className="absolute bottom-1.5 h-0.5 w-4 rounded-full bg-ink-950/70" />
+      <Image
+        src={`${base}/icon.png`}
+        alt={title}
+        fill
+        priority={priority}
+        sizes="96px"
+        className="object-cover"
+      />
     </span>
   );
 }

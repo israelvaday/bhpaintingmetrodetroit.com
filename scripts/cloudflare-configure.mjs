@@ -21,6 +21,8 @@ let ACCOUNT_ID = "";
 const DNS_TOKEN = process.env.CLOUDFLARE_DNS_API_TOKEN || "";
 const EMAIL_TOKEN = process.env.CLOUDFLARE_EMAIL_API_TOKEN || "";
 const APPLY = process.argv.includes("--apply");
+const WEB_ONLY = process.argv.includes("--web-only");
+const PROXY_WEB = process.env.CLOUDFLARE_PROXY !== "0";
 const API = "https://api.cloudflare.com/client/v4";
 
 const apexRecords = [
@@ -142,7 +144,7 @@ async function createDnsRecord(type, name, content) {
       name,
       content,
       ttl: 1,
-      proxied: false,
+      proxied: PROXY_WEB,
       comment: "BH Painting Metro Detroit GitHub Pages",
     }),
   });
@@ -190,12 +192,14 @@ async function reconcileDns(records) {
     if (!existing) {
       await createDnsRecord(item.type, item.name, item.content);
       console.log(`Created ${item.type} ${item.name} -> ${item.content}`);
-    } else if (existing.proxied) {
+    } else if (existing.proxied !== PROXY_WEB) {
       await cf(DNS_TOKEN, `/zones/${ZONE_ID}/dns_records/${existing.id}`, {
         method: "PATCH",
-        body: JSON.stringify({ proxied: false }),
+        body: JSON.stringify({ proxied: PROXY_WEB }),
       });
-      console.log(`Set ${item.type} ${item.name} to DNS-only`);
+      console.log(
+        `Set ${item.type} ${item.name} to ${PROXY_WEB ? "Cloudflare proxied" : "DNS-only"}`
+      );
     }
   }
 }
@@ -316,7 +320,7 @@ if (!APPLY) {
   );
 } else {
   await reconcileDns(records);
-  await configureEmail();
+  if (!WEB_ONLY) await configureEmail();
   const finalRecords = await dnsRecords();
   console.log(
     JSON.stringify(
