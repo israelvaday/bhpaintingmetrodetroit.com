@@ -17,6 +17,7 @@ const FORWARD_TO = ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"];
 const GITHUB_OWNER = process.env.GITHUB_PAGES_OWNER || "israelvaday";
 const PAGES_TARGET = `${GITHUB_OWNER}.github.io`;
 let ZONE_ID = process.env.CLOUDFLARE_ZONE_ID || "";
+let ACCOUNT_ID = "";
 const DNS_TOKEN = process.env.CLOUDFLARE_DNS_API_TOKEN || "";
 const EMAIL_TOKEN = process.env.CLOUDFLARE_EMAIL_API_TOKEN || "";
 const APPLY = process.argv.includes("--apply");
@@ -63,7 +64,10 @@ async function cf(token, path, init = {}) {
 
 async function zoneInfo() {
   const configured = await cf(DNS_TOKEN, `/zones/${ZONE_ID}`);
-  if (configured.name === DOMAIN) return configured;
+  if (configured.name === DOMAIN) {
+    ACCOUNT_ID = configured.account?.id || "";
+    return configured;
+  }
 
   const matches = await cf(
     DNS_TOKEN,
@@ -75,6 +79,7 @@ async function zoneInfo() {
     );
   }
   ZONE_ID = matches[0].id;
+  ACCOUNT_ID = matches[0].account?.id || "";
   console.log(`Using discovered Cloudflare zone for ${DOMAIN}`);
   return matches[0];
 }
@@ -245,6 +250,40 @@ async function upsertEmailRule(rules, address, destinations) {
 
 async function configureEmail() {
   await enableEmailRouting();
+  if (!ACCOUNT_ID) {
+    throw new Error("Cloudflare account ID was not available from the zone");
+  }
+  let addresses;
+  try {
+    addresses = await cf(
+      EMAIL_TOKEN,
+      `/accounts/${ACCOUNT_ID}/email/routing/addresses?per_page=200`
+    );
+  } catch (error) {
+    throw new Error(
+      `The Cloudflare email token needs account-level Email Routing Addresses: Edit permission to verify forwarding destinations. ${error.message}`
+    );
+  }
+  const pending = [];
+  for (const email of [...new Set(FORWARD_TO)]) {
+    let address = addresses.find(
+      (item) => item.email?.toLocaleLowerCase() === email.toLocaleLowerCase()
+    );
+    if (!address) {
+      address = await cf(
+        EMAIL_TOKEN,
+        `/accounts/${ACCOUNT_ID}/email/routing/addresses`,
+        { method: "POST", body: JSON.stringify({ email }) }
+      );
+      console.log(`Sent Cloudflare verification email to ${email}`);
+    }
+    if (!address.verified) pending.push(email);
+  }
+  if (pending.length) {
+    throw new Error(
+      `Verify these Cloudflare Email Routing destinations, then run --apply again: ${pending.join(", ")}`
+    );
+  }
   const rules = await cf(
     EMAIL_TOKEN,
     `/zones/${ZONE_ID}/email/routing/rules?per_page=200`
