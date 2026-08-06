@@ -14,19 +14,14 @@ export function localBusinessJsonLd() {
     email: BIZ.email,
     url: BIZ.url,
     priceRange: "$$",
+    // Service-area business: no storefront, so no streetAddress/postalCode.
     address: {
       "@type": "PostalAddress",
-      streetAddress: BIZ.address.street,
       addressLocality: BIZ.address.locality,
       addressRegion: BIZ.address.region,
-      postalCode: BIZ.address.postalCode,
       addressCountry: BIZ.address.country,
     },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: BIZ.geo.lat,
-      longitude: BIZ.geo.lng,
-    },
+    // No geo: all the BH brands were publishing the same downtown Detroit point.
     areaServed: AREAS.map((a) => ({
       "@type": "City",
       name: a.name,
@@ -40,11 +35,8 @@ export function localBusinessJsonLd() {
         opens: h.open,
         closes: h.close,
       })),
-    hasCredential: {
-      "@type": "EducationalOccupationalCredential",
-      credentialCategory: "Insurance documentation",
-      name: "Insured professional painting business",
-    },
+    // No hasCredential: BIZ.licenseId is the placeholder string "Insured", not a
+    // licence or policy number. Restore only with a real, verifiable identifier.
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
 }
