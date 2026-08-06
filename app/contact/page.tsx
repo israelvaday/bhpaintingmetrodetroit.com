@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
-            <Clock className="h-3.5 w-3.5" /> Mon–Fri 7–6 · Sat 8–2
+            <Clock className="h-3.5 w-3.5" /> Sun–Thu 9–5 · Fri 9–12
           </div>
           <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
             Plan your <span className="text-brass-gradient">painting project</span>.
@@ -50,7 +50,7 @@ export default function ContactPage() {
               <span className="text-sm font-semibold uppercase tracking-wider">Hours</span>
             </div>
             <p className="mt-3 text-sm text-ink-200">
-              <strong className="text-white">Mon–Fri 7:00 AM–6:00 PM; Sat 8:00 AM–2:00 PM; Sun closed.</strong> See our{" "}
+              <strong className="text-white">Sun–Thu 9:00 AM–5:00 PM; Fri 9:00 AM–12:00 PM; Sat closed.</strong> See our{" "}
               <a href="/hours" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
               for the complete schedule.
             </p>

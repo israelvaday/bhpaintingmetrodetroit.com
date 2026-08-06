@@ -86,7 +86,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "What are your business hours?",
-        a: "Sunday is closed. Monday through Friday hours are 7:00 AM to 6:00 PM, and Saturday hours are 8:00 AM to 2:00 PM.",
+        a: "Sunday through Thursday hours are 9:00 AM to 5:00 PM, Friday is 9:00 AM to 12:00 PM, and Saturday is closed.",
       },
     ],
   },

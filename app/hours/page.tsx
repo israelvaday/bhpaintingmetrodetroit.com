@@ -5,7 +5,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 
 export const metadata: Metadata = {
   title: "Business Hours",
-  description: `${BIZ.name} hours: Monday–Friday 7:00 AM–6:00 PM, Saturday 8:00 AM–2:00 PM, and Sunday closed.`,
+  description: `${BIZ.name} hours: Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM, and Saturday closed.`,
   alternates: { canonical: "/hours" },
 };
 

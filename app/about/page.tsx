@@ -148,7 +148,7 @@ export default function AboutPage() {
                 <MapPin className="h-4 w-4 text-brass-400" /> Metro Detroit, MI
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
-                <Clock className="h-4 w-4 text-brass-400" /> Mon–Fri 7–6 · Sat 8–2
+                <Clock className="h-4 w-4 text-brass-400" /> Sun–Thu 9–5 · Fri 9–12
               </span>
             </div>
             <div className="mt-6 flex justify-center">
