@@ -21,6 +21,8 @@ export type Service = {
   bullets: string[];
   intent: "emergency" | "service" | "trust";
   keywords: string[];
+  /** Optional in-depth article for this service, linked from the service page body. */
+  relatedArticle?: { slug: string; anchor: string };
 };
 
 export const SERVICES: Service[] = [
@@ -191,6 +193,10 @@ export const SERVICES: Service[] = [
       "stain blocking ceiling paint michigan",
       "professional ceiling painting macomb county",
     ],
+    relatedArticle: {
+      slug: "painting-popcorn-ceiling-metro-detroit",
+      anchor: "painting a popcorn ceiling in Metro Detroit",
+    },
   },
   {
     slug: "rental-turnover-painting",

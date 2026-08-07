@@ -340,6 +340,72 @@ Sweep leaves and debris, keep gaps open for drainage, move moisture-trapping ite
 BH Painting Metro Detroit stains decks, fences, railings, and pergolas across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 for an evaluation of wood condition, prior coating, color options, preparation, and weather-aware scheduling.
 `,
   },
+  {
+    slug: "painting-popcorn-ceiling-metro-detroit",
+    title: "Painting a Popcorn Ceiling in Metro Detroit: What to Check First",
+    metaTitle: "Painting a Popcorn Ceiling in Metro Detroit",
+    excerpt:
+      "Textured ceilings can be refreshed with paint instead of demolition, but age testing, stain sealing, and a low-disturbance application come first.",
+    category: "Interior",
+    readMinutes: 7,
+    date: "2026-08-07",
+    heroImage: "/blog/painting-popcorn-ceiling-metro-detroit-hero.jpg",
+    heroAlt:
+      "Painter rolling fresh coating across a textured popcorn ceiling in a protected Metro Detroit living room",
+    secondaryImage: "/blog/painting-popcorn-ceiling-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Bagged and labeled ceiling texture sample collected for accredited laboratory testing before work begins",
+    body: `
+Textured ceilings, usually called popcorn or acoustic ceilings, are common across Metro Detroit's postwar housing. Brick colonials in Detroit, ranches in Warren and Livonia, and split-levels throughout Oakland and Macomb counties were finished this way for decades. Many of those ceilings have never been coated since installation, and they now read as dull, uneven, or stained.
+
+Paint can renew a textured ceiling without the mess of a full removal. Ceilings are not walls, though, and this particular surface rewards planning far more than speed. The order of operations matters, and the first step happens before anyone opens a container of paint.
+
+## Establish the age of the ceiling before anything disturbs it
+
+Spray-applied ceiling texture was manufactured with asbestos for much of the twentieth century. Federal restrictions arrived through the 1970s, but existing inventory continued to be installed for years afterward, so the calendar alone proves nothing in either direction. Testing is the only way to know what is overhead.
+
+Material that is intact and undisturbed is generally not the concern. Risk comes from releasing fibers, which is exactly what scraping, sanding, aggressive washing, and dry brushing all do. That is why the check belongs at the start of the project rather than partway through it.
+
+If the home or the remodel dates to the mid-1980s or earlier, treat the ceiling as unknown and have a sample collected properly and analyzed by an accredited laboratory. Do not scrape off a piece to look at it more closely. If the result is positive, the work belongs to a licensed asbestos abatement contractor under Michigan's regulations. **BH Painting Metro Detroit does not perform asbestos abatement**, and no painting scope should be written over an untested ceiling of that era.
+
+A negative result, or a newer textured ceiling, opens up the ordinary painting decisions below.
+
+## Correct the water source before sealing the mark
+
+Brown or rust-colored rings on a Michigan ceiling usually trace back to a roof leak, ice damming along the eaves, failed flashing, a plumbing joint, or condensation from poorly ventilated attic space. Winter freeze-and-thaw cycles here make ice damming a recurring cause rather than a one-time event.
+
+Paint does not fix any of that. Coating an active leak hides the evidence and buys a few weeks before the stain returns, often larger than before. Confirm the source is repaired and the area has dried fully.
+
+Once it is dry, a water stain still needs a stain-blocking primer rather than an extra coat of ceiling paint. Tannins and water-soluble residue bleed straight through standard finishes, and each additional finish coat applied over an unsealed mark tends to reactivate it. Spot-prime the affected area, let it cure, then coat the full ceiling so the sheen stays consistent.
+
+## Texture changes how the coating goes on
+
+A textured surface holds far more surface area than a flat one, absorbs more material, and is mechanically fragile once it is wet. The two failure modes are specific and avoidable.
+
+The first is rolling the texture off the ceiling. Popcorn texture softens as it absorbs moisture, and a roller worked back and forth over a damp area will lift nodules and leave bare drywall behind. The discipline is a loaded thick-nap roller, light pressure, and no rework passes over an area that has already been coated. Spray application avoids the problem entirely and is often the better choice on a large or previously uncoated ceiling.
+
+The second is under-coverage. Texture shadows itself, so thin spots hide until the room lights come back on and the ceiling looks patchy from one angle. Adequate material, a consistent wet edge, and a final inspection under the room's own lighting all matter more here than on a smooth surface.
+
+### Preparing the room for overhead work
+
+- Clear or centralize furniture, then cover everything remaining.
+- Protect the full floor, not only the area directly underneath.
+- Remove or mask ceiling fixtures, fans, vents, and detectors.
+- Dust the surface gently, without wetting or abrading the texture.
+- Cut the ceiling-to-wall line deliberately, since texture makes a crisp edge harder.
+- Plan ventilation and cure time around how the room is occupied.
+
+## When removal makes more sense than paint
+
+Painting is the lower-disturbance path, but it is not always the right one. Removal deserves consideration when the texture is already failing and shedding, when large areas have been patched with mismatched material, when previous coats have built up into a heavy uneven surface, or when the goal is a genuinely smooth modern ceiling that no coating can produce.
+
+Removal is a bigger project than it appears. It usually requires the same testing, full containment, and a skim-coat and finishing stage afterward to bring the exposed drywall to a paintable condition. Compare the two paths on total disruption and total scope rather than on the coating line alone.
+
+Autumn is a practical time for this work in Michigan. Exterior projects wind down as temperatures drop, interior scheduling opens up, and windows can still be opened for ventilation before winter closes the house up completely.
+
+BH Painting Metro Detroit provides [ceiling painting](/services/ceiling-painting) across Wayne, Oakland, and Macomb counties, including stain sealing, low-disturbance application on textured surfaces, and honest guidance on when a ceiling should be tested or referred out. Call or text (313) 236-4558 for a written estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

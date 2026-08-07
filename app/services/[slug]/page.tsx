@@ -193,6 +193,18 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             We document the agreed preparation, primer where needed, paint products, colors, sheen, surfaces, and
             closeout expectations so everyone is working from the same finish plan.
           </p>
+          {s.relatedArticle && (
+            <p>
+              For a closer look at this work, read our guide to{" "}
+              <Link
+                href={`/blog/${s.relatedArticle.slug}`}
+                className="text-brass-300 underline-offset-2 hover:underline"
+              >
+                {s.relatedArticle.anchor}
+              </Link>
+              .
+            </p>
+          )}
         </div>
       </section>
 
