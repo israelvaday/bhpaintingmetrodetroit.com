@@ -9,6 +9,10 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const base = BIZ.url;
+  // next.config.ts sets trailingSlash: true on export, so every page is served at
+  // /path/ and its canonical carries the slash. Emitting /path here made all 128
+  // non-homepage entries 301 redirects that disagreed with their own canonical.
+  const loc = (p: string) => `${base}${p}/`;
   const staticPages = [
     "", "/services", "/service-areas", "/about", "/license",
     "/gallery", "/reviews", "/contact", "/hours", "/quote",
@@ -16,19 +20,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return [
     ...staticPages.map((p) => ({
-      url: `${base}${p}`,
+      url: loc(p),
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: p === "" ? 1.0 : 0.8,
     })),
     ...SERVICES.map((s) => ({
-      url: `${base}/services/${s.slug}`,
+      url: loc(`/services/${s.slug}`),
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.9,
     })),
     ...BLOG_POSTS.map((p) => ({
-      url: `${base}/blog/${p.slug}`,
+      url: loc(`/blog/${p.slug}`),
       lastModified: new Date(p.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
@@ -36,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...AREAS
       .filter((a) => a.kind !== "zip-area") // exclude noindex zip-area pages from sitemap for first 30 days
       .map((a) => ({
-        url: `${base}/service-areas/${a.slug}`,
+        url: loc(`/service-areas/${a.slug}`),
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: a.main ? 0.8 : 0.6,
