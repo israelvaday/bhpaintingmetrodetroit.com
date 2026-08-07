@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Check, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { serviceDaysLabel } from "@/lib/hours";
 import { SERVICES } from "@/content/services";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
@@ -54,7 +55,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               {BIZ.name} · Metro Detroit painting
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
-              <Clock className="h-3.5 w-3.5" /> Mon–Sat service
+              <Clock className="h-3.5 w-3.5" /> {serviceDaysLabel()} service
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
               <MapPin className="h-3.5 w-3.5 text-brass-400" /> All of Metro Detroit

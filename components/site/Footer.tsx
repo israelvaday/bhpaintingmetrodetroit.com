@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Paintbrush, Clock, Instagram, ChevronDown } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { serviceDaysLabel } from "@/lib/hours";
 import { MAIN_AREAS } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { Logo } from "./Logo";
@@ -22,7 +23,7 @@ export function Footer() {
               <Paintbrush className="h-3.5 w-3.5" /> Written scopes
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
-              <Clock className="h-3.5 w-3.5" /> Mon–Sat service
+              <Clock className="h-3.5 w-3.5" /> {serviceDaysLabel()} service
             </span>
           </div>
           {BIZ.social.instagram ? (
