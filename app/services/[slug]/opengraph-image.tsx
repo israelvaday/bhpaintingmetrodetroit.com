@@ -5,12 +5,7 @@ import { SERVICES } from "@/content/services";
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const s = SERVICES.find((x) => x.slug === slug);
-  return [{ id: slug, alt: s ? `${s.name} — ${BIZ.name}` : BIZ.name, size, contentType }];
-}
+export const alt = `Painting services — ${BIZ.name}`;
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
