@@ -33,7 +33,7 @@ export const SERVICES: Service[] = [
     icon: PaintRoller,
     tagline: "Clean lines, even coverage, and comfortable rooms from prep through final walk.",
     description:
-      "Refresh one room or coordinate a whole-home repaint with insured professional painters serving Wayne, Oakland, and Macomb counties. We protect floors and furnishings, prepare each surface, apply the right primer and finish, and keep occupied Metro Detroit homes orderly throughout the project.",
+      "Refresh one room or coordinate a whole-home repaint with experienced professional painters serving Wayne, Oakland, and Macomb counties. We protect floors and furnishings, prepare each surface, apply the right primer and finish, and keep occupied Metro Detroit homes orderly throughout the project.",
     bullets: [
       "Walls, ceilings, hallways, and stairwells",
       "Bedrooms, kitchens, baths, and living spaces",

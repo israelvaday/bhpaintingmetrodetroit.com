@@ -57,7 +57,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "Who will perform the work?",
-        a: "BH Painting Metro Detroit provides insured professional painters and direct project communication. The written scope identifies the work being performed, and you can raise questions with our team throughout the project.",
+        a: "BH Painting Metro Detroit provides experienced professional painters and direct project communication. The written scope identifies the work being performed, and you can raise questions with our team throughout the project.",
       },
     ],
   },

@@ -112,7 +112,7 @@ Temperature guidance applies to the surface as well as the air. Dark siding in d
 
 Coatings must also be applied at the recommended spread rate. Stretching material too far reduces protective film thickness. Edges, lower boards, trim profiles, and transitions deserve deliberate coverage because they often weather first.
 
-Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides insured exterior painting across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
+Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides exterior painting across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
 `,
   },
   {
@@ -180,7 +180,7 @@ BH Painting Metro Detroit offers cabinet painting and color guidance throughout 
     date: "2026-04-08",
     heroImage: "/blog/hire-painting-contractor-michigan-hero.png",
     heroAlt:
-      "Homeowner reviewing a written painting proposal with an insured Metro Detroit painter",
+      "Homeowner reviewing a written painting proposal with a Metro Detroit painter",
     secondaryImage: "/blog/hire-painting-contractor-michigan-secondary.png",
     secondaryAlt:
       "Organized professional painting crew protecting floors before an interior project",
@@ -229,7 +229,7 @@ For businesses and multifamily properties, ask about phased zones, tenant notice
 - Promises to paint damp, dirty, or unstable surfaces immediately.
 - No plan for protection, ventilation, cleanup, or final review.
 
-The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides free written estimates and insured professional painters across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 to discuss your project.
+The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides free written estimates and experienced professional painters across Wayne, Oakland, and Macomb counties, and will share current business and insurance information for your project on request. Call or text (313) 236-4558 to discuss your project.
 `,
   },
   {
