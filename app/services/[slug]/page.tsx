@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Check, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { serviceDaysLabel } from "@/lib/hours";
+import { metaDescription } from "@/lib/meta";
 import { SERVICES } from "@/content/services";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!s) return {};
   return {
     title: s.name,
-    description: s.description.slice(0, 160),
+    description: metaDescription(s.description),
     alternates: { canonical: `/services/${s.slug}` },
   };
 }
