@@ -205,7 +205,7 @@ export const SERVICES: Service[] = [
     icon: RefreshCw,
     tagline: "Reliable repaint schedules for rentals, apartments, and move-ready properties.",
     description:
-      "Owners and managers need vacant units ready on a predictable date. We provide Metro Detroit rental turnover painting with room-by-room scopes, practical finish recommendations, minor surface preparation, coordinated access, and clear completion updates for single-family rentals and multifamily properties.",
+      "Metro Detroit rental turnover painting for owners and managers who need a vacant unit repainted and move-in ready between tenants. Scopes are written room by room, with minor surface preparation, durable washable finishes, coordinated access, and clear completion updates for single-family rentals and multifamily properties. Dates are set once we understand the scope and your current schedule.",
     bullets: [
       "Apartments, condos, and single-family rentals",
       "Move-out repainting and color standardization",
