@@ -129,7 +129,7 @@ export const SERVICES: Service[] = [
     icon: Fence,
     tagline: "Preparation-first staining for outdoor wood exposed to Michigan seasons.",
     description:
-      "Protect decks, fences, pergolas, and other exterior wood with a stain system suited to the wood condition, prior finish, and desired appearance. We clean, allow proper dry time, test absorption, and schedule application around Metro Detroit rain, temperature, and direct-sun conditions.",
+      "Deck and fence staining across Metro Detroit protects wood in Wayne, Oakland, and Macomb County from Michigan sun, rain, and freeze-thaw damage. We match the stain system to the wood condition, prior finish, and desired appearance, then clean, allow proper dry time, test absorption, and schedule application around local rain, temperature, and direct-sun conditions.",
     bullets: [
       "Decks, fences, railings, and pergolas",
       "Cleaning and removal of loose prior finish",
