@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowRight, Clock, MapPin, Paintbrush, Sparkles } from "lucide-react";
-import { AREAS, AREAS_BY_SLUG, nearbyAreas } from "@/lib/areas";
+import { AREAS, AREAS_BY_SLUG, areaLabel, nearbyAreas } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -23,9 +23,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const area = AREAS_BY_SLUG[slug];
   if (!area) return {};
+  const label = areaLabel(area);
   return {
-    title: `Painting Company in ${area.name}, MI`,
-    description: `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, staining, and related painting services in ${area.name}, MI.`,
+    title: `Painting Company in ${label}, MI`,
+    description: `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, staining, and related painting services in ${label}, MI.`,
     alternates: { canonical: `/service-areas/${area.slug}` },
   };
 }
@@ -36,6 +37,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!area) return notFound();
 
   const nearby = nearbyAreas(area, 6);
+  const label = areaLabel(area);
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const heroSrc = `${base}/photos/service-hero-interior-painting.png`;
 
@@ -62,11 +64,11 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                   <Clock className="h-3.5 w-3.5" /> Sun–Thu 9–5 · Fri 9–12
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
-                  <MapPin className="h-3.5 w-3.5 text-brass-400" /> {area.name}, MI
+                  <MapPin className="h-3.5 w-3.5 text-brass-400" /> {label}, MI
                 </span>
               </div>
               <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-                Painting services in <span className="text-brass-gradient">{area.name}</span>, MI
+                Painting services in <span className="text-brass-gradient">{label}</span>, MI
               </h1>
               <p className="mt-4 max-w-2xl text-base text-ink-200 md:text-lg">
                 {BIZ.name} serves {area.name} with interior, exterior, cabinet, commercial, trim, ceiling, staining,
@@ -96,7 +98,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             lat={area.lat}
             lng={area.lng}
             zoom={area.kind === "city" ? 13 : 14}
-            title={`${area.name}, MI`}
+            title={`${label}, MI`}
             height={460}
           />
         </div>
