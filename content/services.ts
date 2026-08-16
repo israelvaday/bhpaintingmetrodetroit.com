@@ -105,7 +105,7 @@ export const SERVICES: Service[] = [
     icon: Building2,
     tagline: "Phased, professional painting that keeps customers, tenants, and teams moving.",
     description:
-      "Property managers and business owners use our commercial painting crews for offices, retail spaces, restaurants, common areas, and light-industrial interiors across Metro Detroit. We coordinate access, protection, work zones, and cure times around operations, with clear scopes and progress communication.",
+      "Commercial painting across Oakland, Wayne and Macomb County: offices, retail spaces, restaurants, common areas, and light-industrial interiors. Property managers and business owners across Metro Detroit use our commercial painting crews. We coordinate access, protection, work zones, and cure times around operations, with clear scopes and progress communication.",
     bullets: [
       "Offices, retail, restaurants, and common areas",
       "After-hours and phased scheduling when arranged",
