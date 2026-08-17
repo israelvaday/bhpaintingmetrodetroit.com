@@ -406,6 +406,76 @@ Autumn is a practical time for this work in Michigan. Exterior projects wind dow
 BH Painting Metro Detroit provides [ceiling painting](/services/ceiling-painting) across Wayne, Oakland, and Macomb counties, including stain sealing, low-disturbance application on textured surfaces, and honest guidance on when a ceiling should be tested or referred out. Call or text (313) 236-4558 for a written estimate.
 `,
   },
+  {
+    slug: "commercial-interior-painting-oakland-county",
+    title: "Commercial Interior Painting in Oakland County: How to Scope an Office Repaint",
+    metaTitle: "Commercial Interior Painting in Oakland County",
+    excerpt:
+      "Commercial interior painting in Pontiac, Southfield, and across Oakland County: how office and light-industrial repaints are scoped, specified, and quoted.",
+    category: "Commercial",
+    readMinutes: 7,
+    date: "2026-08-17",
+    heroImage: "/blog/commercial-interior-painting-oakland-county-hero.jpg",
+    heroAlt:
+      "Painter cutting in a corridor wall inside an unoccupied Oakland County office building",
+    secondaryImage: "/blog/commercial-interior-painting-oakland-county-secondary.jpg",
+    secondaryAlt:
+      "Room-by-room scope checklist held against a patched and prepared commercial office wall",
+    body: `
+Two quotes for the same commercial interior can differ widely and both be honest. A commercial repaint is priced from coatable surface area, substrate mix, existing condition, and the coating system the space actually needs. It is not priced from the floor area on the lease. When those four things are not written down, every contractor who walks the building estimates a slightly different project, and the numbers stop being comparable.
+
+Offices, medical suites, multi-tenant common areas, and light-industrial floors around Pontiac, Southfield, Farmington Hills, and Rochester Hills all arrive as "commercial interior" on a request for pricing, and they need different specifications. The scoping work below is what makes proposals line up against each other. It is worth doing before the first walkthrough rather than after the first surprise.
+
+## Measure the surface, not the floor
+
+A 6,000-square-foot office does not contain 6,000 square feet of paintable wall. Coatable area depends on ceiling height, how many interior partitions exist, how much of the perimeter is glazing, and whether ceilings, exposed deck, doors, frames, and trim are in scope at all.
+
+Record the space by room type rather than as a single total: private offices, open floor, corridors, conference rooms, restrooms, break areas, stairwells, and any service or storage area behind the office block. Corridors and stairwells carry disproportionate labor because of height, traffic protection, and cut work. Open floor is the least expensive area per square foot and private offices among the most expensive. A single total that hides that mix tells you very little.
+
+Note ceiling height everywhere it changes. Anything above standard reach adds staging, lift access, or scaffolding, and that belongs on an access line rather than buried in a paint line.
+
+## Specify the coating by how the room is used
+
+Commercial interiors fail at the point of contact, not in the middle of the wall. The specification should follow traffic and cleaning practice.
+
+Corridors, reception, and any wall within reach of carts, chairs, or shoulders need a finish that survives repeated cleaning. Restrooms and break areas add moisture and cleaning chemicals. Service and light-industrial areas may need a harder film, and exposed block needs a block filler before anything decorative goes on, which is a separate material and a separate coat.
+
+Sheen is a maintenance decision more than an appearance one. Higher sheen cleans better and also reveals more of the substrate beneath it, so a wall patched repeatedly over years of tenant changes can look worse in a scrubbable finish than it did in a flat one. That trade-off belongs in the conversation before a color is chosen.
+
+Doors, frames, and trim are usually a different product from the walls and often a different day of work. If they are not named in the scope, assume they are not in it.
+
+## Existing condition sets more of the price than color does
+
+What is already on the wall governs preparation, and preparation governs cost. Confirm the substrate and the prior finish area by area before asking anyone for a number.
+
+Previously wallpapered walls are the most common surprise in older Oakland County office stock. Removal, adhesive residue, and a skim coat can exceed the painting itself. Glossy or unidentified existing coatings may need de-glossing or a bonding primer to hold adhesion. Water staining needs its source corrected first and then a stain-blocking primer, not an additional finish coat.
+
+Anchors, fixings, signage, cable trays, and wall-mounted equipment each need a decision recorded: removed and made good, or cut around. Every answer changes the labor.
+
+Buildings from the mid-1980s or earlier may also carry textured ceilings or other materials that should be identified before anything disturbs them. **BH Painting Metro Detroit does not perform asbestos abatement**, and no scope should be written over an untested surface of that era.
+
+### Have these ready before requesting pricing
+
+- A floor plan, or a room-by-room list with dimensions and ceiling heights.
+- Which surfaces are in scope: walls, ceilings, doors, frames, trim, exposed deck.
+- The existing coating and substrate in each area, where it is known.
+- Brand colors, product standards, or landlord requirements that apply.
+- Access constraints: occupied hours, secure areas, loading, elevator use, parking.
+- Who releases a completed area, and who approves a change to the scope.
+
+Two contractors working from that list are pricing the same project. Two working from a walkthrough and a floor area are not.
+
+## Compare proposals on scope, not on the bottom line
+
+A commercial proposal should name products and the number of coats by area, state what preparation is included and what is excluded, identify who moves and protects furniture and equipment, and separate access equipment from labor. It should also say what happens when concealed condition appears behind a fixture or partition, because in an older building it will.
+
+Where a proposal reads "two coats throughout" with no preparation detail, the gap between it and a higher number is usually the preparation the lower one has left out. Ask for exclusions in writing. A clear exclusion is more useful than an optimistic inclusion.
+
+Scheduling is the other half of a commercial project and a separate planning conversation. Phasing, off-hour access, and cure time around an occupied building are covered in the companion guide to [commercial painting with minimal downtime](/blog/commercial-painting-minimal-downtime).
+
+BH Painting Metro Detroit provides [commercial interior painting](/services/commercial-painting) for offices, retail, common areas, and light-industrial interiors across Wayne, Oakland, and Macomb counties, including Pontiac, Southfield, Farmington Hills, and Rochester Hills. Call or text (313) 236-4558 to walk the space and receive a written scope and estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
