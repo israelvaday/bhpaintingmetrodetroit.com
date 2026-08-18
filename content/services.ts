@@ -81,7 +81,7 @@ export const SERVICES: Service[] = [
     icon: PanelsTopLeft,
     tagline: "A refined cabinet finish without the cost and disruption of full replacement.",
     description:
-      "Give sound kitchen, bathroom, or built-in cabinetry a durable new look with a controlled preparation and coating process. Our Metro Detroit cabinet painting service includes labeling, careful removal, degreasing, sanding, bonding primer, finish application, and organized reassembly.",
+      "Cabinet painting across Metro Detroit gives sound kitchen, bathroom, or built-in cabinetry a durable new look in Oakland, Wayne, and Macomb County. Our controlled preparation and coating process includes labeling, careful removal, degreasing, sanding, bonding primer, finish application, and organized reassembly.",
     bullets: [
       "Kitchen, bath, laundry, and built-in cabinets",
       "Door and drawer labeling for accurate reassembly",
