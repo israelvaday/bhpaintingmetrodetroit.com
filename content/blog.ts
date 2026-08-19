@@ -337,7 +337,7 @@ A useful weather window includes suitable air and surface temperatures, manageab
 
 Sweep leaves and debris, keep gaps open for drainage, move moisture-trapping items periodically, and clean gently when buildup appears. Inspect horizontal boards and stair treads each spring because they wear faster than vertical rails. Early maintenance can extend the service life of the overall finish.
 
-BH Painting Metro Detroit stains decks, fences, railings, and pergolas across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 for an evaluation of wood condition, prior coating, color options, preparation, and weather-aware scheduling.
+BH Painting Metro Detroit provides [deck and fence staining](/services/deck-fence-staining) for decks, fences, railings, and pergolas across Wayne, Oakland, and Macomb counties, including Southfield, Farmington Hills, Warren, Royal Oak, Eastpointe, and Pontiac. Call (313) 236-4558 for an evaluation of wood condition, prior coating, color options, preparation, and weather-aware scheduling.
 `,
   },
   {

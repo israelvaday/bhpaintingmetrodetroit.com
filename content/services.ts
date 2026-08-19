@@ -145,6 +145,10 @@ export const SERVICES: Service[] = [
       "deck painters wayne county",
       "exterior wood coating macomb county",
     ],
+    relatedArticle: {
+      slug: "deck-staining-michigan-climate",
+      anchor: "deck staining for Michigan's climate",
+    },
   },
   {
     slug: "trim-door-painting",
