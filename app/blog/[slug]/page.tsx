@@ -8,6 +8,7 @@ import { BLOG_POSTS, findPost } from "@/content/blog";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 export const dynamic = "force-static";
 
@@ -184,6 +185,12 @@ export default async function BlogPostPage(
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Blog", href: "/blog" },
+          { name: post.title, href: `/blog/${post.slug}` },
+        ]}
+      />
       <article>
         {/* Hero */}
         <header className="relative">

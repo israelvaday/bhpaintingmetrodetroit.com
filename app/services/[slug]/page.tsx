@@ -13,6 +13,7 @@ import { ServiceMap } from "@/components/site/ServiceMap";
 import { AvailabilityChecker } from "@/components/site/HomeDispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { Reveal, RevealItem, RevealStagger } from "@/components/site/Reveal";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -39,6 +40,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Services", href: "/services" },
+          { name: s.name, href: `/services/${s.slug}` },
+        ]}
+      />
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         <Image
           src={heroSrc}

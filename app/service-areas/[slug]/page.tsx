@@ -10,6 +10,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 import { AreaAvailabilityChecker } from "@/components/site/DispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
+import { Breadcrumbs, type Crumb } from "@/components/site/Breadcrumbs";
 
 export function generateStaticParams() {
   return AREAS.map((area) => ({ slug: area.slug }));
@@ -38,11 +39,20 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
 
   const nearby = nearbyAreas(area, 6);
   const label = areaLabel(area);
+  // A neighborhood sits under its city, and that city page is the one that
+  // ranks, so the middle crumb is the keyword-exact anchor into it.
+  const parent = area.parent ? AREAS_BY_SLUG[area.parent] : undefined;
+  const crumbs: Crumb[] = [
+    { name: "Service Areas", href: "/service-areas" },
+    ...(parent ? [{ name: areaLabel(parent), href: `/service-areas/${parent.slug}` }] : []),
+    { name: `${label}, MI`, href: `/service-areas/${area.slug}` },
+  ];
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const heroSrc = `${base}/photos/service-hero-interior-painting.png`;
 
   return (
     <>
+      <Breadcrumbs items={crumbs} />
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         <Image
           src={heroSrc}
