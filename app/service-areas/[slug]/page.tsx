@@ -135,8 +135,11 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                     <Icon className="h-5 w-5" />
                   </span>
                   <div className="flex-1">
+                    {/* Every named query on this domain is "<service> <city>", so the anchor
+                        into the service page carries the full service name, not the UI
+                        short label: "Cabinet Painting in Pontiac", never "Cabinets in Pontiac". */}
                     <h3 className="font-semibold text-ink-100">
-                      {service.shortName} in {area.name}
+                      {service.name} in {area.name}
                     </h3>
                     <p className="mt-1 line-clamp-2 text-sm text-ink-300">{service.tagline}</p>
                   </div>
