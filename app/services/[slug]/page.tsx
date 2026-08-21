@@ -201,6 +201,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             We document the agreed preparation, primer where needed, paint products, colors, sheen, surfaces, and
             closeout expectations so everyone is working from the same finish plan.
           </p>
+          {s.detail?.map((d) => (
+            <div key={d.heading} className="space-y-3">
+              <h3 className="pt-2 font-display text-lg font-bold text-white md:text-xl">{d.heading}</h3>
+              <p>{d.body}</p>
+            </div>
+          ))}
           {s.relatedArticle && (
             <p>
               For a closer look at this work, read our guide to{" "}

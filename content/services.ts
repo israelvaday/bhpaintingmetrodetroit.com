@@ -23,6 +23,12 @@ export type Service = {
   keywords: string[];
   /** Optional in-depth article for this service, linked from the service page body. */
   relatedArticle?: { slug: string; anchor: string };
+  /**
+   * Optional service-specific depth, rendered under the shared "More about" section.
+   * Use it where the search demand for a service is narrower than the service name —
+   * the template copy is deliberately generic, so anything substrate-specific goes here.
+   */
+  detail?: { heading: string; body: string }[];
 };
 
 export const SERVICES: Service[] = [
@@ -149,6 +155,23 @@ export const SERVICES: Service[] = [
       slug: "deck-staining-michigan-climate",
       anchor: "deck staining for Michigan's climate",
     },
+    detail: [
+      {
+        heading: "Fence staining is not deck staining",
+        body:
+          "A deck is one broad horizontal surface you can see while you work. A fence is two vertical faces, and the shaded face dries at a different rate than the sun face, so a single pass applied to both at once can cure unevenly. Fence staining also has far more edge than surface: every picket carries exposed end grain at the top, which drinks stain and is the first place a finish fails, and the posts sit in ground contact where moisture arrives from below rather than from the weather. Board-on-board and shadowbox fences overlap, so the covered strips have to be reached before the neighboring board is coated rather than after. We work the fence face by face, back-brush what is sprayed so the stain is pushed into the grain instead of sitting on it, and treat post bases and picket tops as their own step.",
+      },
+      {
+        heading: "New pressure-treated pine, weathered cedar, and previously coated fences",
+        body:
+          "The wood decides the schedule. New pressure-treated pine leaves the yard carrying mill and treatment moisture, and it will reject stain until it dries down — sometimes weeks, sometimes a full season, and no product claim changes that. A few drops of water on the rail answers it: beading means the wood is not ready, absorption means it is. Weathered cedar and spruce usually need cleaning and often brightening to pull back the gray before color goes on, because stain applied over a dull mill-glazed or gray surface reads muddy. A fence already carrying a solid stain is a different job again: solid coatings do not accept a semi-transparent over the top, so the honest options are stripping back or recoating solid, and that is a decision to make at the estimate rather than on the day.",
+      },
+      {
+        heading: "Fence staining across Wayne, Oakland, and Macomb counties",
+        body:
+          "Wood fence work reaches further out than interior painting does, and a good share of it sits past the built-up ring — Armada, Romeo, and Shelby Township in northern Macomb, Lake Orion, Clarkston, Bingham Farms, and Pleasant Ridge in Oakland, alongside the Southfield, Farmington Hills, Warren, Royal Oak, Eastpointe, and Detroit neighborhoods we cover every week. Those outer communities run long runs of privacy and split-rail fence with real exposure on both sides, which is a different measurement and a different amount of prep than a city back yard. Scheduling is set around rain and dry-down rather than around distance.",
+      },
+    ],
   },
   {
     slug: "trim-door-painting",
