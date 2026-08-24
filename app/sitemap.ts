@@ -3,11 +3,15 @@ import { BIZ } from "@/lib/business";
 import { SERVICES } from "@/content/services";
 import { AREAS } from "@/lib/areas";
 import { BLOG_POSTS } from "@/content/blog";
+import { lastChanged } from "@/lib/source-dates";
 
 export const dynamic = "force-static";
 
+// Files that render into every page, so a change to either genuinely changes
+// every url's html. Folded into every group's date rather than special-cased.
+const GLOBAL = ["app/layout.tsx", "lib/business.ts"];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   const base = BIZ.url;
   // next.config.ts sets trailingSlash: true on export, so every page is served at
   // /path/ and its canonical carries the slash. Emitting /path here made all 128
@@ -21,18 +25,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map((p) => ({
       url: loc(p),
-      lastModified: now,
+      // Each of these routes is one file, so its own commit date is the honest
+      // answer. Previously all twelve claimed the build timestamp.
+      lastModified: lastChanged(...GLOBAL, `app${p}/page.tsx`),
       changeFrequency: "weekly" as const,
       priority: p === "" ? 1.0 : 0.8,
     })),
     ...SERVICES.map((s) => ({
       url: loc(`/services/${s.slug}`),
-      lastModified: now,
+      lastModified: lastChanged(
+        ...GLOBAL,
+        "app/services/[slug]/page.tsx",
+        "content/services.ts",
+        "components/site/LongFormFaq.tsx",
+        "components/site/Breadcrumbs.tsx",
+      ),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     })),
     ...BLOG_POSTS.map((p) => ({
       url: loc(`/blog/${p.slug}`),
+      // Already a real content date, not a build stamp. Left alone.
       lastModified: new Date(p.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
@@ -41,7 +54,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .filter((a) => a.kind !== "zip-area") // exclude noindex zip-area pages from sitemap for first 30 days
       .map((a) => ({
         url: loc(`/service-areas/${a.slug}`),
-        lastModified: now,
+        // No lib/area-insights.ts on this clone — kitchen has one, painting reads
+        // content/area-insights.json directly. Listing an absent path would make
+        // the whole pathspec group fail, so it is left out rather than carried over.
+        lastModified: lastChanged(
+          ...GLOBAL,
+          "app/service-areas/[slug]/page.tsx",
+          "lib/areas.ts",
+          "content/area-insights.json",
+          "components/site/LongFormFaq.tsx",
+          "components/site/Breadcrumbs.tsx",
+        ),
         changeFrequency: "monthly" as const,
         priority: a.main ? 0.8 : 0.6,
       })),
