@@ -127,6 +127,23 @@ export const SERVICES: Service[] = [
       "commercial painting oakland county",
       "property manager painters metro detroit",
     ],
+    detail: [
+      {
+        heading: "Commercial interior repainting while the space stays in use",
+        body:
+          "Most commercial interior work is a repaint rather than a first coat, and the wall tells you what it has been through. Corridors and lobbies collect scuffs and cart impact at hip height, suites carry patched anchor holes where shelving and monitors moved, and the wall areas beside entries hold grime that will telegraph through a fresh coat if it is painted over rather than washed off first. Long runs of linear ceiling lighting rake across a commercial wall and show every skim that was not feathered, so patching here is judged under the building's own lights rather than by daylight. Sheen matters more than it does in a house: a flat wall in a busy corridor cannot be cleaned without burnishing, which is why washable eggshell and satin finishes carry most commercial wall areas while semi-gloss goes on the doors, frames, and trim that hands actually touch. Device plates, data drops, thermostats, sprinkler heads, and signage are masked or removed rather than cut around, because the cut line is the part a tenant looks at from a desk all day.",
+      },
+      {
+        heading: "Office buildings, retail, and multi-tenant common areas",
+        body:
+          "A building with tenants in it is a sequencing problem before it is a painting problem. Common areas run on the building's traffic rather than on ours, so corridors, stairwells, elevator lobbies, and restrooms are usually broken into zones that can be closed one at a time and handed back in service. Suite turnover between leases is the opposite case, an empty space with a hard date on it, where the work is wall repair, a repaint to the building standard color, and doors and frames returned to their original finish. Where a property already has a standard, we match the existing specification rather than proposing a new one; where it does not, the color and sheen schedule is written down so the next repaint has something to follow. Stairwells, atrium walls, and high retail ceilings need their elevated access planned before the crew arrives rather than improvised on the day. Scope, zones, and the order of work are agreed with property management or the building engineer before the first area is protected, and progress is reported against that plan.",
+      },
+      {
+        heading: "Commercial exteriors across Oakland, Wayne, and Macomb counties",
+        body:
+          "Commercial exteriors in Michigan are mostly masonry, block, and metal rather than the wood and lap siding on a house, and each substrate wants its own system. Split-face and concrete block are porous and take a block filler or masonry primer before any finish coat, or the texture drinks the material and dries patchy. Painted brick and stucco hold moisture and want a breathable coating so vapor can leave the wall instead of pushing the film off in spring. Doors, frames, railings, canopies, and dock surrounds need rust taken back to sound metal and a primer suited to what is underneath, because a topcoat laid over scale lets go at the first freeze cycle. The season is set by surface temperature and dew point rather than by the calendar: a fifty degree October afternoon can still be too cold on a north elevation that never sees sun, and coating a wall that is about to drop below its dew point traps moisture under the film. That is why commercial exterior dates here are confirmed close to the day rather than months ahead. The commercial work we see runs through Pontiac and the Woodward corridor, the Southfield office parks, Farmington Hills, and Detroit, all inside the Wayne, Oakland, and Macomb county area we cover.",
+      },
+    ],
   },
   {
     slug: "deck-fence-staining",
