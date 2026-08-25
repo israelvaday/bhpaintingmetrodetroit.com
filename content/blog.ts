@@ -476,6 +476,88 @@ Scheduling is the other half of a commercial project and a separate planning con
 BH Painting Metro Detroit provides [commercial interior painting](/services/commercial-painting) for offices, retail, common areas, and light-industrial interiors across Wayne, Oakland, and Macomb counties, including Pontiac, Southfield, Farmington Hills, and Rochester Hills. Call or text (313) 236-4558 to walk the space and receive a written scope and estimate.
 `,
   },
+  {
+    slug: "stain-or-paint-wood-fence-metro-detroit",
+    title: "Stain or Paint a Wood Fence in Metro Detroit: How to Choose",
+    metaTitle: "Stain or Paint a Wood Fence in Metro Detroit",
+    excerpt:
+      "Stain and paint fail differently on a Michigan fence. How species, ground contact, prior finish, and the closing fall window decide which one to use.",
+    category: "Exterior",
+    readMinutes: 7,
+    date: "2026-08-25",
+    heroImage: "/blog/stain-or-paint-wood-fence-metro-detroit-hero.jpg",
+    heroAlt:
+      "Freshly stained cedar privacy fence along a Metro Detroit backyard in late summer light",
+    secondaryImage: "/blog/stain-or-paint-wood-fence-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Fence boards showing a semi-transparent stain beside a solid opaque finish for comparison",
+    body: `
+Most fence finishes in Metro Detroit are not chosen. They are inherited. Someone painted the fence years ago, the paint is peeling, and the only question anyone asks is what color to put back on it. That skips the decision that actually governs how the fence looks in five years and how much work it takes to get there.
+
+Stain and paint are not two shades of the same product. They sit on the wood differently, they fail differently, and one of them is far easier to walk back than the other. On a Michigan fence, exposed on both faces to freeze-thaw, summer sun, and ground moisture, that difference is the whole conversation.
+
+## Stain and paint fail in different ways
+
+Paint forms a film over the wood. While the film is intact it blocks a great deal of water and ultraviolet light, and it can hold a color that no stain will reproduce. The problem is what happens when moisture reaches the wood from behind, through end grain, through the back face, or up from the base of a picket. The film loses adhesion and lifts, and the failure shows as blistering and peeling in patches rather than as even fading.
+
+A penetrating stain soaks into the surface fibers instead of bridging them. It carries less pigment, so it masks less and generally needs renewing sooner, but it thins and lightens as it weathers rather than peeling. That changes the maintenance job from scraping and sanding to cleaning and recoating.
+
+Solid-color stain sits between the two. It carries enough pigment to hide most of the grain and to cover previous color, while behaving more like a stain than a paint when it weathers. On a fence that has already been coated, it is often the realistic option.
+
+The asymmetry matters more than the appearance: going from stain to paint is straightforward, and going from paint back to a penetrating stain means stripping a film off every board, both faces, around every picket edge. On a long run of fence that is not a small job.
+
+## What the wood decides for you
+
+The species and the condition of the fence remove options before anyone opens a color deck.
+
+Cedar is common on privacy fences here and takes a penetrating stain well, which is much of why cedar fences are usually stained rather than painted. Its natural extractives can bleed through a light-colored paint without a stain-blocking primer, and that bleed shows up as brown streaks weeks after the work looks finished.
+
+Pressure-treated pine and spruce arrive holding a great deal of mill moisture. New pressure-treated fencing frequently needs a drying period before it will accept any finish, and how long depends on the lumber and the weather it has sat in rather than on a fixed number of weeks. A water-drop test gives a rough read: water that beads on the surface for a long time suggests the wood is not yet ready to absorb a penetrating product.
+
+Weathered gray wood is not automatically a problem, but it needs cleaning and often brightening before a stain will take evenly. Gray is a degraded surface layer, and stain applied over it can look patchy for reasons that have nothing to do with the stain.
+
+## Check the fence at the ground first
+
+Fences rarely fail in the middle of a panel. They fail at the posts and along the bottom rail, where soil, mulch, splashback, and sprinkler overspray keep the wood damp for far longer than the rest of the run ever gets.
+
+Walk the line and press a screwdriver into the posts at grade and into the lowest boards. Softness there is rot, and no finish corrects it. A stained rotten post is a rotten post with a better color on it, and the repair costs the same next year plus the cost of the coat that was wasted on it. Repairs and replacements belong before the finishing work, not after.
+
+Two other things are worth noting on the same walk. Clear mulch, soil, and plantings back from the boards where they have piled up against the fence, because that contact is what keeps the base wet. And check where irrigation heads throw. A sprinkler hitting one section nightly explains why that section looks a decade older than the rest of the fence.
+
+The last item is not about wood at all. On a boundary fence, work out who owns it and which face is yours before scheduling anything. Finishing a neighbor's side, or changing the color they look at every day, is a conversation to have first rather than a surprise to deliver.
+
+## Michigan's finishing window closes earlier than the calendar suggests
+
+Exterior wood finishing in Metro Detroit runs roughly from spring through October, and the end of that range is softer than the start. What closes it is not the first frost. It is dew.
+
+Most exterior wood coatings specify a minimum air and surface temperature, commonly around fifty degrees, and many also require that the surface stay above it for a number of hours after application. Through September and October the days can still meet that comfortably while the nights do not. A coat applied at four in the afternoon may not be dry before evening dew settles on it, and dew on an uncured finish can leave a dull, blotchy, or tacky surface that has to be corrected rather than left.
+
+The wood also has to be dry, and autumn drying is slow. After a rain, a fence in October may need days rather than the hours the same fence needed in July, and shaded or north-facing runs stay wet longest. Leaf drop is a smaller nuisance that still matters, because leaves landing on an uncured surface print into it.
+
+The practical consequence is that the usable window narrows through the autumn and closes at different times on different parts of the same fence. If prep reveals rot, or a stretch of wet weather eats the schedule, waiting for spring produces a better result than forcing a coat into a marginal week. A finish applied outside its conditions does not last as long, and the failure arrives as work rather than as fading.
+
+### Have these ready before requesting pricing
+
+- The approximate age of the fence, the species if known, and whether it has ever been coated.
+- Whether the existing finish is peeling and flaking, chalking, or simply faded.
+- Linear feet and height, and whether both faces are in scope or only yours.
+- The condition at the posts and the bottom rail, including anything already soft.
+- Gates, latches, lattice tops, and any sections you intend to replace first.
+- Access constraints: locked gates, dogs, irrigation, and planting beds against the fence.
+
+## What a fence quote should tell you
+
+A fence is a large surface area assembled from many small pieces, so the difference between two quotes is almost always in preparation and in how many faces are counted, not in the product.
+
+A proposal worth comparing should name the cleaning method and the dry time allowed before application, state whether the finish is a penetrating stain, a solid-color stain, or a paint, and give the number of coats. It should say plainly whether both faces are included. It should say what happens when a soft board or post turns up during prep, because on a fence of any age something usually does. It should cover masking of siding, patios, and plantings, and it should state a weather policy, since this work is rescheduled by conditions more often than interior work ever is.
+
+Where a quote reads as a color and a total with no preparation detail, the gap between it and a higher number is generally the preparation the lower one has left out.
+
+The companion piece on [deck staining for Michigan's climate](/blog/deck-staining-michigan-climate/) covers horizontal surfaces, which weather faster and are maintained on a different cycle than a fence is.
+
+BH Painting Metro Detroit provides [fence staining](/services/deck-fence-staining/) for privacy fences, picket fences, gates, and railings across Wayne, Oakland, and Macomb counties, including Southfield, Farmington Hills, Warren, Royal Oak, Pontiac, Clarkston, Romeo, and Armada. Call or text (313) 236-4558 for an assessment of species, existing finish, condition at grade, and a schedule that fits the remaining season.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
