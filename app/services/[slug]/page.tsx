@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Check, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { serviceDaysLabel } from "@/lib/hours";
-import { metaDescription } from "@/lib/meta";
+import { metaDescription, openGraphFor } from "@/lib/meta";
 import { SERVICES } from "@/content/services";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
@@ -23,10 +23,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
   if (!s) return {};
+  const path = `/services/${s.slug}`;
+  const description = metaDescription(s.description);
   return {
     title: s.name,
-    description: metaDescription(s.description),
-    alternates: { canonical: `/services/${s.slug}` },
+    description,
+    alternates: { canonical: path },
+    // The <title> gets the ` — ${BIZ.name}` suffix from the layout's title
+    // template; openGraph.title does not, so it is spelled out here.
+    openGraph: openGraphFor({ path, title: `${s.name} — ${BIZ.name}`, description }),
   };
 }
 

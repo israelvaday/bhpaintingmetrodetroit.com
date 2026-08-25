@@ -6,6 +6,7 @@ import { ArrowRight, Clock, MapPin, Paintbrush, Sparkles } from "lucide-react";
 import { AREAS, AREAS_BY_SLUG, areaLabel, nearbyAreas } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
+import { openGraphFor } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 import { AreaAvailabilityChecker } from "@/components/site/DispatchTracker";
@@ -25,10 +26,16 @@ export async function generateMetadata({
   const area = AREAS_BY_SLUG[slug];
   if (!area) return {};
   const label = areaLabel(area);
+  const path = `/service-areas/${area.slug}`;
+  const title = `Painting Company in ${label}, MI`;
+  const description = `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, staining, and related painting services in ${label}, MI.`;
   return {
-    title: `Painting Company in ${label}, MI`,
-    description: `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, staining, and related painting services in ${label}, MI.`,
-    alternates: { canonical: `/service-areas/${area.slug}` },
+    title,
+    description,
+    alternates: { canonical: path },
+    // The <title> gets the ` — ${BIZ.name}` suffix from the layout's title
+    // template; openGraph.title does not, so it is spelled out here.
+    openGraph: openGraphFor({ path, title: `${title} — ${BIZ.name}`, description }),
   };
 }
 
