@@ -29,8 +29,12 @@ export default function HoursPage() {
           Painting project <span className="text-brass-gradient">hours</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-ink-200">
-          Contact {BIZ.name} during the schedule below. Quote requests received outside these hours can be reviewed
-          during business hours.
+          Call {BIZ.name} at{" "}
+          <a href={BIZ.phoneHref} className="font-semibold text-brass-300 underline-offset-2 hover:underline">
+            {BIZ.phone}
+          </a>{" "}
+          during the schedule below. Quote requests received outside these hours can be reviewed during business
+          hours.
         </p>
 
         <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-7">
