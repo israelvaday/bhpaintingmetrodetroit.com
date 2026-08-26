@@ -31,10 +31,16 @@ export const metadata: Metadata = {
     "cabinet painting Metro Detroit",
     "commercial painting Wayne County",
   ],
+  // No `url` here on purpose. Next inherits this object wholesale into every
+  // route that does not declare one, so a hardcoded homepage url made /about/,
+  // /contact/, /hours/ and ten more announce the homepage as their own address
+  // two lines under a rel=canonical that named them correctly. Routes with an
+  // identity of their own set og:url through openGraphFor() in lib/meta.ts;
+  // the homepage sets its own in app/page.tsx. A page with no og:url falls back
+  // to the url that was actually shared, which is correct. A wrong one is not.
   openGraph: {
     type: "website",
     siteName: BIZ.name,
-    url: BIZ.url,
     locale: "en_US",
     title: `${BIZ.name} — Metro Detroit Painting Company`,
     description:

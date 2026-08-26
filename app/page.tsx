@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BIZ } from "@/lib/business";
+import { openGraphFor } from "@/lib/meta";
 import { Hero } from "@/components/sections/Hero";
 import { ServiceGrid } from "@/components/sections/ServiceGrid";
 import { BrandShowcase } from "@/components/sections/BrandShowcase";
@@ -19,6 +20,15 @@ export const metadata: Metadata = {
   title: "Painting Company — Interior, Exterior & Commercial",
   description:
     `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Request a free estimate.`,
+  // The root layout no longer carries a url, so the homepage states its own.
+  // Title and description are the root layout's previous OG values verbatim:
+  // the brand-forward pair reads better on a shared card than the page title.
+  openGraph: openGraphFor({
+    path: "/",
+    title: `${BIZ.name} — Metro Detroit Painting Company`,
+    description:
+      "Interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Wayne, Oakland & Macomb counties.",
+  }),
   alternates: { canonical: "/" },
 };
 
