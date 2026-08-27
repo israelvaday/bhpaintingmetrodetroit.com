@@ -24,6 +24,17 @@ export type Service = {
   /** Optional in-depth article for this service, linked from the service page body. */
   relatedArticle?: { slug: string; anchor: string };
   /**
+   * Optional absolute <title>, replacing `name` plus the layout's ` — ${BIZ.name}`
+   * template.
+   *
+   * The template is right for a page nobody has found yet and wrong for a page that
+   * already ranks: it spends the first 24 characters on a bare service label and
+   * pushes the geography into the brand suffix, where Google truncates it. Set this
+   * only where the SERP shows the title is what costs the click — read the
+   * competitors' titles out of serp_ranking_snapshots first, do not guess.
+   */
+  seoTitle?: string;
+  /**
    * Optional service-specific depth, rendered under the shared "More about" section.
    * Use it where the search demand for a service is narrower than the service name —
    * the template copy is deliberately generic, so anything substrate-specific goes here.
@@ -245,6 +256,15 @@ export const SERVICES: Service[] = [
   {
     slug: "rental-turnover-painting",
     name: "Rental Turnover Painting",
+    // The one page on this domain that holds a page-1 position (organic 2 on
+    // "rental turnover painting detroit", 2026-08-25 and 08-26) and takes zero
+    // clicks. Every rival around it leads with the city and with the words a
+    // landlord uses for the job — #1 "Turnover & Move-In/Out Painting in Metro
+    // Detroit", #4 "Rental Turnover Cleaning Metro Detroit | Make-Ready", #5
+    // "Rental Turnovers & Investor Rehab Detroit, MI". Both halves are already in
+    // this entry's own copy (bullet 2, and "Metro Detroit" opening the
+    // description), so nothing here is a new claim.
+    seoTitle: "Rental Turnover & Move-Out Painting in Metro Detroit",
     shortName: "Turnovers",
     icon: RefreshCw,
     tagline: "Reliable repaint schedules for rentals, apartments, and move-ready properties.",

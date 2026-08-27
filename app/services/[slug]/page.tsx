@@ -26,11 +26,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const path = `/services/${s.slug}`;
   const description = metaDescription(s.description);
   return {
-    title: s.name,
+    // `absolute` opts out of the layout's ` — ${BIZ.name}` template, which is why
+    // a service carrying seoTitle states its own geography. Left as `s.name` for
+    // the nine services that do not rank: the suffix is only in the way once a
+    // page is on page one and the title is the thing costing the click.
+    title: s.seoTitle ? { absolute: s.seoTitle } : s.name,
     description,
     alternates: { canonical: path },
     // The <title> gets the ` — ${BIZ.name}` suffix from the layout's title
-    // template; openGraph.title does not, so it is spelled out here.
+    // template; openGraph.title does not, so it is spelled out here. It keeps the
+    // service name either way — a shared card is not a SERP and does not truncate
+    // the same way.
     openGraph: openGraphFor({ path, title: `${s.name} — ${BIZ.name}`, description }),
   };
 }
