@@ -289,7 +289,7 @@ BH Painting Metro Detroit coordinates phased commercial painting across Wayne, O
   {
     slug: "deck-staining-michigan-climate",
     title: "Deck Staining for Michigan's Climate: Timing, Prep, and Maintenance",
-    metaTitle: "Deck Staining in Michigan's Climate",
+    metaTitle: "Deck Staining in Metro Detroit: Michigan Climate Guide",
     excerpt:
       "Protect outdoor wood through Michigan seasons by checking condition and moisture, cleaning correctly, and choosing the right stain.",
     category: "Exterior",
