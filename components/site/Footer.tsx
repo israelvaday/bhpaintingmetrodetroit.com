@@ -45,11 +45,19 @@ export function Footer() {
             <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Services</h2>
             <ChevronDown className="h-4 w-4 text-ink-400 transition-transform group-open:rotate-180 md:hidden" />
           </summary>
+          {/*
+            Anchor text is `name`, not `shortName`. This list repeats on every page, so it
+            is the largest internal anchor signal the site has, and `shortName` spent all of
+            it on bare nouns ("Interior", "Turnovers", "Decks & Fences") that do not carry
+            the head term the target page itself claims in its own h1 and title. `name`
+            restates that h1 verbatim, so nothing new is asserted. `shortName` stays what it
+            is everywhere else: the short eyebrow label above the h1 and on the cards.
+          */}
           <ul className="grid grid-cols-2 gap-x-3 gap-y-1.5 pb-4 text-sm text-ink-300 md:mt-3 md:grid-cols-1 md:pb-0">
             {SERVICES.slice(0, 8).map((s) => (
               <li key={s.slug}>
                 <Link href={`/services/${s.slug}`} className="inline-block py-1.5 hover:text-brass-300">
-                  {s.shortName}
+                  {s.name}
                 </Link>
               </li>
             ))}

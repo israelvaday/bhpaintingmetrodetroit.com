@@ -7,9 +7,12 @@ import { lastChanged } from "@/lib/source-dates";
 
 export const dynamic = "force-static";
 
-// Files that render into every page, so a change to either genuinely changes
+// Files that render into every page, so a change to any of them genuinely changes
 // every url's html. Folded into every group's date rather than special-cased.
-const GLOBAL = ["app/layout.tsx", "lib/business.ts"];
+// Footer.tsx was missing and belongs here on the list's own stated criterion: the
+// layout renders it on all 135 pages, so a footer edit changes all 135 and none of
+// them got a refetch signal for it.
+const GLOBAL = ["app/layout.tsx", "lib/business.ts", "components/site/Footer.tsx"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BIZ.url;
