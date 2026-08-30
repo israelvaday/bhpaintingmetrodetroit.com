@@ -293,7 +293,7 @@ export const SERVICES: Service[] = [
     icon: Wallpaper,
     tagline: "Methodical removal and paint-ready preparation without rushed shortcuts.",
     description:
-      "Wallpaper age, adhesive, wall condition, and prior installation method all influence removal. We test a small area, protect the room, remove coverings in controlled sections, clean residual adhesive, prepare the exposed surface, and recommend the right primer before repainting.",
+      "Wallpaper removal across Metro Detroit clears paper, vinyl, and removable wallcoverings from walls in Wayne, Oakland, and Macomb County, ready to paint. Wallpaper age, adhesive, wall condition, and prior installation method all influence removal, so we test a small area, protect the room, remove coverings in controlled sections, clean residual adhesive, prepare the exposed surface, and recommend the right primer before repainting.",
     bullets: [
       "Paper, vinyl, and removable wallcoverings",
       "Small-area testing before full removal",
