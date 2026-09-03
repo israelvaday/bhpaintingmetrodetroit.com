@@ -52,9 +52,18 @@ export function Footer() {
             the head term the target page itself claims in its own h1 and title. `name`
             restates that h1 verbatim, so nothing new is asserted. `shortName` stays what it
             is everywhere else: the short eyebrow label above the h1 and on the cards.
+
+            The list is every service, not `SERVICES.slice(0, 8)`. That cap left
+            /services/wallpaper-removal/ and /services/color-consultation/ — entries 9
+            and 10 — with no footer link on any page. Measured on the deployed tree:
+            the other eight carry a clean single-phrase anchor on 135 of 135 pages,
+            those two carry zero, and their only inbound links are the 103 city-page
+            and hub cards whose <a> wraps the card title plus its description sentence.
+            So the routine's "internal linking is saturated here" is true of eight
+            service pages and was never true of these two.
           */}
           <ul className="grid grid-cols-2 gap-x-3 gap-y-1.5 pb-4 text-sm text-ink-300 md:mt-3 md:grid-cols-1 md:pb-0">
-            {SERVICES.slice(0, 8).map((s) => (
+            {SERVICES.map((s) => (
               <li key={s.slug}>
                 <Link href={`/services/${s.slug}`} className="inline-block py-1.5 hover:text-brass-300">
                   {s.name}
