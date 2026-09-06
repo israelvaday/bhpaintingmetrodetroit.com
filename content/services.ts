@@ -350,6 +350,23 @@ export const SERVICES: Service[] = [
       "paint palette help oakland county",
       "professional color selection metro detroit",
     ],
+    detail: [
+      {
+        heading: "Undertone is what a grey Michigan sky exposes",
+        body:
+          "The same paint chip reads as two different colors in a Metro Detroit house in July and in January. For much of the year an interior is lit by a mixture of direct sun and warm lamplight, but through a Michigan winter the sky is overcast for weeks at a stretch, and overcast daylight is cooler and flatter than the light a color was usually chosen in. That is when an undertone which looked neutral on a small chip starts reading green, pink, or violet across a whole wall. Undertone rather than the name on the chip is what a consultation spends its time on: the beige carrying a yellow base against oak flooring, the soft white that turns blue beside a cool quartz counter, the greige that separates cleanly from a warm carpet in one room and disappears against it in the next. Rooms facing north in this climate never take direct sun and sit on the cool side of whatever they are painted, while a west room swings warm for two hours in the evening and cool for the rest of the day. Light reflectance value matters as much as hue in a house with small windows or a deep stairwell, because a color one step too dark stops giving the room back any light at all.",
+      },
+      {
+        heading: "Samples large enough to answer the question, and sheen chosen by use",
+        body:
+          "A two inch chip held against a wall answers almost nothing, because the color surrounding it changes what the eye reports. A sample is worth doing at a size the room can actually judge: two coats brushed out onto a white card or a sample board big enough to read from the far side of the room, then carried to more than one wall instead of painted into a single corner. A patch painted straight onto an old wall inherits whatever is beneath it, so a card that can be moved and later thrown away is easier to trust. Each candidate is looked at three times, in morning daylight, in late afternoon, and under the lamps the room is actually used by at night, and each one is held beside the finishes that are not changing: flooring, counters, cabinetry, stone, and the existing trim color. Sheen is the second decision and use rather than taste settles it. Flatter sheens forgive surface irregularity on a ceiling or an older plaster wall and mark when scrubbed; eggshell and satin wipe clean and are the usual answer in a hallway, a kitchen, or a child's room; semi-gloss on trim and doors takes hand traffic and cleaning, and it also draws the eye to every profile it sits on, which is a reason to choose it and sometimes a reason not to.",
+      },
+      {
+        heading: "Autumn is when interior color gets decided here",
+        body:
+          "Exterior color in Michigan is chosen and applied between April and October, so once the first sustained cold arrives the outside of a house is settled for the year and the interior list is what remains. Early autumn is the practical moment to work through a palette for that reason: there is still enough daylight to judge a sample honestly, and the rooms are about to be lived in with the windows shut. Color flow from room to room counts for more in a closed up house than it does in June, because a hallway, a stairwell and two rooms are often seen at once from one doorway, and a palette assembled a room at a time rarely reads as a single house. Where a color runs to and where it stops is part of the plan: an open floor plan usually wants one field color carried through, with the change of tone falling on an architectural line rather than on an arbitrary edge. Sheen and trim decisions travel with it, since the trim color is the one thread that ties rooms together. We work through interior and exterior palettes across Oakland, Wayne, and Macomb County, in Royal Oak, Farmington Hills, Southfield, Sterling Heights, Rochester Hills, Livonia, Dearborn, and Detroit itself.",
+      },
+    ],
   },
 ];
 
