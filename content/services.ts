@@ -114,6 +114,23 @@ export const SERVICES: Service[] = [
       "paint cabinets wayne county",
       "cabinet color update macomb county",
     ],
+    detail: [
+      {
+        heading: "Why a cabinet finish fails, and the preparation that decides it",
+        body:
+          "Cabinet doors take more hand contact than any other painted surface in a house, and a cabinet finish that lets go almost always let go at the first step rather than the last. Doors and the rails around a range carry cooking grease that a damp cloth spreads rather than removes, so degreasing with a dedicated cleaner comes before any sanding: sanding a greasy door drives the contamination down into the scratch pattern where no primer will reach it. Factory cabinetry is usually finished in a catalyzed conversion varnish that is harder and slicker than anything a coating will key into on its own, so the existing sheen is cut back mechanically first. The substrate then chooses the primer. Slick factory finishes, thermofoil, and melamine want a bonding or shellac-based primer; knots, and the tannin in oak and maple, want a stain-blocking primer or they will bleed amber through a light color months later. Red and white oak fill a great many Metro Detroit kitchens built between the seventies and the nineties, and their open grain telegraphs through paint unless it is grain-filled or left visible as a decision rather than an accident. Finish coats are cabinet-grade, waterborne alkyd or a two-component urethane, because a wall paint on a door edge marks with a fingernail.",
+      },
+      {
+        heading: "Kitchens, baths, laundry rooms, and built-ins in an occupied house",
+        body:
+          "A cabinet job is a logistics problem wrapped around a coatings problem. Doors, drawer fronts, and their hardware are labeled to the opening they came from before anything is removed, because face frames are rarely square across a twenty-year-old kitchen and a door that swaps position stops closing flush. Doors and drawer fronts are finished off the cabinet and laid flat, where the film can level without running at the edges; the boxes and face frames stay where they are and are finished in the room behind containment, with the range, counters, and floor protected and the openings masked. Hinges and pulls are either cleaned and refitted to their original holes or replaced, and new hardware on a different hole spacing is a decision to make before the doors come off rather than after. While the doors are curing the cabinets are open shelving, so the room stays usable and cupboards are emptied at the start rather than halfway through. Reassembly is where the labeling pays for itself: doors go back to their own openings, hinges are adjusted so the reveals line up across a run, and bumpers are refitted so a fresh finish is not closing wood onto wood.",
+      },
+      {
+        heading: "Cabinet work is the Michigan indoor season",
+        body:
+          "Exterior painting in this climate closes with the first sustained cold, and cabinets and interiors are what carry a Michigan winter, which makes early autumn the sensible time to plan a kitchen rather than the middle of one. Indoors the governing constraint changes: cure sets the schedule, not dry time, and a cabinet-grade finish that is dry to the touch within the hour can still need days to reach the hardness where a door will not print against its stop. A house closed up for the season runs warmer and drier than it does in July, which helps the film harden, but it also means ventilation has to be arranged deliberately rather than by opening a window, so low-odor waterborne products do more work here than they do in an open house. Humidity from a running dishwasher or a bathroom fan matters more at this point than the outdoor temperature does. Doors go back on their openings once they can be handled without marking rather than on a date fixed before the work started. The kitchens, baths, laundry rooms, and built-ins this applies to run right across the Oakland, Wayne, and Macomb county area we cover: Royal Oak, Farmington Hills, Southfield, Sterling Heights, Rochester Hills, Livonia, Dearborn, and Detroit itself.",
+      },
+    ],
   },
   {
     slug: "commercial-painting",
