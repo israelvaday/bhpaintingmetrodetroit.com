@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, Clock, MapPin, Paintbrush, Sparkles } from "lucide-react";
 import { AREAS, AREAS_BY_SLUG, areaLabel, nearbyAreas } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
+import { AREA_DETAIL } from "@/content/area-detail";
 import { BIZ } from "@/lib/business";
 import { openGraphFor } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -45,6 +46,10 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!area) return notFound();
 
   const nearby = nearbyAreas(area, 6);
+  // Per-city substance, where it exists. 101 area pages render from this one
+  // template, so without it every city page is the same page with a different
+  // name in it. Absent for a city we have nothing checkable to say about.
+  const detail = AREA_DETAIL[area.slug] ?? [];
   const label = areaLabel(area);
   // A neighborhood sits under its city, and that city page is the one that
   // ranks, so the middle crumb is the keyword-exact anchor into it.
@@ -200,6 +205,12 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             Product, color, sheen, and coat decisions can affect appearance and schedule. Exterior timing also depends
             on suitable weather and the selected coating&apos;s application requirements.
           </p>
+          {detail.map((d) => (
+            <div key={d.heading} className="space-y-3">
+              <h3 className="pt-2 font-display text-lg font-bold text-white md:text-xl">{d.heading}</h3>
+              <p>{d.body}</p>
+            </div>
+          ))}
           <p className="flex items-start gap-2">
             <Sparkles className="mt-1 h-4 w-4 shrink-0 text-brass-400" />
             Share the project address and preferred timing through the quote form so we can confirm coverage in

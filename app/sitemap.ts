@@ -65,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           "app/service-areas/[slug]/page.tsx",
           "lib/areas.ts",
           "content/area-insights.json",
+          "content/area-detail.ts",
           "components/site/LongFormFaq.tsx",
           "components/site/Breadcrumbs.tsx",
         ),
