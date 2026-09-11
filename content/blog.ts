@@ -558,6 +558,75 @@ The companion piece on [deck staining for Michigan's climate](/blog/deck-stainin
 BH Painting Metro Detroit provides [fence staining](/services/deck-fence-staining/) for privacy fences, picket fences, gates, and railings across Wayne, Oakland, and Macomb counties, including Southfield, Farmington Hills, Warren, Royal Oak, Pontiac, Clarkston, Romeo, and Armada. Call or text (313) 236-4558 for an assessment of species, existing finish, condition at grade, and a schedule that fits the remaining season.
 `,
   },
+  {
+    slug: "happy-rosh-hashanah-2026",
+    title: "Happy Rosh Hashanah: Holiday Hours and a Paint Checklist",
+    metaTitle: "Happy Rosh Hashanah 2026: Holiday Hours and Paint Checklist",
+    excerpt:
+      "Shana Tova! BH Painting Metro Detroit is closed September 12 and 13 for Rosh Hashanah and reopens Monday, September 14 at 9:00 AM. Plus a paint checklist.",
+    category: "Planning",
+    readMinutes: 4,
+    date: "2026-09-11",
+    heroImage: "/blog/happy-rosh-hashanah-2026-hero.jpg",
+    heroAlt:
+      "Round challah, a jar of honey with a wooden dipper and sliced apples on a white quartz kitchen island, with an oak hardwood floor behind",
+    secondaryImage: "/blog/happy-rosh-hashanah-2026-secondary.jpg",
+    secondaryAlt:
+      "Bright kitchen with painted white walls, a large window, oak cabinets and an oak hardwood floor, with a honey jar at the edge of the island",
+    body: `
+Shana Tova from all of us at BH Painting Metro Detroit. Rosh Hashanah, the Jewish New Year, begins at sundown on Friday, September 11, 2026, and our team is taking the holiday off. Here is exactly when we are closed and when we are back, a little about the holiday itself, and a short paint checklist for the start of a new year.
+
+## Rosh Hashanah holiday hours
+
+- **Friday, September 11:** open our regular Friday hours, 9:00 AM to 12:00 PM.
+- **Saturday, September 12:** closed, as on every Saturday. This year it is also the first day of Rosh Hashanah.
+- **Sunday, September 13:** closed for the second day of Rosh Hashanah. On a normal week we are open Sundays from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 14:** back to our regular hours from 9:00 AM.
+
+Our regular hours are Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours/).
+
+## What is Rosh Hashanah?
+
+Rosh Hashanah means "head of the year", and it is the Jewish New Year. It falls on the first and second days of the Hebrew month of Tishrei, and this year it welcomes the year 5787. The first day is Saturday, September 12, which is also Shabbat, and the second day is Sunday, September 13.
+
+The holiday begins at sundown. In Metro Detroit, candle lighting is at 7:31 PM on Friday, September 11, and the holiday ends at nightfall on Sunday, September 13, at 8:28 PM. These times are for Oak Park, from Hebcal.
+
+A few of the traditions you may see this weekend:
+
+- **The shofar.** Because the first day falls on Shabbat this year, the shofar is sounded on the second day, Sunday.
+- **Apples dipped in honey,** for a sweet year.
+- **A round challah,** for the cycle of the year.
+- **The greeting.** "Shana Tova" means "a good year", and "Shana Tova u'Metukah" means "a good and sweet year".
+
+Yom Kippur follows soon after, beginning at sundown on Sunday, September 20.
+
+## A new-year paint checklist
+
+A new year is a natural moment to look around the house, especially if family is coming over. None of these items needs a big project.
+
+### Touch up high-traffic spots before guests
+
+Entry walls, hallway corners, stairways, and the paint around light switches and door handles take the most wear. A small touch-up with the original color and sheen can freshen them quickly. Leftover paint that is old, or a sheen that does not quite match, can show as a patch, so try a small out-of-sight area first.
+
+### Clean scuffs before reaching for paint
+
+Many scuffs and fingerprints come off with a soft cloth and a gentle cleaner, such as mild soap and warm water. Wipe lightly, rinse with a damp cloth, and let the wall dry before deciding whether it needs paint at all. Scrubbing hard or using a harsh cleaner can leave a shiny spot on a flat or matte finish that stands out more than the scuff did.
+
+### Check exterior trim and caulk before winter
+
+Walk around the outside of the house and look at window and door trim, corner boards, and the caulk joints where trim meets siding. Cracked caulk, open gaps, and peeling paint on trim are places where water can get in, and a Michigan winter is hard on anything left open. Make a note of what you find now, while the weather still allows exterior work.
+
+### Store leftover paint sealed and labeled by room
+
+Wipe the rim of the can, close the lid tightly, and write the room, the color name, and the sheen on the lid or the side. Keep cans somewhere they will not freeze. Labeled leftovers make the next touch-up much easier, because you will know exactly which can belongs to which wall.
+
+## See you Monday
+
+From our team to yours, Shana Tova u'Metukah: a good and sweet year to everyone celebrating, and a good season to every home and business we work with across Wayne, Oakland, and Macomb counties.
+
+We reopen on Monday, September 14 at 9:00 AM. When you are ready to plan your next project, call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

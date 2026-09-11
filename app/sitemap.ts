@@ -29,8 +29,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPages.map((p) => ({
       url: loc(p),
       // Each of these routes is one file, so its own commit date is the honest
-      // answer. Previously all twelve claimed the build timestamp.
-      lastModified: lastChanged(...GLOBAL, `app${p}/page.tsx`),
+      // answer. Previously all twelve claimed the build timestamp. The blog
+      // index also lists every post from content/blog.ts, so a new post changes
+      // /blog/ and that file counts toward its date.
+      lastModified: lastChanged(
+        ...GLOBAL,
+        `app${p}/page.tsx`,
+        ...(p === "/blog" ? ["content/blog.ts"] : []),
+      ),
       changeFrequency: "weekly" as const,
       priority: p === "" ? 1.0 : 0.8,
     })),
