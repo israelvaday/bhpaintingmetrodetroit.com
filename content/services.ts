@@ -258,6 +258,10 @@ export const SERVICES: Service[] = [
       "interior door painting wayne county",
       "crown molding painters macomb county",
     ],
+    relatedArticle: {
+      slug: "painting-interior-trim-doors-metro-detroit",
+      anchor: "painting interior trim and doors",
+    },
   },
   {
     slug: "ceiling-painting",

@@ -627,6 +627,99 @@ From our team to yours, Shana Tova u'Metukah: a good and sweet year to everyone 
 We reopen on Monday, September 14 at 9:00 AM. When you are ready to plan your next project, call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
 `,
   },
+  {
+    slug: "painting-interior-trim-doors-metro-detroit",
+    title: "Painting Interior Trim and Doors in Metro Detroit: What Makes the Finish Last",
+    metaTitle: "Interior Trim and Door Painting in Metro Detroit",
+    excerpt:
+      "Trim and doors are where a repaint gets judged. How old enamel, pre-1978 layers, sheen, cure time, and a closed-up Michigan house decide how long it lasts.",
+    category: "Interior",
+    readMinutes: 8,
+    date: "2026-09-13",
+    heroImage: "/blog/painting-interior-trim-doors-metro-detroit-hero.jpg",
+    heroAlt:
+      "Painter brushing enamel onto a panel interior door beside freshly painted white trim in an older Metro Detroit home",
+    secondaryImage: "/blog/painting-interior-trim-doors-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Chipped old enamel on window trim with a sanding pad, a cotton test pad, caulk, and a putty knife set out before repainting",
+    body: `
+Walls are what people notice when a room has been painted. Trim and doors are what they touch. Baseboards take vacuum strikes and boots, door edges take hands and bags, and window stools collect condensation all winter. A wall can look fine for ten years. The trim in the same room shows chips and dirty edges within two, and that is where a repaint gets judged.
+
+Trim is also harder to paint well than it looks. It is narrow, it is profiled, it is usually carrying decades of earlier coatings, and it needs a harder finish than a wall does. In Metro Detroit, where much of the housing stock predates 1978, it can also be carrying something that should not be sanded without a plan.
+
+## Find out what is already on the trim
+
+Most trim in older Detroit, Dearborn, Royal Oak, and Grosse Pointe homes was finished with oil-based enamel at some point, often several times. Much of the repainting since has been done in latex. Nobody wrote down which coat is on top.
+
+That matters because latex paint does not bond reliably to glossy oil enamel. Rolled straight over it, the new coat can look perfect for weeks and then peel away in strips the first time a door stop or a vacuum catches an edge.
+
+The test is simple. Wipe a small, out-of-the-way spot with a cotton pad dampened with rubbing alcohol. If the paint softens and color comes off on the pad, it is a waterborne latex. If the pad comes away clean and the surface is unchanged, treat it as oil.
+
+Oil-coated trim is not a problem once it is known. It needs cleaning to remove grease and hand oils, a scuff-sand to take the gloss off, and a bonding primer before the finish coats. Skipping that sequence is the most common reason trim paint fails early.
+
+## Homes built before 1978: plan before anyone sands
+
+Lead-based paint was used in American homes until it was banned for residential use in 1978, and trim, doors, and windows are where it tends to survive. They were painted most often with the hardest enamels, and friction surfaces like window sashes and door edges wear the layers into dust.
+
+Intact paint under newer coats is generally not the hazard. Sanding, scraping, and heat stripping are, because they turn old layers into fine dust that settles on floors and window sills. Federal rules require most paid work that disturbs painted surfaces in pre-1978 homes, beyond small touch-up areas, to follow lead-safe work practices, including containment, dust control, and cleanup verification.
+
+If your home is that age and the trim has never been tested, test it before the scope is written. Ask any painter who will prepare that trim how the work will be contained and cleaned, and expect a specific answer rather than a reassurance.
+
+## Stained woodwork is a one-way decision
+
+Many Metro Detroit bungalows and colonials still have their original stained oak or fir trim, especially in Detroit, Ferndale, Pleasant Ridge, and Royal Oak. Painting it is a legitimate choice, and it can brighten a dark hallway more than any wall color will. It is also very hard to undo. Stripping paint back out of profiled trim to recover the grain is slow, costly work, and the result is rarely as good as the original.
+
+If some rooms are staying stained, decide where the change happens before painting starts. A painted room next to a stained one needs a clean stopping point, usually a door casing or a corner, not the middle of a run of baseboard.
+
+Stained trim also needs its own preparation. Clean it, scuff it, and use a stain-blocking primer. Oak in particular can bleed tannin through a white finish, and that shows up as tan blotches after the job looks done.
+
+## Choose the finish for the contact, not the swatch
+
+Trim and doors want a harder, more washable coating than walls, and that usually means a dedicated enamel rather than wall paint in a glossier sheen.
+
+Three things are worth deciding deliberately:
+
+- **Sheen.** Semi-gloss is the traditional choice for trim and cleans easily. It also shows every dent and uneven patch in old woodwork. Satin is more forgiving on trim that has been nicked and filled many times.
+- **Oil, waterborne, or hybrid.** Traditional oil enamel levels beautifully but yellows as it ages, most visibly on white trim in rooms with little daylight and behind furniture. Modern waterborne enamels, including waterborne alkyd hybrids, level better than older latex and hold their color.
+- **Color.** Bright white trim beside a warm off-white wall can look accidentally blue. Put the trim sample against the actual wall color in the actual room, as you would when [choosing interior paint colors](/blog/interior-paint-colors-metro-detroit/).
+
+## Doors are their own project
+
+A door has two faces, four edges, hardware, and hinges, and it moves. That is why doors take longer than their square footage suggests.
+
+Remove hardware rather than masking around it. Tape around a knob leaves a ragged edge, and paint on a latch keeps it from seating. Many wood door makers also call for the top and bottom edges to be sealed, not only the faces people see, because an unsealed edge lets the door take on moisture and swell.
+
+Panel doors are painted in an order: the recessed panels first, then the horizontal rails, then the vertical stiles. Working that way keeps brush marks running with the construction of the door instead of across it. Whether a door comes off its hinges to be finished flat or is painted in place is a judgment call about the door, the finish, and how long the opening can stay empty.
+
+## Why fall and winter trim work needs patience
+
+Interior work in Michigan picks up when exterior season winds down, and trim is well suited to it. The house closing up for winter changes two things.
+
+The first is cure time. Enamel can be dry to the touch in a few hours and still be soft underneath for days or weeks. Close a freshly painted door against its stop, or push a painted window sash shut, and the two coated surfaces can stick together and tear when they are opened. That is called blocking. The practical fix is time: leave doors ajar and sashes open where you can, and avoid putting weatherstripping or bumpers against new paint until it has hardened.
+
+The second is movement. Wood trim shrinks as forced-air heat dries a house out. Miter joints and the gap between baseboard and wall can open slightly by January and close again by summer. Caulk the wall-to-trim joint with a flexible, paintable caulk. Fill nail holes with filler, but do not expect rigid filler in a miter to survive a heating season.
+
+Ventilation matters too once windows stay shut. Low-odor waterborne products and a plan for which rooms can be closed off make a winter trim project much easier to live with.
+
+### Have these ready before requesting pricing
+
+- The rooms in scope, and whether that includes baseboards, casings, crown, window trim, and stair parts.
+- The number of doors, both faces or one, and whether closet and bifold doors are included.
+- The approximate age of the house, and whether the trim has ever been tested for lead.
+- Whether the trim is currently painted or stained, and any rooms that are staying stained.
+- Known problem spots: peeling, heavy build-up on hinges or latches, or doors that stick.
+
+## What a trim and door quote should tell you
+
+A trim quote is mostly preparation, so the preparation has to be written down. It should say how existing coatings will be identified, what cleaning, sanding, and priming are included, and how dust will be contained, especially in an older home. It should name the finish product and sheen, count doors separately from linear trim, state whether hardware is removed and reinstalled, and say whether door edges are included.
+
+Where one quote lists a color and a total and another lists preparation steps, the difference in price is usually the preparation. It is also usually the difference in how long the finish lasts.
+
+If the ceilings are being painted in the same rooms, the companion guide to [painting a popcorn ceiling in Metro Detroit](/blog/painting-popcorn-ceiling-metro-detroit/) covers the overhead half of the job.
+
+BH Painting Metro Detroit provides [trim and door painting](/services/trim-door-painting/) for baseboards, crown molding, window trim, and interior doors across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, and Farmington Hills. Call or text (313) 236-4558 for an assessment of existing coatings, preparation, and a written estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
