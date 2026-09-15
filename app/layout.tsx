@@ -54,12 +54,18 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: `${BIZ.name} — Metro Detroit painting company`,
-    description: "Painting for Metro Detroit homes, businesses, rentals, cabinets, trim, and exterior surfaces.",
-    images: ["/opengraph-image.png"],
-  },
+  // Only the card TYPE belongs here. Next inherits this object wholesale into
+  // every route that does not declare one, and the only route that declares a
+  // twitter block is app/blog/[slug], so a hardcoded title, description and
+  // image reached 125 of 136 pages and contradicted the og:title those pages
+  // already set correctly through openGraphFor(). X reads twitter:title BEFORE
+  // og:title, so every shared city and service page rendered as the homepage,
+  // under a card image that was the site default rather than the per-slug
+  // opengraph-image. Omitting title, description and images lets X fall back to
+  // each page's own Open Graph tags: one source for the card text, not a second
+  // copy to keep in sync. Same wholesale-inheritance fix b88e4df applied to
+  // og:url, one layer over.
+  twitter: { card: "summary_large_image" },
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
 };
