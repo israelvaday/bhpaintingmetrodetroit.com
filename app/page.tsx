@@ -17,7 +17,12 @@ import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { PaintingGlossary } from "@/components/site/PaintingGlossary";
 
 export const metadata: Metadata = {
-  title: "Painting Company — Interior, Exterior & Commercial",
+  // The brand and the city lead. The old title named neither, and at least three
+  // other businesses trade as "BH Painting" (New Jersey among them), so a brand
+  // search had nothing in the title to tell this Metro Detroit company apart.
+  // Every business title on page one for the Detroit head terms names its city.
+  // The root layout template does not apply to the root page, so this renders as is.
+  title: `${BIZ.name} | Interior, Exterior & Commercial`,
   description:
     `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Request a free estimate.`,
   // The root layout no longer carries a url, so the homepage states its own.
