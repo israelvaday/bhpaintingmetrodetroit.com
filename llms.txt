@@ -32,13 +32,13 @@ BH Painting Metro Detroit serves Detroit, Dearborn, Warren, Sterling Heights, Tr
 ## Site map
 
 - Home: https://bhpaintingmetrodetroit.com/
-- Services: https://bhpaintingmetrodetroit.com/services
-- Service areas: https://bhpaintingmetrodetroit.com/service-areas
-- Free quote: https://bhpaintingmetrodetroit.com/quote
-- Contact: https://bhpaintingmetrodetroit.com/contact
-- Gallery: https://bhpaintingmetrodetroit.com/gallery
-- Blog: https://bhpaintingmetrodetroit.com/blog
-- FAQ: https://bhpaintingmetrodetroit.com/faq
+- Services: https://bhpaintingmetrodetroit.com/services/
+- Service areas: https://bhpaintingmetrodetroit.com/service-areas/
+- Free quote: https://bhpaintingmetrodetroit.com/quote/
+- Contact: https://bhpaintingmetrodetroit.com/contact/
+- Gallery: https://bhpaintingmetrodetroit.com/gallery/
+- Blog: https://bhpaintingmetrodetroit.com/blog/
+- FAQ: https://bhpaintingmetrodetroit.com/faq/
 
 ## Attribution
 
