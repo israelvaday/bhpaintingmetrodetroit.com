@@ -51,7 +51,7 @@ export default function ContactPage() {
             </div>
             <p className="mt-3 text-sm text-ink-200">
               <strong className="text-white">Sun–Thu 9:00 AM–5:00 PM; Fri 9:00 AM–12:00 PM; Sat closed.</strong> See our{" "}
-              <a href="/hours" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
+              <a href="/hours/" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
               for the complete schedule.
             </p>
           </div>
@@ -118,7 +118,7 @@ export default function ContactPage() {
                 Use the picture-driven quote tool to identify the painting service, property type, timing, and project
                 details. You can upload photos or plans to support a project-specific follow-up.
               </p>
-              <a href="/quote" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
+              <a href="/quote/" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
                 Start the quote →
               </a>
             </div>
@@ -132,7 +132,7 @@ export default function ContactPage() {
             </p>
             <p className="mt-3">
               <strong className="text-white">Where we go.</strong> Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Clinton Township, and 90+ cities and neighborhoods — see our{" "}
-              <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">service area map</a>.
+              <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">service area map</a>.
             </p>
           </div>
         </div>

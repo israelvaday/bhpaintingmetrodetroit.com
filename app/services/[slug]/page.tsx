@@ -200,7 +200,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </p>
           <p>
             We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
-            <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
+            <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
