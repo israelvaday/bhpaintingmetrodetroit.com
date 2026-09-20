@@ -831,6 +831,80 @@ Where one quote is a single line for removing wallpaper and painting, and anothe
 BH Painting Metro Detroit provides [wallpaper removal](/services/wallpaper-removal/) and paint-ready wall preparation across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 to arrange a test area and a written estimate that separates removal from repair.
 `,
   },
+  {
+    slug: "yom-kippur-2026",
+    title: "Yom Kippur 2026: Holiday Hours and a Fall Paint Checklist",
+    metaTitle: "Yom Kippur 2026: Holiday Hours and Fall Paint Checklist",
+    excerpt:
+      "BH Painting Metro Detroit is closed September 20 and 21 for Yom Kippur and reopens Tuesday, September 22 at 9:00 AM. Plus a fall checklist before winter.",
+    category: "Planning",
+    readMinutes: 4,
+    // Dated at local noon on purpose. The blog templates format this string with
+    // new Date(), which reads a bare "2026-09-20" as UTC midnight and then prints
+    // it in the reader's zone, so a date-only value shows a day early in the
+    // Americas. Noon with an explicit offset lands on the right calendar day
+    // everywhere. The other posts predate this note and still read date-only.
+    date: "2026-09-20T12:00:00-04:00",
+    heroImage: "/photos/painting-gallery--interior-living-room.png",
+    heroAlt:
+      "Painter rolling a wall in an empty Metro Detroit living room, baseboards taped off and the hardwood floor covered with paper and drop cloths",
+    secondaryImage: "/photos/painting-gallery--trim-detail.png",
+    secondaryAlt:
+      "Gloved hand brushing paint onto a window sill and apron, with a ladder, a paint can and buckets on a drop cloth behind",
+    body: `
+Yom Kippur, the Day of Atonement, begins at sundown on Sunday, September 20, 2026 and ends at nightfall on Monday, September 21. BH Painting Metro Detroit is closed for both days and back on Tuesday morning. Here is exactly when we are closed, a short note on the day itself, and a checklist for the weeks that follow, when the Michigan indoor season really begins.
+
+## Yom Kippur holiday hours
+
+- **Sunday, September 20:** closed. On a normal week we are open Sundays from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 21:** closed. On a normal week we are open from 9:00 AM to 5:00 PM.
+- **Tuesday, September 22:** back to our regular hours from 9:00 AM.
+
+Our regular hours are Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours/).
+
+You are welcome to leave a message or send the [quote form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
+
+## What is Yom Kippur?
+
+Yom Kippur is the most solemn day of the Jewish year. It falls on the tenth day of the Hebrew month of Tishrei, ten days after Rosh Hashanah, which we wrote about in our [Rosh Hashanah post](/blog/happy-rosh-hashanah-2026/), and this year it closes the opening days of the year 5787.
+
+The day is kept with a fast of roughly twenty five hours, from before sundown until nightfall the next day, and much of it is spent in prayer. It ends with a single long blast of the shofar.
+
+In the Metro Detroit area this year, candle lighting is at 7:15 PM on Sunday, September 20, and the fast ends at 8:13 PM on Monday, September 21. These times are from Hebcal.
+
+Two greetings you may hear this week: "G'mar Chatima Tova", roughly "may you be sealed for good", and, in plain English, the wish for an easy and meaningful fast.
+
+## A checklist for the week we come back
+
+Late September is the turn of the painting year in Michigan. Exterior work still has a window before the cold closes it, and interior work is about to become the sensible option. None of the items below needs a contractor to start.
+
+### Close the exterior gaps before the first hard freeze
+
+Walk around the outside of the house and look at window and door trim, corner boards, and the caulk joints where trim meets siding. Cracked caulk, open gaps, and peeling paint on trim are where water gets in, and once the cold sets in that repair waits for spring. Write down what you find while exterior work is still practical.
+
+### Move leftover paint somewhere it will not freeze
+
+Paint left in an unheated garage or shed can freeze over a Michigan winter, and once it has, it usually will not brush out properly again. Bring the cans inside, wipe the rims, close the lids tightly, and write the room, the color name, and the sheen on each lid. Labeled leftovers make the next touch-up straightforward.
+
+### Look at the surfaces that took the summer
+
+Entry walls, hallway corners, stairways, and the paint around light switches and door handles carry the most wear, and an open-window summer adds dust and fingerprints to it. Many marks come off with a soft cloth and mild soap in warm water. Wipe gently, rinse with a damp cloth, and let the wall dry before deciding whether it needs paint at all. Scrubbing hard can leave a shiny patch on a flat finish that shows more than the mark did.
+
+### Give a room a dry day before interior painting
+
+Paint goes on best over a surface that is dry and near room temperature. After a season of open windows and cool nights, a room that has had a day with the windows shut and the heat on is in better shape for painting than one opened up that morning.
+
+### Write the list by room, not by color
+
+At a walkthrough, a list of rooms in the order you want them done is more useful than a single color name. It shows what the project actually is, which rooms can wait, and where the work can be staged around the way you use the house.
+
+## We are back Tuesday
+
+To everyone fasting, an easy and meaningful fast, and G'mar Chatima Tova. We reopen on Tuesday, September 22 at 9:00 AM.
+
+BH Painting Metro Detroit provides [interior painting](/services/interior-painting/), [trim and door painting](/services/trim-door-painting/), and exterior work across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
