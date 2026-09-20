@@ -1,12 +1,30 @@
 import type { Metadata } from "next";
 import { Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
 
+const TITLE = "Business Hours";
+const DESCRIPTION = `${BIZ.name} hours: Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM, and Saturday closed.`;
+
 export const metadata: Metadata = {
-  title: "Business Hours",
-  description: `${BIZ.name} hours: Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM, and Saturday closed.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/hours" },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. og:title
+  // mirrors the rendered <title>, which takes the layout's ` — ${BIZ.name}`
+  // template; openGraph.title does not, so the suffix is spelled out.
+  openGraph: openGraphFor({
+    path: "/hours",
+    title: `${TITLE} — ${BIZ.name}`,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 function displayTime(value: string) {

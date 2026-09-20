@@ -3,11 +3,29 @@ import { CustomerExperience } from "@/components/sections/CustomerExperience";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
+
+const TITLE = "Customer Experience";
+const DESCRIPTION = `Review the service commitments ${BIZ.name} uses to guide painting projects across Metro Detroit.`;
 
 export const metadata: Metadata = {
-  title: "Customer Experience",
-  description: `Review the service commitments ${BIZ.name} uses to guide painting projects across Metro Detroit.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/reviews` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. og:title
+  // mirrors the rendered <title>, which takes the layout's ` — ${BIZ.name}`
+  // template; openGraph.title does not, so the suffix is spelled out.
+  openGraph: openGraphFor({
+    path: "/reviews",
+    title: `${TITLE} — ${BIZ.name}`,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 export default function CustomerExperiencePage() {

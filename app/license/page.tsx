@@ -1,13 +1,33 @@
 import type { Metadata } from "next";
 import { ShieldCheck } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LogoMark } from "@/components/site/Logo";
 
+const TITLE = "Business & Insurance Information";
+const DESCRIPTION = `Request current business and insurance information for ${BIZ.name} painting work in Metro Detroit.`;
+
 export const metadata: Metadata = {
-  title: "Business & Insurance Information",
-  description: `Request current business and insurance information for ${BIZ.name} painting work in Metro Detroit.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/license` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. og:title
+  // mirrors the rendered <title>, which takes the layout's ` — ${BIZ.name}`
+  // template; openGraph.title does not, so the suffix is spelled out.
+  // Both strings are this page's existing title and description, copied without
+  // change: this route asserts no licence and no policy, and nothing here adds one.
+  openGraph: openGraphFor({
+    path: "/license",
+    title: `${TITLE} — ${BIZ.name}`,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 export default function CredentialsPage() {

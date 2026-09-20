@@ -1,15 +1,32 @@
 import type { Metadata } from "next";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { ServiceCard } from "@/components/site/ServiceCard";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+const TITLE = "Painting Services in Metro Detroit";
+const DESCRIPTION = `${BIZ.name} offers interior, exterior, cabinet, commercial, trim, ceiling, staining, rental turnover, wallpaper removal, and color consultation services.`;
+
 export const metadata: Metadata = {
-  title: "Painting Services in Metro Detroit",
-  description:
-    `${BIZ.name} offers interior, exterior, cabinet, commercial, trim, ceiling, staining, rental turnover, wallpaper removal, and color consultation services.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/services` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. og:title
+  // mirrors the rendered <title>, which takes the layout's ` — ${BIZ.name}`
+  // template; openGraph.title does not, so the suffix is spelled out.
+  openGraph: openGraphFor({
+    path: "/services",
+    title: `${TITLE} — ${BIZ.name}`,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 export default function ServicesPage() {

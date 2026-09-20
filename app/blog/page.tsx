@@ -3,15 +3,31 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { BLOG_POSTS } from "@/content/blog";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+const TITLE = `Painting Guides — ${BIZ.name}`;
+const DESCRIPTION = `Painting guides from ${BIZ.name} covering preparation, primer, products, color, sheen, coats, weather, and cleanup in Metro Detroit.`;
+
 export const metadata: Metadata = {
-  title: { absolute: `Painting Guides — ${BIZ.name}` },
-  description:
-    `Painting guides from ${BIZ.name} covering preparation, primer, products, color, sheen, coats, weather, and cleanup in Metro Detroit.`,
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/blog` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. TITLE is
+  // absolute, so it is already the rendered <title>.
+  openGraph: openGraphFor({
+    path: "/blog",
+    title: TITLE,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 function formatDate(iso: string) {

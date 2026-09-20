@@ -51,19 +51,47 @@ export function metaDescription(text: string, max: number = MAX_LENGTH): string 
  * merging into it (the blog route proves it: it sets openGraph and emits no
  * og:url at all), so `type`, `siteName` and `locale` have to be restated here.
  *
- * `images` is deliberately absent. Each of these routes owns an
+ * `images` defaults to absent. Each of the area and service routes owns an
  * `opengraph-image.tsx` that renders a per-slug PNG and exports its own `alt`;
- * naming images here would shadow that per-slug image with the site default,
- * which is the regression 66fc4b5 fixed.
+ * naming images for those would shadow that per-slug image with the site
+ * default, which is the regression 66fc4b5 fixed.
+ *
+ * A ROUTE THAT OWNS NO `opengraph-image` FILE MUST PASS `images`, and this was
+ * measured on the 2026-09-19 build rather than assumed. b88e4df established that
+ * the root `app/opengraph-image.tsx` still wins when the HOMEPAGE replaces the
+ * parent object, because that file sits in the homepage's own segment. It does
+ * NOT cascade the same way: the first build of the eleven static routes shipped
+ * them with their own og:title and og:description and NO og:image at all, where
+ * before the change they carried the root card by inheritance. Replacing the
+ * parent object drops the inherited image, and a parent segment's file-convention
+ * image does not refill it. Hence SITE_OG_CARD below.
  */
+/**
+ * The site card, for a route with an identity of its own but no per-slug image.
+ *
+ * `/opengraph-image.png` rather than the file-convention `/opengraph-image` route:
+ * `scripts/sync-static-assets.mjs` writes the extensioned copy precisely because
+ * Facebook and X prefer a real `.png`, and it is the same 132,202 bytes.
+ */
+export const SITE_OG_CARD: NonNullable<Metadata["openGraph"]>["images"] = [
+  {
+    url: "/opengraph-image.png",
+    width: 1200,
+    height: 630,
+    alt: `${BIZ.name} — Metro Detroit painting company`,
+  },
+];
+
 export function openGraphFor({
   path,
   title,
   description,
+  images,
 }: {
   path: string;
   title: string;
   description: string;
+  images?: NonNullable<Metadata["openGraph"]>["images"];
 }): NonNullable<Metadata["openGraph"]> {
   return {
     type: "website",
@@ -74,5 +102,6 @@ export function openGraphFor({
     url: path,
     title,
     description,
+    ...(images ? { images } : {}),
   };
 }

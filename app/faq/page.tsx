@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { FAQAccordion } from "@/components/site/FAQAccordion";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
@@ -94,10 +95,27 @@ const FAQ_SECTIONS = [
 
 const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);
 
+const TITLE = "Painting FAQ — Metro Detroit";
+const DESCRIPTION = `Answers from ${BIZ.name} about painting estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`;
+
 export const metadata: Metadata = {
-  title: "Painting FAQ — Metro Detroit",
-  description: `Answers from ${BIZ.name} about painting estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/faq` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. og:title
+  // mirrors the rendered <title>, which takes the layout's ` — ${BIZ.name}`
+  // template; openGraph.title does not, so the suffix is spelled out.
+  openGraph: openGraphFor({
+    path: "/faq",
+    title: `${TITLE} — ${BIZ.name}`,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 export default function FAQPage() {

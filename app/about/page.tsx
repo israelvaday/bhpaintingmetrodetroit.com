@@ -2,14 +2,31 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ClipboardCheck, Clock, MapPin, Paintbrush, Palette, Phone, Sparkles } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { openGraphFor, SITE_OG_CARD } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+const TITLE = `About ${BIZ.name}`;
+const DESCRIPTION = `Learn how ${BIZ.name} approaches preparation, product planning, property protection, and painting service across Metro Detroit.`;
+
 export const metadata: Metadata = {
-  title: `About ${BIZ.name}`,
-  description: `Learn how ${BIZ.name} approaches preparation, product planning, property protection, and painting service across Metro Detroit.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/about` },
+  // Without an openGraph of its own this route inherited the root layout's object
+  // wholesale, so the card announced the homepage headline two lines under a
+  // canonical that named this page. Same wholesale-inheritance defect aa7acb5
+  // closed for the 111 dynamic routes and b88e4df closed for og:url. TITLE already
+  // carries the brand, so it is not suffixed a second time the way the others are.
+  openGraph: openGraphFor({
+    path: "/about",
+    title: TITLE,
+    description: DESCRIPTION,
+    // This route owns no opengraph-image of its own, and replacing the parent
+    // object drops the inherited card, so the site card is restated here.
+    images: SITE_OG_CARD,
+  }),
 };
 
 const APPROACH = [
