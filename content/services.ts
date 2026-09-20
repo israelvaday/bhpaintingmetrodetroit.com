@@ -347,6 +347,10 @@ export const SERVICES: Service[] = [
       "wallpaper removal and painting michigan",
       "wallpaper adhesive cleanup wayne county",
     ],
+    relatedArticle: {
+      slug: "wallpaper-removal-metro-detroit",
+      anchor: "wallpaper removal in Metro Detroit",
+    },
   },
   {
     slug: "color-consultation",

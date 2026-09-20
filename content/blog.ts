@@ -720,6 +720,117 @@ If the ceilings are being painted in the same rooms, the companion guide to [pai
 BH Painting Metro Detroit provides [trim and door painting](/services/trim-door-painting/) for baseboards, crown molding, window trim, and interior doors across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, and Farmington Hills. Call or text (313) 236-4558 for an assessment of existing coatings, preparation, and a written estimate.
 `,
   },
+  {
+    slug: "wallpaper-removal-metro-detroit",
+    title: "Wallpaper Removal in Metro Detroit: What Is Behind the Paper Decides the Job",
+    metaTitle: "Wallpaper Removal in Metro Detroit",
+    excerpt:
+      "Strippable, peelable, or vinyl. Plaster or unprimed drywall. What is under the paper decides whether removal is a clean afternoon or a skim coat, and all of it can be tested before the scope is written.",
+    category: "Interior",
+    readMinutes: 8,
+    date: "2026-09-19",
+    heroImage: "/blog/wallpaper-removal-metro-detroit-hero.jpg",
+    heroAlt:
+      "Painter steaming and scraping floral wallpaper off a dining room wall in an older Metro Detroit home, bare plaster showing behind the lifted sheet",
+    secondaryImage: "/blog/wallpaper-removal-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Wallpaper removal tools laid out on a drop cloth beside a small test patch peeled back from the wall, showing torn drywall facing underneath",
+    body: `
+Wallpaper removal is the one interior job where the estimate and the reality can part company in the first ten minutes. Two dining rooms with the same square footage, the same age, and the same tired floral pattern can take an afternoon in one house and three days in the other. The difference is almost never the paper. It is what the paper was hung on, and whether anyone prepared that surface before hanging it.
+
+That is workable, because it is knowable in advance. A test patch in a corner, behind a door, or inside a closet answers most of it before the first full sheet comes off.
+
+## Find out what kind of wallpaper you have before anyone scores a wall
+
+Wallcoverings fall into a few families, and they behave very differently once water is involved.
+
+- **Strippable.** Lift a corner with a putty knife and the whole sheet comes away dry, backing and all, leaving a clean wall. This is the best case, and it is more common in papers hung since the nineties than people expect.
+- **Peelable.** The decorative top layer peels off dry, but a thin paper backing stays stuck to the wall. That backing still has to come off. Left in place and painted, it shows every seam and lifts later.
+- **Traditional non-strippable paper.** Porous, takes water readily, and comes off in pieces rather than sheets. Slow but predictable.
+- **Vinyl-coated and solid vinyl.** The face is effectively waterproof, so soaking does nothing until the surface is perforated or the vinyl layer is peeled away to expose the backing underneath. Trying to soak an unscored vinyl is how people conclude that wallpaper cannot be removed at all.
+
+Test before deciding anything. Pick a low corner, slide a stiff putty knife under an edge, and pull slowly. What happens in those few inches tells you which family you are in, and it costs nothing.
+
+## What is behind the paper matters more than the paper
+
+This is the part that decides the scope, and in Metro Detroit it usually comes down to the age of the wall.
+
+Homes built through the thirties and forties in Detroit, Ferndale, Royal Oak, Grosse Pointe, and Dearborn are largely plaster over lath. Plaster is hard, it is not paper-faced, and it tolerates the water and steam that removal needs. Paper generally comes off plaster without taking the wall with it. The risks there are older ones: loose or drummy plaster that lets go when it is worked, and hairline cracking that had been hidden under the paper.
+
+Postwar homes, and nearly everything in Livonia, Southfield, Sterling Heights, Farmington Hills, and the newer Macomb County subdivisions, are drywall. Drywall has a paper facing, and that changes the job. If the drywall was primed or sized before the wallpaper went up, the adhesive gripped the primer and releases from it. If the paper was hung straight onto bare, unprimed drywall, which was common in fast residential work, the adhesive bonded directly to the facing of the board itself. Removal then tears that facing away in patches and exposes the soft grey gypsum underneath.
+
+That is not a catastrophe, but it is a different job with a different timeline. Torn facing has to be sealed and skim coated before anything is painted, because bare gypsum keeps absorbing and will telegraph through the finish. A test patch tells you which of the two you have, and if the wall comes away with the paper, plan for skim coating from the start.
+
+## Scoring, soaking, and steaming are three different tools
+
+Removal is mostly about getting water to the adhesive, and there is more than one way to do that.
+
+**Scoring** perforates a non-porous face so moisture can reach the paste behind it. It is necessary on vinyl and on painted-over paper, and it is the easiest step to overdo. A scoring tool worked hard against drywall cuts through the facing and creates hundreds of small repairs. Light, even pressure, and only where the surface is genuinely sealed.
+
+**Soaking** with hot water and a wallpaper removal solution or an enzyme product is the gentlest approach and works well on porous paper and on plaster. It rewards patience: wet a manageable section, let it stand long enough for the paste to soften, wet it again, and only then start lifting. Most of the damage done to walls in this work comes from scraping too early and forcing dry paper.
+
+**Steaming** is faster, and it is the tool for stubborn, multi-layered, or very old paste. It also puts the most moisture into the room and into the wall, which matters more on drywall than on plaster. A steam plate held in one spot too long will soften drywall facing on its own.
+
+None of the three is the right answer for every wall. Older homes here often carry two or three layers of paper hung over each other across decades, and the layers rarely respond the same way.
+
+## The adhesive is the part people leave behind
+
+A wall can look bare and still be coated in old paste. Run a damp sponge over it, then a dry hand: if it feels slick or tacky, adhesive is still there.
+
+Paint over it and the paste rewets under the wet coat. Bubbles appear, the film does not cure properly, and the paint pulls away in sheets months later, bringing the residue with it. This one step is the most common reason a room that was stripped and repainted looks wrong within a year.
+
+Washing is the fix, and it is unglamorous. Warm water, a removal solution where the residue is heavy, a sponge, frequent rinsing with clean water, and rags changed often enough that the paste is being removed rather than redistributed. Then the wall has to dry, and not surface dry. Dry through, which in a closed-up house takes longer than a label suggests.
+
+## Repair, then prime: the wall you uncover is not a finished wall
+
+A stripped wall is almost never a paint-ready wall. Expect some combination of the following, and expect it in the written scope rather than as a discovery on the day.
+
+- Torn drywall facing that needs sealing and skim coating.
+- Old plaster cracks, nail pops, and anchor holes the paper had been covering.
+- Gouges from scoring or scraping.
+- Texture differences where a previous patch or an earlier layer of paper stopped.
+- Occasionally, glossy or oil-based paint underneath that the paper was hung over.
+
+Once repairs are sanded flush, the wall is primed, and the primer is doing real work rather than ceremony. It seals any trace of residual adhesive, it evens out the difference in porosity between skim-coated patches and untouched original surface, and it gives the finish coat a uniform base so repairs do not flash through at a different sheen. Where there is water staining, or adhesive that refused to give up entirely, a stain-blocking or sealing primer is the right call over a general-purpose one.
+
+If the house was built before 1978 and the paper was hung over painted walls, the same caution applies here as in any older interior: sanding disturbs whatever coating is underneath. Those considerations are set out in the guide to [painting interior trim and doors](/blog/painting-interior-trim-doors-metro-detroit/), and they belong in the conversation before preparation starts rather than after.
+
+## Painting over wallpaper, and when it is a real option
+
+Painting straight over wallpaper is sometimes proposed, and it is not always the wrong answer. On a wall where the paper is thin, flat, tightly adhered everywhere, and hung on drywall that would clearly tear on removal, sealing and painting it can be the better outcome for the wall.
+
+It is a compromise, and the compromises should be said out loud. Seams telegraph through the paint and grow more visible over time, not less. Any loose edge stays loose. Textured or embossed paper keeps its texture permanently. Water-based paint can reactivate the paste behind a porous paper and cause bubbling. And whoever removes it in the future is now removing painted wallpaper, which is the hardest version of this job.
+
+If it is going to be done, it needs an oil-based or shellac-based sealing primer rather than a standard latex primer, every edge and seam glued down and feathered first, and a clear understanding that the seams may still read under a low-sheen finish.
+
+## Why removal goes better in the Michigan indoor season
+
+Exterior work in this climate closes with the first sustained cold, and interior projects carry the months after it. Wallpaper removal suits that season, with two adjustments.
+
+The first is drying. Removal is a wet process, and a house shut up for winter does not clear that moisture the way an open house in July does. The wall has to be dry through before primer goes on, and running the heat with some deliberate air movement does more for that in November than opening a window will. Priming a wall that is still damp underneath traps the moisture and undoes the washing that just happened.
+
+The second is sequence. Stripping a room is wet, dusty, and disruptive, and it goes far better in a room that can be emptied and closed off. Early autumn, before the house fills up for the holidays, is the practical window for the dining room or the entry hall that has been on the list for years. It also puts the repainting on the far side of the mess instead of in the middle of it, and it leaves time to settle on a colour with the room in its stripped state, which is a better starting point than choosing against a pattern that is about to disappear. The approach in [how to choose interior paint colors](/blog/interior-paint-colors-metro-detroit/) applies once the walls are bare.
+
+### Have these ready before requesting pricing
+
+- The rooms in scope and a rough wall count or square footage, including whether any ceilings are papered.
+- What the test patch showed: did the paper come away dry, in two layers, or not at all.
+- Whether the walls are plaster or drywall, and the approximate age of the house.
+- How many layers appear to be present, and whether any of them have been painted over.
+- Whether borders, papered soffits, or papered closet interiors are included.
+- Whether repainting follows immediately, and who is handling repairs if the wall comes up rough.
+
+## What a wallpaper removal quote should tell you
+
+A removal quote is mostly about the unknown, so the honest version says how the unknown will be handled rather than pretending there is none.
+
+It should state that a test area is done first, and what happens to the scope if the wall tears. It should separate removal from repair, and say whether skim coating is included or priced once the extent is known. It should name the preparation that follows: adhesive washing, drying time, sanding, and which primer. It should say how the room is protected and how debris leaves the house, because wet wallpaper is heavy and messy. And it should be clear about whether the work includes repainting or stops at a primed, paint-ready wall.
+
+Where one quote is a single line for removing wallpaper and painting, and another lists the same work in stages, the second is usually not the more expensive one. It is the one that has thought about what happens when the first sheet comes off. The same principle runs through the wider guide to [hiring a painting contractor in Michigan](/blog/hire-painting-contractor-michigan/).
+
+BH Painting Metro Detroit provides [wallpaper removal](/services/wallpaper-removal/) and paint-ready wall preparation across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 to arrange a test area and a written estimate that separates removal from repair.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
