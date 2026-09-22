@@ -11,7 +11,9 @@ const TITLE = `About ${BIZ.name}`;
 const DESCRIPTION = `Learn how ${BIZ.name} approaches preparation, product planning, property protection, and painting service across Metro Detroit.`;
 
 export const metadata: Metadata = {
-  title: TITLE,
+  // TITLE already names the brand, so the layout's title template, which appends
+  // BIZ.name, printed it twice. absolute opts out of the template, as /blog/ does.
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: `${BIZ.url}/about` },
   // Without an openGraph of its own this route inherited the root layout's object
