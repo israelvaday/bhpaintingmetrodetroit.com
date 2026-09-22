@@ -14,17 +14,6 @@ export const dynamic = "force-static";
 // them got a refetch signal for it.
 const GLOBAL = ["app/layout.tsx", "lib/business.ts", "components/site/Footer.tsx"];
 
-// HOLIDAY-NOTICE:START yom-kippur-2026 homepage lastmod pin
-// The temporary closure notice is a component rendered from app/page.tsx, so the
-// homepage group's git date would move to the day the notice shipped and again to
-// the day it comes off. Nothing the homepage says about painting changed either
-// time, and a lastmod Google finds inaccurate is ignored site-wide, so the
-// homepage keeps the date of its last real edit (f10f391, the homepage title).
-// Delete this constant and the `p === "" ? ... :` reference below together with
-// the notice, which puts the homepage back on lastChanged().
-const HOLIDAY_NOTICE_HOME_PIN = new Date("2026-09-17T01:42:27.000Z");
-// HOLIDAY-NOTICE:END
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BIZ.url;
   // next.config.ts sets trailingSlash: true on export, so every page is served at
@@ -43,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // answer. Previously all twelve claimed the build timestamp. The blog
       // index also lists every post from content/blog.ts, so a new post changes
       // /blog/ and that file counts toward its date.
-      lastModified: p === "" ? HOLIDAY_NOTICE_HOME_PIN : lastChanged(
+      lastModified: lastChanged(
         ...GLOBAL,
         `app${p}/page.tsx`,
         ...(p === "/blog" ? ["content/blog.ts"] : []),
