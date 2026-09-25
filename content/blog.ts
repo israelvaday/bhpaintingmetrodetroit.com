@@ -918,7 +918,7 @@ BH Painting Metro Detroit provides [interior painting](/services/interior-painti
     date: "2026-09-25T12:00:00-04:00",
     heroImage: "/blog/sukkot-2026-hero.jpg",
     heroAlt:
-      "Wooden sukkah on a backyard deck behind a Michigan home, its roof covered with pine and leafy branches, a table inside set with apples and small pumpkins, and autumn leaves on the deck boards",
+      "Wooden sukkah on a backyard deck behind a Michigan home, its roof covered with pine and leafy branches, apples and small pumpkins on a white cloth inside, and autumn leaves on the deck boards",
     secondaryImage: "/photos/painting-gallery--deck-staining.png",
     secondaryAlt:
       "Painter brushing a reddish semi-transparent stain onto weathered deck boards behind a Michigan home, with a stain can and rags on a drop cloth",
@@ -952,7 +952,7 @@ Many families in Metro Detroit build their sukkah on a deck or a patio, and late
 
 ### Look at the deck boards once the sukkah comes down
 
-Boards that sat under walls, a table, and a roof of branches stay shaded and hold moisture longer than the rest of the deck. Once everything is packed away, sweep off the leaves and needles and give the boards a sunny day to dry. Then look for scuffs where the table and chairs stood, marks where the walls rested, and any boards that still look damp when the rest are dry. A board that stays dark and wet is worth pointing out before the next staining.
+Boards that sat under walls, furniture, and a roof of branches stay shaded and hold moisture longer than the rest of the deck. Once everything is packed away, sweep off the leaves and needles and give the boards a sunny day to dry. Then look for scuffs where the chairs and furniture stood, marks where the walls rested, and any boards that still look damp when the rest are dry. A board that stays dark and wet is worth pointing out before the next staining.
 
 ### Check anything that was fastened to the house or the railing
 
