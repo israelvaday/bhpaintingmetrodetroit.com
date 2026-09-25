@@ -905,6 +905,70 @@ To everyone fasting, an easy and meaningful fast, and G'mar Chatima Tova. We reo
 BH Painting Metro Detroit provides [interior painting](/services/interior-painting/), [trim and door painting](/services/trim-door-painting/), and exterior work across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
 `,
   },
+  {
+    slug: "sukkot-2026",
+    title: "Happy Sukkot: Holiday Hours and a Fall Deck and Trim Checklist",
+    metaTitle: "Sukkot 2026: Holiday Hours and a Fall Deck Checklist",
+    excerpt:
+      "Chag Sameach! BH Painting Metro Detroit is closed September 26 and 27 for Sukkot and reopens Monday, September 28 at 9:00 AM. Plus a fall deck checklist.",
+    category: "Planning",
+    readMinutes: 4,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-09-25T12:00:00-04:00",
+    heroImage: "/blog/sukkot-2026-hero.jpg",
+    heroAlt:
+      "Wooden sukkah on a backyard deck behind a Michigan home, its roof covered with pine and leafy branches, a table inside set with apples and small pumpkins, and autumn leaves on the deck boards",
+    secondaryImage: "/photos/painting-gallery--deck-staining.png",
+    secondaryAlt:
+      "Painter brushing a reddish semi-transparent stain onto weathered deck boards behind a Michigan home, with a stain can and rags on a drop cloth",
+    body: `
+Chag Sameach from all of us at BH Painting Metro Detroit. Sukkot, the Jewish harvest festival, begins at sundown on Friday, September 25, 2026, and our team is closed for its first two days. Here is exactly when we are closed and when we are back, a little about the holiday itself, and a short fall checklist for decks, railings, and trim.
+
+## Sukkot holiday hours
+
+- **Friday, September 25:** open our regular Friday hours, 9:00 AM to 12:00 PM.
+- **Saturday, September 26:** closed, as on every Saturday. This year it is also the first day of Sukkot.
+- **Sunday, September 27:** closed for the second day of Sukkot. On a normal week we are open Sundays from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 28:** back to our regular hours from 9:00 AM.
+
+Our regular hours are Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours/).
+
+You are welcome to leave a message or send the [quote form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Monday.
+
+## What is Sukkot?
+
+Sukkot is the Jewish harvest festival. It begins on the fifteenth day of the Hebrew month of Tishrei, five days after Yom Kippur, which we wrote about in our [Yom Kippur post](/blog/yom-kippur-2026/).
+
+The holiday is named for the sukkah, a temporary hut built outdoors, with walls of wood or fabric and a roof of branches loose enough to let the sky show through. Families eat their meals in the sukkah during the festival, often with friends and neighbors, in memory of the huts the Israelites lived in on their journey through the desert.
+
+In Metro Detroit this year, candle lighting is at 7:06 PM on Friday, September 25, and the first two days end at nightfall on Sunday, September 27, at 8:03 PM. These times are for Oak Park, from Hebcal.
+
+The traditional greeting is "Chag Sameach", which means "happy holiday".
+
+## A fall checklist for decks, railings, and trim
+
+Many families in Metro Detroit build their sukkah on a deck or a patio, and late September is also the last comfortable stretch of the year for exterior work in Michigan. None of the items below needs a contractor to start.
+
+### Look at the deck boards once the sukkah comes down
+
+Boards that sat under walls, a table, and a roof of branches stay shaded and hold moisture longer than the rest of the deck. Once everything is packed away, sweep off the leaves and needles and give the boards a sunny day to dry. Then look for scuffs where the table and chairs stood, marks where the walls rested, and any boards that still look damp when the rest are dry. A board that stays dark and wet is worth pointing out before the next staining.
+
+### Check anything that was fastened to the house or the railing
+
+If the sukkah was tied, clamped, or screwed to a railing, a post, or the trim on the house, look at those spots after it comes down. Small screw holes and scrapes in painted trim let water into the wood over a Michigan winter, so fill and touch them up, or at least write them down, while the weather still allows exterior work.
+
+### Read the temperature on the label before an exterior touch-up
+
+Exterior paints and stains list a minimum temperature for application and drying on the can, and in the fall the nights often drop below it even after a warm afternoon. Read the label, start after the morning dew has dried, and finish early enough in the day for the coat to set before the evening cools.
+
+## We are back Monday
+
+To everyone celebrating, Chag Sameach, and a happy Sukkot to every family eating in a sukkah this year. We reopen on Monday, September 28 at 9:00 AM.
+
+BH Painting Metro Detroit provides [deck and fence staining](/services/deck-fence-staining/), [exterior painting](/services/exterior-painting/), and [trim and door painting](/services/trim-door-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
