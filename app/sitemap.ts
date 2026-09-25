@@ -65,8 +65,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...BLOG_POSTS.map((p) => ({
       url: loc(`/blog/${p.slug}`),
-      // Already a real content date, not a build stamp. Left alone.
-      lastModified: new Date(p.date),
+      // A real content date, not a build stamp: the publication date, or the
+      // post's own `updated` once its title or body changed after publishing.
+      lastModified: new Date(p.updated ?? p.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),

@@ -9,6 +9,9 @@ export type BlogPost = {
   category: "Interior" | "Exterior" | "Cabinets" | "Commercial" | "Planning";
   readMinutes: number;
   date: string;
+  // Set only when the page genuinely changed after publication (title, meta or body),
+  // so the sitemap lastmod stops claiming the publication date. Never a build stamp.
+  updated?: string;
   heroImage: string;
   heroAlt: string;
   secondaryImage: string;
@@ -295,6 +298,8 @@ BH Painting Metro Detroit coordinates phased commercial painting across Wayne, O
     category: "Exterior",
     readMinutes: 7,
     date: "2026-06-11",
+    // b278e81 retitled this post on 2026-08-28; e74e99a edited its body 08-19.
+    updated: "2026-08-28T16:57:35-04:00",
     heroImage: "/blog/deck-staining-michigan-climate-hero.png",
     heroAlt:
       "Freshly stained wood deck behind a Metro Detroit home in mild summer weather",
