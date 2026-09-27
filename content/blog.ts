@@ -181,6 +181,8 @@ BH Painting Metro Detroit offers cabinet painting and color guidance throughout 
     category: "Planning",
     readMinutes: 7,
     date: "2026-04-08",
+    // 677ddc3 removed its unearned insured claims on 2026-08-09.
+    updated: "2026-08-09T17:27:37-04:00",
     heroImage: "/blog/hire-painting-contractor-michigan-hero.png",
     heroAlt:
       "Homeowner reviewing a written painting proposal with a Metro Detroit painter",
