@@ -75,8 +75,9 @@ Confirm color names, products, and finishes in writing before materials are orde
     excerpt:
       "A durable Michigan exterior depends on dry surfaces, thorough preparation, the right coating system, and a realistic weather window.",
     category: "Exterior",
-    readMinutes: 7,
+    readMinutes: 8,
     date: "2026-02-12",
+    updated: "2026-09-29T16:50:00-04:00",
     heroImage: "/blog/exterior-paint-michigan-weather-hero.png",
     heroAlt:
       "Professional painter coating the exterior of a Metro Detroit home on a clear mild day",
@@ -87,6 +88,21 @@ Confirm color names, products, and finishes in writing before materials are orde
 Michigan exteriors experience freezing winters, humid summers, wind-driven rain, strong sun, and repeated temperature swings. A coating can look fresh when the crew leaves and still fail early if applied over moisture, loose material, contamination, or an incompatible prior finish. Product quality matters, but preparation and timing matter just as much.
 
 For Metro Detroit homes, the goal is not simply to find a warm afternoon. The surface, air, forecast, and cure period all need to fit the coating manufacturer's limits.
+
+## Is October too late to paint a house exterior in Metro Detroit?
+
+Usually not. Early and mid October can still work for exterior painting in Metro Detroit, as long as every product on the job is rated for the temperatures you actually get and each coat has a dry afternoon to set before the evening dew. What closes the season here is not a date on the calendar but a run of cold nights, so the decision is made from the label and the forecast, one week at a time.
+
+The numbers to check are on the can, not in the forecast headline:
+
+- **The label minimum.** Many current exterior latex paints are rated for application down to 35°F or 40°F, while standard formulas, and many primers and caulks, still list 50°F. The lowest-rated product in the system sets the limit for the whole job.
+- **The surface, not just the air.** North walls, masonry, and anything in shade stay colder than the air through a fall morning. A wall that never sees sun can sit below the label minimum on a day the forecast calls mild.
+- **The night after, not only the day of.** Paint keeps curing after it feels dry to the touch. If the temperature drops below the label minimum, or dew settles on the wall before the coat has set, the finish can dry uneven, lose sheen, or show streaks.
+- **The hours in between.** Fall air cools quickly after sunset. Starting after the morning dew has dried and finishing by mid-afternoon gives each coat the warmest part of the day.
+
+In late September 2026, Metro Detroit nights were already dropping into the upper 40s, below the 50°F line some products still carry. That is why a fall job is planned side by side around the forecast, with the sunny south and west walls first and the shaded sides saved for the warmest days.
+
+If a full repaint will not fit the weather that is left, it can wait for late spring, when the siding has dried out after the thaw. The repairs that should not wait are the small ones: open caulk joints, peeling trim, and bare wood let water in through a winter of freezing and thawing, so seal and prime those spots while the label temperature still allows it.
 
 ## Inspect before choosing a product
 
@@ -115,7 +131,7 @@ Temperature guidance applies to the surface as well as the air. Dark siding in d
 
 Coatings must also be applied at the recommended spread rate. Stretching material too far reduces protective film thickness. Edges, lower boards, trim profiles, and transitions deserve deliberate coverage because they often weather first.
 
-Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides exterior painting across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
+Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides [exterior painting](/services/exterior-painting/) across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
 `,
   },
   {
