@@ -155,7 +155,8 @@ export function QuoteWizard() {
       files.forEach((f) => fd.append("files", f, f.name));
 
       // The GitHub Pages build sets NEXT_PUBLIC_QUOTE_API_URL (scripts/build-github-pages.mjs),
-      // so the static site posts to the live /api/quote route instead of falling back to mailto.
+      // so the published site posts to the live /api/quote route instead of falling back to mailto.
+      // (Comments here are scanned by Tailwind, so avoid words that are utility class names.)
       if (quoteApi) {
         const res = await fetch(quoteApi, { method: "POST", body: fd });
         if (!res.ok) throw new Error("Server error");
