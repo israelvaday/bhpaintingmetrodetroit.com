@@ -8,7 +8,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 const TITLE = "Service Areas — Metro Detroit Painting";
-const DESCRIPTION = `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a painting quote.`;
+const DESCRIPTION = `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and contact us about your project.`;
 
 export const metadata: Metadata = {
   title: TITLE,

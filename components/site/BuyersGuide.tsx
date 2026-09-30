@@ -7,10 +7,10 @@ export function BuyersGuide() {
         <header>
           <p className="text-xs font-semibold uppercase tracking-wider text-brass-400">Buyer&apos;s guide</p>
           <h2 className="mt-2 font-display text-2xl font-bold text-white md:text-3xl">
-            How to compare painting estimates in Metro Detroit
+            How to compare painting proposals in Metro Detroit
           </h2>
           <p className="mt-3 text-ink-300">
-            A useful painting estimate identifies the surfaces, preparation, coating system, and exclusions. Use this
+            A useful painting proposal identifies the surfaces, preparation, coating system, and exclusions. Use this
             checklist before approving a scope.
           </p>
         </header>
@@ -28,7 +28,7 @@ export function BuyersGuide() {
           color, sheen, and where primer is planned. Product selection can matter as much as coat count.
         </p>
         <p>
-          <strong className="text-white">4. Clarify coats and coverage.</strong> Ask whether the quote defines a planned
+          <strong className="text-white">4. Clarify coats and coverage.</strong> Ask whether the proposal defines a planned
           number of coats, a finished-appearance standard, or both, especially for dramatic color changes.
         </p>
         <p>
@@ -42,7 +42,7 @@ export function BuyersGuide() {
         </p>
         <p>
           {BIZ.name} serves Wayne, Oakland, and Macomb counties and answers project questions at {BIZ.phone}. Compare
-          estimates only after the surfaces, preparation, products, and closeout expectations are aligned.
+          proposals only after the surfaces, preparation, products, and closeout expectations are aligned.
         </p>
       </div>
     </section>

@@ -44,7 +44,7 @@ export function AreaAvailabilityChecker({
           href="/quote"
           className="inline-flex items-center rounded-full bg-brass-500 px-5 py-2.5 text-sm font-bold text-ink-950 transition hover:bg-brass-400"
         >
-          Request a quote
+          Contact us
         </Link>
         <a
           href={BIZ.phoneHref}

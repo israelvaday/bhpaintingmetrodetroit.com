@@ -27,6 +27,18 @@ import { execFileSync } from "node:child_process";
 
 const cache = new Map<string, Date>();
 
+/**
+ * A commit whose message carries the trailer line `Sitemap-Lastmod: keep` is skipped
+ * here. It is for commits that change no page's main content: sitewide chrome such as
+ * a button label, metadata, or an unused field in lib/business.ts. Without it, an edit
+ * to any GLOBAL file in app/sitemap.ts redates every static, service and area url at
+ * once although no page body changed, which is the inaccurate lastmod this file exists
+ * to prevent. A commit that rewrites what a page says must NOT carry the trailer.
+ * Added 2026-09-30 (the owner's contact-forms-only change); not part of the bh-kitchen
+ * port. With no commit carrying it, every date is exactly what it was before.
+ */
+const KEEP_LASTMOD_TRAILER = "^Sitemap-Lastmod: keep$";
+
 /** Build time. The fallback whenever git cannot answer — never worse than the old behaviour. */
 const BUILD_TIME = new Date();
 
@@ -34,7 +46,11 @@ function gitDate(paths: string[]): Date | null {
   try {
     const out = execFileSync(
       "git",
-      ["log", "-1", "--format=%cI", "--", ...paths.map((p) => `:(literal)${p}`)],
+      [
+        "log", "-1", "--format=%cI",
+        "--invert-grep", `--grep=${KEEP_LASTMOD_TRAILER}`,
+        "--", ...paths.map((p) => `:(literal)${p}`),
+      ],
       { cwd: process.cwd(), encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
     ).trim();
     if (!out) return null;

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   // The root layout template does not apply to the root page, so this renders as is.
   title: `${BIZ.name} | Interior, Exterior & Commercial`,
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Request a free estimate.`,
+    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Call ${BIZ.phone} or send us a message.`,
   // The root layout no longer carries a url, so the homepage states its own.
   // Title and description are the root layout's previous OG values verbatim:
   // the brand-forward pair reads better on a shared card than the page title.

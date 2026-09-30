@@ -14,8 +14,7 @@ export function ServiceGrid({ city }: { city?: string }) {
             Painting built around the surface.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Ten painting services across Metro Detroit. Explore preparation, finish options, project inspiration, and
-            quote details.
+            Ten painting services across Metro Detroit. Explore preparation, finish options, and project inspiration.
           </p>
           <Link href="/services" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
             View all services →

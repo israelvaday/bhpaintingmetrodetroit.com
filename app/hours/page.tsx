@@ -51,7 +51,7 @@ export default function HoursPage() {
           <a href={BIZ.phoneHref} className="font-semibold text-brass-300 underline-offset-2 hover:underline">
             {BIZ.phone}
           </a>{" "}
-          during the schedule below. Quote requests received outside these hours can be reviewed during business
+          during the schedule below. Messages received outside these hours can be reviewed during business
           hours.
         </p>
 

@@ -51,7 +51,7 @@ const URGENCIES: { key: Urgency; label: string; sub: string; Icon: typeof Zap }[
   { key: "asap", label: "As soon as practical", sub: "Tell us your deadline", Icon: Zap },
   { key: "one-two-weeks", label: "Within 1–2 weeks", sub: "A near-term project", Icon: CalendarClock },
   { key: "this-month", label: "Within a month", sub: "Flexible project timing", Icon: Calendar },
-  { key: "planning", label: "Planning ahead", sub: "Comparing scope and budget", Icon: FileText },
+  { key: "planning", label: "Planning ahead", sub: "Still exploring ideas", Icon: FileText },
 ];
 
 const STEP_LABELS = ["Service", "Property", "Timing", "Details", "Photos", "Contact"] as const;
@@ -154,10 +154,12 @@ export function QuoteWizard() {
       fd.set("message", message);
       files.forEach((f) => fd.append("files", f, f.name));
 
+      // The GitHub Pages build sets NEXT_PUBLIC_QUOTE_API_URL (scripts/build-github-pages.mjs),
+      // so the static site posts to the live /api/quote route instead of falling back to mailto.
       if (quoteApi) {
         const res = await fetch(quoteApi, { method: "POST", body: fd });
         if (!res.ok) throw new Error("Server error");
-        toast.success("Quote request sent — we will be in touch shortly.");
+        toast.success("Message sent. We will be in touch shortly.");
         window.location.href = "/thank-you";
         return;
       }
@@ -175,13 +177,13 @@ export function QuoteWizard() {
         ]
           .filter(Boolean)
           .join("\n");
-        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Painting quote request — " + location)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Painting project message: " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
 
       const res = await fetch("/api/quote", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Server error");
-      toast.success("Quote request sent — we will be in touch shortly.");
+      toast.success("Message sent. We will be in touch shortly.");
       window.location.href = "/thank-you";
     } catch {
       toast.error("Could not send. Please tap Call to reach us.");
@@ -198,7 +200,7 @@ export function QuoteWizard() {
       {/* Header / progress */}
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <Paintbrush className="h-3 w-3" /> Painting project quote
+          <Paintbrush className="h-3 w-3" /> Contact form
         </span>
         <span className="text-[11px] font-bold uppercase tracking-wider text-ink-400">
           Step {step + 1} of {STEP_LABELS.length} — {STEP_LABELS[step]}
@@ -384,7 +386,7 @@ export function QuoteWizard() {
 
             {step === 5 && (
               <>
-                <h2 className="font-display text-2xl font-extrabold md:text-3xl">Where do we send the quote?</h2>
+                <h2 className="font-display text-2xl font-extrabold md:text-3xl">How can we reach you?</h2>
                 <p className="mt-1 text-sm text-ink-300">We&apos;ll use these details to follow up about your project.</p>
                 <div className="mt-5 grid gap-4 sm:grid-cols-2">
                   <Field label="Name" value={name} onChange={setName} required />
@@ -441,7 +443,7 @@ export function QuoteWizard() {
             className="ml-auto"
           >
             <Send className="h-5 w-5" />
-            {submitting ? "Sending…" : "Send quote request"}
+            {submitting ? "Sending…" : "Send message"}
           </Button>
         )}
         <a

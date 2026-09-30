@@ -10,11 +10,11 @@ const FAQ_SECTIONS = [
   {
     id: "scope",
     emoji: "📋",
-    title: "Estimates & scope",
+    title: "Planning & scope",
     description: "How painting projects are defined before work begins.",
     items: [
       {
-        q: "What information helps you prepare an estimate?",
+        q: "What information helps when I first contact you?",
         a: "The property address, surfaces, approximate dimensions, current condition, desired colors, access, occupancy, and preferred timing are useful. Photos can help clarify the request, but some projects still require an on-site review.",
       },
       {
@@ -96,7 +96,7 @@ const FAQ_SECTIONS = [
 const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);
 
 const TITLE = "Painting FAQ — Metro Detroit";
-const DESCRIPTION = `Answers from ${BIZ.name} about painting estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`;
+const DESCRIPTION = `Answers from ${BIZ.name} about project planning, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`;
 
 export const metadata: Metadata = {
   title: TITLE,

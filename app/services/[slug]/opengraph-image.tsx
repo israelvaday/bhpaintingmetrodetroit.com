@@ -181,7 +181,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
             }}
           >
             <div style={{ fontSize: 14, color: "#C9A24A", letterSpacing: 2, fontWeight: 700, display: "flex" }}>
-              REQUEST A QUOTE
+              CALL OR TEXT
             </div>
             <div style={{ fontSize: 36, color: "#F4E3B1", fontWeight: 900, letterSpacing: -0.5, display: "flex" }}>
               {BIZ.phone}

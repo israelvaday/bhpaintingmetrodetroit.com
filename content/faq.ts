@@ -14,26 +14,25 @@ export const FAQ_HERO_ALT =
 
 export const FAQ_SECTIONS: FAQSection[] = [
   {
-    id: "pricing",
-    title: "Pricing & estimates",
-    emoji: "💰",
-    description: "How painting scopes, materials, and written estimates are prepared.",
+    // Owner, 2026-09-30: no prices, no free-estimate or quote offers. This file is not
+    // rendered (app/faq/page.tsx keeps its own list), but it is kept clean so wiring it
+    // up later cannot bring a price promise back.
+    id: "cost",
+    title: "Cost & scope",
+    emoji: "📋",
+    description: "What drives the cost of a painting project and how the scope is written.",
     items: [
       {
         q: "How much does professional painting cost in Metro Detroit?",
-        a: "Pricing depends on surface area, condition, ceiling height, access, color changes, coating system, and the amount of protection and preparation required. We provide a written estimate after reviewing the property so the scope is based on the actual project rather than an unreliable one-size-fits-all rate.",
+        a: "The cost depends on surface area, condition, ceiling height, access, color changes, coating system, and the amount of protection and preparation required. Call (313) 236-4558 for a price on your job.",
       },
       {
-        q: "Do you provide free painting estimates?",
-        a: "Yes. We provide free estimates for residential and commercial painting in Wayne, Oakland, and Macomb counties. Photos can help us understand the project, but larger or more detailed scopes may require an on-site walkthrough before final pricing.",
-      },
-      {
-        q: "Are paint and supplies included in the estimate?",
-        a: "The proposal identifies whether coatings and standard supplies are included, along with the planned product type, finish, and number of coats. Specialty products, major color changes, or added work are listed clearly so comparisons between bids are meaningful.",
+        q: "Are paint and supplies included?",
+        a: "The written scope identifies whether coatings and standard supplies are included, along with the planned product type, finish, and number of coats. Specialty products, major color changes, or added work are listed clearly.",
       },
       {
         q: "How are changes handled after work begins?",
-        a: "If you request another room, a different coating, or work outside the original scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
+        a: "If you request another room, a different coating, or work outside the original scope, we document the change and its schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
       },
     ],
   },
@@ -101,7 +100,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "What surface preparation is included?",
-        a: "Preparation may include cleaning, light sanding, caulking paintable gaps, stabilizing minor imperfections, dulling glossy finishes, and spot priming. The estimate states the preparation level because a durable finish depends on what happens before the first finish coat.",
+        a: "Preparation may include cleaning, light sanding, caulking paintable gaps, stabilizing minor imperfections, dulling glossy finishes, and spot priming. The written scope states the preparation level because a durable finish depends on what happens before the first finish coat.",
       },
       {
         q: "How are cabinets and wallpaper handled before painting?",

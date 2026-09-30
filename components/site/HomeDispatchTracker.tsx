@@ -80,7 +80,7 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
                 <AlertTriangle className="h-4 w-4" /> Location was unavailable
               </div>
               <p className="mt-1 text-xs text-ink-300">
-                You can still request a quote with your city or ZIP, or call to confirm coverage.
+                You can still send us a message with your city or ZIP, or call to confirm coverage.
               </p>
             </div>
           )}
@@ -134,7 +134,7 @@ function AvailabilityLinks() {
         href="/quote"
         className="inline-flex items-center rounded-full bg-brass-500 px-5 py-2.5 text-sm font-bold text-ink-950 transition hover:bg-brass-400"
       >
-        Request a project quote
+        Send us a message
       </Link>
       <a
         href={BIZ.phoneHref}

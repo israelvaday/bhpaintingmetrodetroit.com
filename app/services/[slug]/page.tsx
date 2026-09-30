@@ -138,7 +138,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               </div>
               <p className="mt-2 text-sm text-ink-200">
                 We discuss surface preparation, adjacent-area protection, products, colors, coats, access, and cleanup
-                before work begins. Insurance information is available on request.
+                before work begins.
               </p>
             </div>
             <div className="rounded-3xl border border-ink-800 bg-ink-900/50 p-5">
@@ -204,9 +204,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            Pricing for {s.shortName.toLowerCase()} depends on the included surfaces, preparation, product selection,
-            access, protection, and timing. The estimate should identify assumptions and exclusions; proposed scope
-            changes should be discussed and documented before added work proceeds.
+            The cost of {s.shortName.toLowerCase()} depends on the included surfaces, preparation, product selection,
+            access, protection, and timing, so call {BIZ.phone} for a price on your job. Proposed scope changes should
+            be discussed and documented before added work proceeds.
           </p>
           <p>
             We document the agreed preparation, primer where needed, paint products, colors, sheen, surfaces, and

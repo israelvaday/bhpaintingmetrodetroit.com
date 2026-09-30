@@ -80,7 +80,7 @@ export default async function OgImage() {
             Interior · Exterior · Cabinets · Commercial
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            Painting for homes, businesses, rentals, trim, ceilings, decks, and fences. Free estimates.
+            Painting for homes, businesses, rentals, trim, ceilings, decks, and fences.
           </div>
         </div>
 

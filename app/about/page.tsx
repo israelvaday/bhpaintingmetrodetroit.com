@@ -157,7 +157,7 @@ export default function AboutPage() {
           <div className="rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-8 text-center">
             <h2 className="font-display text-2xl font-bold md:text-3xl">Discuss your project.</h2>
             <p className="mt-2 text-ink-300">
-              Reach us during posted business hours or send a quote request whenever it is convenient.
+              Reach us during posted business hours or send us a message whenever it is convenient.
             </p>
             <div className="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">

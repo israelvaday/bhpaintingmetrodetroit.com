@@ -65,7 +65,7 @@ A connected home does not need one color everywhere. Repeating an undertone, usi
 
 Sheen changes perceived color. More reflective finishes can look richer and reveal more variation. Lower-sheen finishes soften light, while washable options are practical in kitchens, baths, entries, and children's rooms. Compare the coating line, cleanability, moisture exposure, and traffic instead of choosing by sheen name alone.
 
-Confirm color names, products, and finishes in writing before materials are ordered. BH Painting Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan colors and complete carefully prepared interior projects. Call or text (313) 236-4558 for a written estimate.
+Confirm color names, products, and finishes in writing before materials are ordered. BH Painting Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan colors and complete carefully prepared interior projects. Call or text (313) 236-4558 to talk through your project.
 `,
   },
   {
@@ -131,7 +131,7 @@ Temperature guidance applies to the surface as well as the air. Dark siding in d
 
 Coatings must also be applied at the recommended spread rate. Stretching material too far reduces protective film thickness. Edges, lower boards, trim profiles, and transitions deserve deliberate coverage because they often weather first.
 
-Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides [exterior painting](/services/exterior-painting/) across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
+Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides [exterior painting](/services/exterior-painting/) across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 to talk through your project.
 `,
   },
   {
@@ -250,7 +250,7 @@ For businesses and multifamily properties, ask about phased zones, tenant notice
 - Promises to paint damp, dirty, or unstable surfaces immediately.
 - No plan for protection, ventilation, cleanup, or final review.
 
-The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides free written estimates and experienced professional painters across Wayne, Oakland, and Macomb counties, and will share current business and insurance information for your project on request. Call or text (313) 236-4558 to discuss your project.
+The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides experienced professional painters across Wayne, Oakland, and Macomb counties and puts the scope in writing before work begins. Call or text (313) 236-4558 to discuss your project.
 `,
   },
   {
@@ -426,7 +426,7 @@ Removal is a bigger project than it appears. It usually requires the same testin
 
 Autumn is a practical time for this work in Michigan. Exterior projects wind down as temperatures drop, interior scheduling opens up, and windows can still be opened for ventilation before winter closes the house up completely.
 
-BH Painting Metro Detroit provides [ceiling painting](/services/ceiling-painting) across Wayne, Oakland, and Macomb counties, including stain sealing, low-disturbance application on textured surfaces, and honest guidance on when a ceiling should be tested or referred out. Call or text (313) 236-4558 for a written estimate.
+BH Painting Metro Detroit provides [ceiling painting](/services/ceiling-painting) across Wayne, Oakland, and Macomb counties, including stain sealing, low-disturbance application on textured surfaces, and honest guidance on when a ceiling should be tested or referred out. Call or text (313) 236-4558 to talk through your project.
 `,
   },
   {
@@ -434,7 +434,7 @@ BH Painting Metro Detroit provides [ceiling painting](/services/ceiling-painting
     title: "Commercial Interior Painting in Oakland County: How to Scope an Office Repaint",
     metaTitle: "Commercial Interior Painting in Oakland County",
     excerpt:
-      "Commercial interior painting in Pontiac, Southfield, and across Oakland County: how office and light-industrial repaints are scoped, specified, and quoted.",
+      "Commercial interior painting in Pontiac, Southfield, and across Oakland County: how office and light-industrial repaints are scoped, specified, and compared.",
     category: "Commercial",
     readMinutes: 7,
     date: "2026-08-17",
@@ -496,7 +496,7 @@ Where a proposal reads "two coats throughout" with no preparation detail, the ga
 
 Scheduling is the other half of a commercial project and a separate planning conversation. Phasing, off-hour access, and cure time around an occupied building are covered in the companion guide to [commercial painting with minimal downtime](/blog/commercial-painting-minimal-downtime).
 
-BH Painting Metro Detroit provides [commercial interior painting](/services/commercial-painting) for offices, retail, common areas, and light-industrial interiors across Wayne, Oakland, and Macomb counties, including Pontiac, Southfield, Farmington Hills, and Rochester Hills. Call or text (313) 236-4558 to walk the space and receive a written scope and estimate.
+BH Painting Metro Detroit provides [commercial interior painting](/services/commercial-painting) for offices, retail, common areas, and light-industrial interiors across Wayne, Oakland, and Macomb counties, including Pontiac, Southfield, Farmington Hills, and Rochester Hills. Call or text (313) 236-4558 to arrange a walkthrough of the space and a written scope.
 `,
   },
   {
@@ -647,7 +647,7 @@ Wipe the rim of the can, close the lid tightly, and write the room, the color na
 
 From our team to yours, Shana Tova u'Metukah: a good and sweet year to everyone celebrating, and a good season to every home and business we work with across Wayne, Oakland, and Macomb counties.
 
-We reopen on Monday, September 14 at 9:00 AM. When you are ready to plan your next project, call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+We reopen on Monday, September 14 at 9:00 AM. When you are ready to plan your next project, call or text (313) 236-4558 or [send us a message](/quote/).
 `,
   },
   {
@@ -740,7 +740,7 @@ Where one quote lists a color and a total and another lists preparation steps, t
 
 If the ceilings are being painted in the same rooms, the companion guide to [painting a popcorn ceiling in Metro Detroit](/blog/painting-popcorn-ceiling-metro-detroit/) covers the overhead half of the job.
 
-BH Painting Metro Detroit provides [trim and door painting](/services/trim-door-painting/) for baseboards, crown molding, window trim, and interior doors across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, and Farmington Hills. Call or text (313) 236-4558 for an assessment of existing coatings, preparation, and a written estimate.
+BH Painting Metro Detroit provides [trim and door painting](/services/trim-door-painting/) for baseboards, crown molding, window trim, and interior doors across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, and Farmington Hills. Call or text (313) 236-4558 for an assessment of existing coatings and preparation.
 `,
   },
   {
@@ -851,7 +851,7 @@ It should state that a test area is done first, and what happens to the scope if
 
 Where one quote is a single line for removing wallpaper and painting, and another lists the same work in stages, the second is usually not the more expensive one. It is the one that has thought about what happens when the first sheet comes off. The same principle runs through the wider guide to [hiring a painting contractor in Michigan](/blog/hire-painting-contractor-michigan/).
 
-BH Painting Metro Detroit provides [wallpaper removal](/services/wallpaper-removal/) and paint-ready wall preparation across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 to arrange a test area and a written estimate that separates removal from repair.
+BH Painting Metro Detroit provides [wallpaper removal](/services/wallpaper-removal/) and paint-ready wall preparation across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 to arrange a test area and a written scope that separates removal from repair.
 `,
   },
   {
@@ -885,7 +885,7 @@ Yom Kippur, the Day of Atonement, begins at sundown on Sunday, September 20, 202
 
 Our regular hours are Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours/).
 
-You are welcome to leave a message or send the [quote form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
+You are welcome to leave a message or send the [contact form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
 
 ## What is Yom Kippur?
 
@@ -925,7 +925,7 @@ At a walkthrough, a list of rooms in the order you want them done is more useful
 
 To everyone fasting, an easy and meaningful fast, and G'mar Chatima Tova. We reopen on Tuesday, September 22 at 9:00 AM.
 
-BH Painting Metro Detroit provides [interior painting](/services/interior-painting/), [trim and door painting](/services/trim-door-painting/), and exterior work across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+BH Painting Metro Detroit provides [interior painting](/services/interior-painting/), [trim and door painting](/services/trim-door-painting/), and exterior work across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [send us a message](/quote/).
 `,
   },
   {
@@ -957,7 +957,7 @@ Chag Sameach from all of us at BH Painting Metro Detroit. Sukkot, the Jewish har
 
 Our regular hours are Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours/).
 
-You are welcome to leave a message or send the [quote form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Monday.
+You are welcome to leave a message or send the [contact form](/quote/) while we are closed. We work through them in the order they arrive once we are back on Monday.
 
 ## What is Sukkot?
 
@@ -989,7 +989,7 @@ Exterior paints and stains list a minimum temperature for application and drying
 
 To everyone celebrating, Chag Sameach, and a happy Sukkot to every family eating in a sukkah this year. We reopen on Monday, September 28 at 9:00 AM.
 
-BH Painting Metro Detroit provides [deck and fence staining](/services/deck-fence-staining/), [exterior painting](/services/exterior-painting/), and [trim and door painting](/services/trim-door-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [request a quote](/quote/) for a written estimate.
+BH Painting Metro Detroit provides [deck and fence staining](/services/deck-fence-staining/), [exterior painting](/services/exterior-painting/), and [trim and door painting](/services/trim-door-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [send us a message](/quote/).
 `,
   },
 ];

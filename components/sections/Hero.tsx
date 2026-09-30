@@ -56,12 +56,12 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Floating bottom-right quote pill */}
+      {/* Floating bottom-right service pill */}
       <div
         className="absolute bottom-6 right-4 z-10 inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/15 px-3 py-1.5 text-xs font-semibold text-emerald-200 backdrop-blur md:right-6"
       >
         <Paintbrush className="h-3.5 w-3.5" />
-        Painting quotes · Metro Detroit
+        Painting projects · Metro Detroit
       </div>
 
       {/* Content */}
@@ -138,7 +138,7 @@ export function Hero() {
           </li>
           <li className="flex items-center gap-1.5">
             <Sparkles className="h-4 w-4 text-brass-400" />
-            Written estimates
+            Final walkthrough
           </li>
           <li className="flex items-center gap-1.5">
             <CheckCircle2 className="h-4 w-4 text-brass-400" />

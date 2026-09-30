@@ -50,6 +50,14 @@ try {
       NEXT_PUBLIC_SITE_URL:
         process.env.NEXT_PUBLIC_SITE_URL ||
         "https://bhpaintingmetrodetroit.com",
+      // The contact form (components/site/QuoteWizard.tsx) posts here. GitHub Pages is
+      // static and app/api is stashed above, so without this URL the form fell back to
+      // a mailto: link and leads depended on the visitor's mail app. This is the live
+      // route that emails the owner (deployed separately; it answers an empty POST
+      // with 400 "Missing required fields").
+      NEXT_PUBLIC_QUOTE_API_URL:
+        process.env.NEXT_PUBLIC_QUOTE_API_URL ||
+        "https://bhpaintingmetrodetroit.com/api/quote",
     },
     stdio: "inherit",
     shell: false,

@@ -1,8 +1,11 @@
-// Single source of truth for NAP, hours, insurance wording, and links.
+// Single source of truth for NAP, hours, and links.
+// Owner, 2026-09-30: there is no licence, and the site shows no prices and no free-estimate
+// or quote offers. The old tagline ("Insured ... Free Estimates") and the licenseId / bsis
+// placeholders (both the string "Insured") had no consumers but shipped in every client
+// chunk that imports BIZ, so they were removed rather than left for a future template.
 export const BIZ = {
   name: "BH Painting Metro Detroit",
   legalName: "BH Painting Metro Detroit",
-  tagline: "Insured Professional Painters — Free Estimates Across Metro Detroit",
   phone: "(313) 236-4558",
   phoneE164: "+13132364558",
   phoneHref: "tel:+13132364558",
@@ -13,10 +16,6 @@ export const BIZ = {
   quotesEmail: "quotes@bhpaintingmetrodetroit.com",
   /** Quote form notifications (Railway + Resend). Override with QUOTE_TO_EMAIL env (comma-separated). */
   quoteNotifyEmails: ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"],
-  /** Compatibility field for existing trust components; no license is asserted. */
-  licenseId: "Insured",
-  /** Legacy compatibility field used by existing templates. */
-  bsis: "Insured",
   url: "https://bhpaintingmetrodetroit.com",
   address: {
     street: "Metro Detroit Service Area",

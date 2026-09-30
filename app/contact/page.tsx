@@ -7,7 +7,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 
 const TITLE = "Contact — Metro Detroit Painting";
-const DESCRIPTION = `Contact ${BIZ.name} to discuss a painting project, text photos, or request a free quote across Metro Detroit.`;
+const DESCRIPTION = `Contact ${BIZ.name} to discuss a painting project across Metro Detroit: call, text photos, or send us a message.`;
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -42,7 +42,7 @@ export default function ContactPage() {
             Plan your <span className="text-brass-gradient">painting project</span>.
           </h1>
           <p className="mt-4 text-ink-200">
-            Call, email, text project photos, or send a quote request for a Metro Detroit home or business.
+            Call, email, text project photos, or send us a message about a Metro Detroit home or business.
           </p>
           <div className="mt-7 flex justify-center">
             <ContactCTA size="lg" showEmail />
@@ -130,13 +130,13 @@ export default function ContactPage() {
               </a>
             </div>
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
-              <h3 className="font-display text-xl font-bold text-white">Free written quote</h3>
+              <h3 className="font-display text-xl font-bold text-white">Send us a message</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Use the picture-driven quote tool to identify the painting service, property type, timing, and project
-                details. You can upload photos or plans to support a project-specific follow-up.
+                Use the picture-driven contact form to tell us the painting service, property type, timing, and project
+                details. You can upload photos or plans so our follow-up fits your project.
               </p>
               <a href="/quote/" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
-                Start the quote →
+                Open the contact form →
               </a>
             </div>
           </div>

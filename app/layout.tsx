@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s — ${BIZ.name}`,
   },
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
+    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Call ${BIZ.phone} to discuss your project.`,
   keywords: [
     "painting company Detroit",
     "interior painting Metro Detroit",

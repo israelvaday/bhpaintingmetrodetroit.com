@@ -13,7 +13,7 @@ export function localBusinessJsonLd() {
     telephone: BIZ.phoneE164,
     email: BIZ.email,
     url: BIZ.url,
-    priceRange: "$$",
+    // No priceRange: this site shows no prices of any kind (owner, 2026-09-30).
     // Service-area business: no storefront, so no streetAddress/postalCode.
     address: {
       "@type": "PostalAddress",
@@ -35,8 +35,8 @@ export function localBusinessJsonLd() {
         opens: h.open,
         closes: h.close,
       })),
-    // No hasCredential: BIZ.licenseId is the placeholder string "Insured", not a
-    // licence or policy number. Restore only with a real, verifiable identifier.
+    // No hasCredential: the business holds no licence (owner, 2026-09-30), so there is
+    // nothing to declare. Never add one.
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
 }

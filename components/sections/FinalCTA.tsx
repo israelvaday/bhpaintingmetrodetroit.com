@@ -8,7 +8,7 @@ export function FinalCTA() {
       <div className="absolute inset-0 bg-grid opacity-30" />
       <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
         <div className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
-          <Paintbrush className="h-3.5 w-3.5" /> Interior · Exterior · Commercial · Free Quotes
+          <Paintbrush className="h-3.5 w-3.5" /> Interior · Exterior · Commercial · Cabinets
         </div>
         <h2 className="mt-5 font-display text-3xl font-extrabold tracking-tight md:text-5xl">
           Ready to plan your Metro Detroit painting project?

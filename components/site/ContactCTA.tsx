@@ -19,10 +19,12 @@ export function ContactCTA({
       </LinkButton>
       {/* Slashed on purpose. LinkButton renders a raw <a>, which next/link's trailingSlash
           normalisation never reaches, and the export serves the page at /quote/, so the bare
-          "/quote" sent every quote click on every page through a 301 first. */}
-      <LinkButton href="/quote/" variant="primary" size={size} aria-label="Request a free quote">
+          "/quote" sent every quote click on every page through a 301 first.
+          /quote/ holds the working contact form. Owner, 2026-09-30: contact forms only, so the
+          button offers contact, never a quote, an estimate or a price. */}
+      <LinkButton href="/quote/" variant="primary" size={size} aria-label="Contact us">
         <ClipboardList className="h-5 w-5" />
-        {showLabels && "Free Quote"}
+        {showLabels && "Contact Us"}
       </LinkButton>
       {showEmail && (
         <LinkButton href={BIZ.emailHref} variant="ghost" size={size} aria-label="Email us">

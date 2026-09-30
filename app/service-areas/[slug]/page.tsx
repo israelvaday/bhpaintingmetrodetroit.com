@@ -192,7 +192,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             Planning painting work in {area.name}
           </h2>
           <p>
-            A useful estimate starts with the surfaces and their current condition. Tell us whether the project
+            A useful first conversation starts with the surfaces and their current condition. Tell us whether the project
             involves occupied rooms, an empty turnover, exterior elevations, cabinets, trim, ceilings, commercial
             space, or outdoor wood.
           </p>
@@ -213,7 +213,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           ))}
           <p className="flex items-start gap-2">
             <Sparkles className="mt-1 h-4 w-4 shrink-0 text-brass-400" />
-            Share the project address and preferred timing through the quote form so we can confirm coverage in
+            Share the project address and preferred timing through the contact form so we can confirm coverage in
             {` ${area.name}`} and discuss next steps.
           </p>
         </div>

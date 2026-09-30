@@ -136,11 +136,11 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
             You appear to be inside our Metro Detroit service area
           </div>
           <p className="mt-2 text-sm text-ink-300">
-            Request a quote with your project address so we can confirm coverage and discuss scheduling.
+            Send us a message with your project address so we can confirm coverage and discuss scheduling.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/quote" className="rounded-full bg-brass-500 px-4 py-2 text-sm font-bold text-ink-950">
-              Request a quote
+              Contact us
             </Link>
             <a href={BIZ.phoneHref} className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-4 py-2 text-sm font-bold text-brass-300">
               <Phone className="h-4 w-4" /> Call {BIZ.phone}

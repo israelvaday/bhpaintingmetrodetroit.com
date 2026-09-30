@@ -33,8 +33,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // /path/ and its canonical carries the slash. Emitting /path here made all 128
   // non-homepage entries 301 redirects that disagreed with their own canonical.
   const loc = (p: string) => `${base}${p}/`;
+  // /license/ is not listed: since 2026-09-30 it is a noindex "business details" page
+  // (the owner holds no licence), and a noindex url in the sitemap is a contradiction.
   const staticPages = [
-    "", "/services", "/service-areas", "/about", "/license",
+    "", "/services", "/service-areas", "/about",
     "/gallery", "/reviews", "/contact", "/hours", "/quote",
     "/blog", "/faq",
   ];
