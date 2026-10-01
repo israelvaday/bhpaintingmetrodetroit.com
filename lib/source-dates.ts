@@ -36,6 +36,17 @@ const cache = new Map<string, Date>();
  * to prevent. A commit that rewrites what a page says must NOT carry the trailer.
  * Added 2026-09-30 (the owner's contact-forms-only change); not part of the bh-kitchen
  * port. With no commit carrying it, every date is exactly what it was before.
+ *
+ * THE RULE, tightened 2026-09-30 after review: the trailer is allowed only when the
+ * commit's diff changes no sentence that any page shows in its main content. One body
+ * sentence on one page is enough to forbid it; split such a commit into a chrome commit
+ * (with the trailer) and a copy commit (without it). The skip is silent, so a wrong
+ * trailer hides a real edit from every url its files date. The first commit to carry it,
+ * 3dfe2973, broke this rule: besides chrome it changed the service-page cost paragraph
+ * and insurance sentence, area-page sentences, the Dearborn and fence details and blog
+ * closers. The service pages were redated by the commit that fixed the cost sentence;
+ * the area pages kept their earlier date. Recorded in gotham-ops clients.json (bh-painting
+ * notes) and the bh-painting routine SKILL.md.
  */
 const KEEP_LASTMOD_TRAILER = "^Sitemap-Lastmod: keep$";
 
