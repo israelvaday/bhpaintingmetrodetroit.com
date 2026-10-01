@@ -24,7 +24,9 @@ export const metadata: Metadata = {
   // search had nothing in the title to tell this Metro Detroit company apart.
   // Every business title on page one for the Detroit head terms names its city.
   // The root layout template does not apply to the root page, so this renders as is.
-  title: `${BIZ.name} | Interior, Exterior & Commercial`,
+  // 2026-09-30, owner: the service leads, the brand+city stays as the suffix for the
+  // reason above.
+  title: `Interior & Exterior Painting | ${BIZ.name}`,
   description:
     `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Call ${BIZ.phone} or send us a message.`,
   // The root layout no longer carries a url, so the homepage states its own.
