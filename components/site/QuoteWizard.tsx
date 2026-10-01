@@ -60,6 +60,14 @@ const ACCEPT = "image/jpeg,image/png,image/webp,image/heic,image/heif,applicatio
 const MAX_FILES = 6;
 const MAX_FILE_BYTES = 8 * 1024 * 1024;
 
+// The GitHub Pages build sets NEXT_PUBLIC_QUOTE_API_URL (scripts/build-github-pages.mjs) to the
+// site's own worker at /api/quote. That worker reads JSON only: a FormData body gets 400
+// "Invalid JSON" and the lead is lost, which is what the 09-30 rebuild shipped. So this path
+// posts JSON, the shape the 08-31 build sent, and carries no files: the Photos step asks the
+// visitor to text photos instead. Empty means the server build and its own /api/quote route.
+// (Comments here are scanned by Tailwind, so avoid words that are utility class names.)
+const QUOTE_API = (process.env.NEXT_PUBLIC_QUOTE_API_URL || "").replace(/\/$/, "");
+
 export function QuoteWizard() {
   const [step, setStep] = useState(0);
   const [service, setService] = useState<ServiceKey | "">("");
@@ -107,6 +115,12 @@ export function QuoteWizard() {
   function back() {
     if (step > 0) setStep((s) => s - 1);
   }
+  // A picture tile advances on its own. next() cannot be used from the tile's timer: that
+  // closure still holds the render before the pick, where canAdvance was false. The guard
+  // keeps a double tap from skipping a step.
+  function advanceFrom(from: number) {
+    setStep((s) => (s === from ? s + 1 : s));
+  }
 
   function addFiles(list: FileList | null) {
     if (!list) return;
@@ -141,24 +155,16 @@ export function QuoteWizard() {
       const propLabel = PROPERTIES.find((p) => p.key === property)?.label || property;
       const urgLabel = URGENCIES.find((u) => u.key === urgency)?.label || urgency;
 
-      const quoteApi = (process.env.NEXT_PUBLIC_QUOTE_API_URL || "").replace(/\/$/, "");
-
-      const fd = new FormData();
-      fd.set("name", name);
-      fd.set("phone", phone);
-      fd.set("email", email);
-      fd.set("location", location);
-      fd.set("service", svcLabel);
-      fd.set("property", propLabel);
-      fd.set("urgency", urgLabel);
-      fd.set("message", message);
-      files.forEach((f) => fd.append("files", f, f.name));
-
-      // The GitHub Pages build sets NEXT_PUBLIC_QUOTE_API_URL (scripts/build-github-pages.mjs),
-      // so the published site posts to the live /api/quote route instead of falling back to mailto.
-      // (Comments here are scanned by Tailwind, so avoid words that are utility class names.)
-      if (quoteApi) {
-        const res = await fetch(quoteApi, { method: "POST", body: fd });
+      // The published site: JSON to the worker (see QUOTE_API above), never FormData.
+      if (QUOTE_API) {
+        const res = await fetch(QUOTE_API, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name, phone, email, location,
+            service: svcLabel, property: propLabel, urgency: urgLabel, message,
+          }),
+        });
         if (!res.ok) throw new Error("Server error");
         toast.success("Message sent. We will be in touch shortly.");
         window.location.href = "/thank-you";
@@ -181,6 +187,18 @@ export function QuoteWizard() {
         window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Painting project message: " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
+
+      // The server build: its own /api/quote route reads multipart, photos included.
+      const fd = new FormData();
+      fd.set("name", name);
+      fd.set("phone", phone);
+      fd.set("email", email);
+      fd.set("location", location);
+      fd.set("service", svcLabel);
+      fd.set("property", propLabel);
+      fd.set("urgency", urgLabel);
+      fd.set("message", message);
+      files.forEach((f) => fd.append("files", f, f.name));
 
       const res = await fetch("/api/quote", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Server error");
@@ -236,7 +254,7 @@ export function QuoteWizard() {
                     <button
                       key={s.key}
                       type="button"
-                      onClick={() => { setService(s.key); setTimeout(next, 150); }}
+                      onClick={() => { setService(s.key); setTimeout(() => advanceFrom(0), 150); }}
                       className={`group relative overflow-hidden rounded-2xl border text-left transition focus:outline-none ${service === s.key ? "border-brass-400 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                     >
                       <div className="relative aspect-square w-full bg-ink-950">
@@ -273,7 +291,7 @@ export function QuoteWizard() {
                     <button
                       key={p.key}
                       type="button"
-                      onClick={() => { setProperty(p.key); setTimeout(next, 150); }}
+                      onClick={() => { setProperty(p.key); setTimeout(() => advanceFrom(1), 150); }}
                       className={`group relative overflow-hidden rounded-2xl border text-left transition focus:outline-none ${property === p.key ? "border-brass-400 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                     >
                       <div className="relative aspect-square w-full bg-ink-950">
@@ -313,7 +331,7 @@ export function QuoteWizard() {
                       <button
                         key={u.key}
                         type="button"
-                        onClick={() => { setUrgency(u.key); setTimeout(next, 150); }}
+                        onClick={() => { setUrgency(u.key); setTimeout(() => advanceFrom(2), 150); }}
                         className={`flex items-start gap-3 rounded-2xl border p-4 text-left transition ${active ? "border-brass-400 bg-brass-500/10 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                       >
                         <span className={`mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-full ${active ? "bg-brass-500 text-ink-950" : "bg-ink-800 text-brass-300"}`}>
@@ -345,7 +363,25 @@ export function QuoteWizard() {
               </>
             )}
 
-            {step === 4 && (
+            {step === 4 && !!QUOTE_API && (
+              <>
+                <h2 className="font-display text-2xl font-extrabold md:text-3xl">Got a picture?</h2>
+                <p className="mt-1 text-sm text-ink-300">
+                  Photos help us understand the job. This form sends your details only, so after you send it,
+                  text wide shots and close-ups of the surfaces to {BIZ.phone}. Optional.
+                </p>
+                <a
+                  href={BIZ.smsHref}
+                  className="mt-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brass-500/40 bg-ink-950/50 p-8 text-center hover:border-brass-400"
+                >
+                  <ImageIcon className="h-7 w-7 text-brass-300" />
+                  <span className="font-display text-base font-bold text-ink-50">Text photos to {BIZ.phone}</span>
+                  <span className="text-xs text-ink-400">Or tap Continue to skip</span>
+                </a>
+              </>
+            )}
+
+            {step === 4 && !QUOTE_API && (
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Got a picture or document?</h2>
                 <p className="mt-1 text-sm text-ink-300">
@@ -402,7 +438,7 @@ export function QuoteWizard() {
                     <li><span className="text-ink-400">Service:</span> {SERVICES.find((s) => s.key === service)?.label || "—"}</li>
                     <li><span className="text-ink-400">Property:</span> {PROPERTIES.find((p) => p.key === property)?.label || "—"}</li>
                     <li><span className="text-ink-400">Timing:</span> {URGENCIES.find((u) => u.key === urgency)?.label || "—"}</li>
-                    <li><span className="text-ink-400">Attachments:</span> {files.length}</li>
+                    {!QUOTE_API && <li><span className="text-ink-400">Attachments:</span> {files.length}</li>}
                   </ul>
                 </div>
               </>
