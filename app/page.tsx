@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { BIZ } from "@/lib/business";
 import { openGraphFor } from "@/lib/meta";
 import { Hero } from "@/components/sections/Hero";
@@ -95,6 +96,10 @@ export default function HomePage() {
       <Reveal variant="zoom">
         <FinalCTA />
       </Reveal>
+      {/* Local corner (owner request 2026-10-01): seasons, local facts and a live NWS painting line,
+          inserted before the FAQ after hydration. Built by gotham-ops/local-corner/build.mjs from
+          sites/bh-painting.json; edit that file and rebuild, never hand-edit public/local-corner.js. */}
+      <Script src="/local-corner.js" strategy="afterInteractive" />
     </>
   );
 }
