@@ -204,7 +204,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            The cost of {s.shortName.toLowerCase()} depends on the included surfaces, preparation, product selection,
+            The cost of {s.name.toLowerCase()} depends on the included surfaces, preparation, product selection,
             access, protection, and timing, so call {BIZ.phone} for a price on your job. Proposed scope changes should
             be discussed and documented before added work proceeds.
           </p>
