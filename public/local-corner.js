@@ -1,4 +1,4 @@
-/* local-corner.js for bh-painting, built 2026-10-01 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
+/* local-corner.js for bh-painting, built 2026-10-02 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
 (function () {
   var CONFIG = {"id":"local-corner","mode":"inject","tz":"America/Detroit","weather":{"url":"https://api.weather.gov/gridpoints/DTX/66,34/forecast/hourly","rule":"paint-exterior","tz":"America/Detroit","place":"Detroit","lat":42.3314,"lon":-83.0458},"html":"<section id=\"local-corner\" aria-labelledby=\"local-corner-title\" class=\"border-t border-ink-800 py-16\"><style>#local-corner{overflow-wrap:break-word}#local-corner a{color:#D9AE4A;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}#local-corner a:hover,#local-corner a:focus-visible{color:#E8CB7E}#local-corner h3{margin-top:2rem}#local-corner .lc-list{list-style:none;margin:.75rem 0 0;padding:0;display:grid;gap:.75rem}#local-corner .lc-list li{border:1px solid #13171C;border-left:3px solid #262C33;border-radius:0 .75rem .75rem 0;background:rgba(11,14,18,.6);padding:.85rem 1rem}#local-corner .lc-list li.lc-now{border-left-color:#C9962E;background:rgba(184,134,43,.1)}#local-corner .lc-cite{display:block;margin-top:.35rem;font-size:.8125rem;color:#9098A2}#local-corner [data-lc-weather]{margin-top:1.25rem}#local-corner [data-lc-weather] p{margin:0}#local-corner .lc-live{border-left:3px solid #262C33;border-radius:0 .75rem .75rem 0;background:rgba(11,14,18,.6);padding:.85rem 1rem;color:#E5E7EA}#local-corner .lc-good{border-left-color:#22C55E}#local-corner .lc-caution{border-left-color:#D9AE4A}#local-corner .lc-poor{border-left-color:#E11D2A}#local-corner .lc-src{margin-top:.4rem!important;font-size:.75rem;color:#9098A2}</style><div class=\"mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base\"><header><p class=\"text-xs font-semibold uppercase tracking-wider text-brass-400\">Local guide</p><h2 id=\"local-corner-title\" class=\"mt-2 font-display text-2xl font-bold text-white md:text-3xl\">Painting Through the Year in Metro Detroit</h2><p class=\"mt-3 text-ink-300\">Michigan weather sets the calendar for paint and stain, so here is how a Metro Detroit year usually runs.</p></header><div data-lc-weather><p>Exterior paint and stain need a dry surface and temperatures above the minimum printed on the product label, so check the forecast for rain and overnight lows before any outdoor project.</p></div><h3 class=\"font-display text-lg font-extrabold text-white\">Through the year in Metro Detroit</h3><ul class=\"lc-list\"><li data-lc-months=\"3,4,5\"><strong class=\"text-white\">Spring (March to May):</strong> In half of all years Detroit's last spring freeze has passed by about April 20, but one year in ten it lands after May 8. Let winter-wet wood dry out before <a href=\"/services/deck-fence-staining/\">deck and fence staining</a>.</li><li data-lc-months=\"6,7,8\"><strong class=\"text-white\">Summer (June to August):</strong> July highs average near 84 degrees at Detroit Metro Airport, so plan <a href=\"/services/exterior-painting/\">exterior painting</a> to follow the shade, coating each wall once the sun has moved off it.</li><li data-lc-months=\"9,10,11\"><strong class=\"text-white\">Fall (September to November):</strong> In half of all years Detroit sees its first freezing night by about October 27, so finish outdoor work early, including <a href=\"/services/commercial-painting/\">commercial painting</a> on building exteriors.</li><li data-lc-months=\"12,1,2\"><strong class=\"text-white\">Winter (December to February):</strong> December through February average 24 to 27 freezing nights a month, which makes a closed-up house the season for <a href=\"/services/trim-door-painting/\">trim and door painting</a> indoors.</li></ul><h3 class=\"font-display text-lg font-extrabold text-white\">Good to know locally</h3><ul class=\"lc-list\"><li>EPA's lead renovation rule requires anyone paid for work that disturbs painted surfaces in homes, childcare facilities and preschools built before 1978 to be certified, with their workers trained in lead-safe practices, so ask how old paint will be handled before <a href=\"/services/exterior-painting/\">exterior painting</a> starts.<span class=\"lc-cite\">Source: <a href=\"https://www.epa.gov/lead/lead-renovation-repair-and-painting-program\" rel=\"noopener\" target=\"_blank\">Lead Renovation, Repair and Painting Program, US EPA</a></span></li><li>An estimated 86% of Detroit's housing units were built before 1970, according to the Census Bureau's 2024 American Community Survey, so most homes in the city predate that 1978 cutoff.<span class=\"lc-cite\">Source: <a href=\"https://data.census.gov/table/ACSDT1Y2024.B25034?g=160XX00US2622000\" rel=\"noopener\" target=\"_blank\">Year Structure Built, Detroit city, ACS 2024 1-Year Estimates, U.S. Census Bureau</a></span></li></ul><p>Planning work on an older Metro Detroit home? Tell us about it through our <a href=\"/quote/\">painting project contact form</a>.</p></div></section>","insert":{"before":":scope > section.border-t.border-ink-800.py-16"}};
 /*
@@ -205,12 +205,12 @@
           level: "good",
           text: "Good window for exterior painting " + dayWord(best[0].t) + " from " + hourLabel(best[0].t) + " to " +
             hourLabel(new Date(Date.parse(best[best.length - 1].t) + 3600000).toISOString()) +
-            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Most exterior latex paints need 50°F and up while they dry."
+            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Many exterior latex paints need 50°F and up while they dry; check the label, some are rated lower."
         };
       }
       var days = next.filter(function (h) { return h.day; });
       var hi = maxOf(days.length ? days : next, "f");
-      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; most exterior latex paints need 50°F and up while they dry." };
+      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; many exterior latex paints need 50°F and up while they dry." };
       var dpop = maxOf(days.length ? days : next, "pop");
       if (dpop >= 30) return { level: "poor", text: rainWords(dpop) + " in the daytime hours, so exterior paint may not have time to set. A good day for interior rooms instead." };
       return { level: "caution", text: "Conditions are borderline for exterior paint today (dew or short dry spells). Interior work is the safer choice." };
@@ -232,7 +232,7 @@
       if (low == null) return null;
       if (low <= 32 && frozenPrecip(next)) return { level: "poor", text: "Freezing temperatures with precipitation in the next 24 hours (low near " + low + "°F). Locks and car doors can ice up: use a lock de-icer and never pour hot water into a lock, it refreezes deeper." };
       if (low <= 32) return { level: "caution", text: "Below freezing in the next 24 hours (low near " + low + "°F). A frozen lock needs de-icer and patience, not force; forcing a key is how keys snap." };
-      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a little graphite lubricant keeps a lock working through the winter; skip oil, it collects grit." };
+      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a dry lubricant such as graphite keeps a lock turning through the winter; oil-based sprays attract grit." };
     },
 
     // Flooring: wood moves with humidity, vinyl plank far less so.
@@ -249,9 +249,11 @@
       var next = hs.slice(0, 12);
       var rh = avgOf(next, "rh");
       var t = avgOf(next, "f");
-      if (rh == null || t == null) return null;
-      if (rh >= 70 || t < 55) return { level: "caution", text: "Slow drying conditions today (" + t + "°F, humidity around " + rh + "%). Allow extra time between coats of joint compound, or use a setting-type compound that cures chemically." };
-      return { level: "good", text: "Good drying conditions today (" + t + "°F, humidity around " + rh + "%). Standard joint compound usually dries between coats in about a day indoors." };
+      if (rh == null) return null;
+      var cold = t != null && t < 50 ? " In unheated spaces such as garages, the cold slows drying further." : "";
+      if (rh >= 70) return { level: "caution", text: "Humid air today (around " + rh + "% relative humidity). Joint compound dries more slowly in damp air, so allow extra time between coats, keep air moving, or use a setting-type compound that cures chemically." + cold };
+      if (rh <= 35) return { level: "good", text: "Dry air today (around " + rh + "% relative humidity), so joint compound dries quickly between coats." + cold };
+      return { level: "good", text: "Moderate humidity today (around " + rh + "%), normal drying time for joint compound between coats." + cold };
     },
 
     // Exterior doors: sealants and caulk want dry weather and roughly 40F and up.
@@ -286,8 +288,9 @@
       var now = hs[0];
       var p = el("p", "lc-live lc-" + res.level);
       var lead = el("strong", null, "Today in " + CONFIG.weather.place + ": ");
+      
       p.appendChild(lead);
-      p.appendChild(document.createTextNode(now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
+      p.appendChild(document.createTextNode("now " + now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
       var src = el("p", "lc-src");
       src.appendChild(document.createTextNode("Live forecast from the "));
       var a = el("a", null, "National Weather Service");
