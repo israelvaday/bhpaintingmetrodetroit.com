@@ -992,6 +992,87 @@ To everyone celebrating, Chag Sameach, and a happy Sukkot to every family eating
 BH Painting Metro Detroit provides [deck and fence staining](/services/deck-fence-staining/), [exterior painting](/services/exterior-painting/), and [trim and door painting](/services/trim-door-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Royal Oak, Livonia, Southfield, Farmington Hills, and Sterling Heights. Call or text (313) 236-4558 or [send us a message](/quote/).
 `,
   },
+  {
+    slug: "kitchen-cabinet-painting-cost-metro-detroit",
+    title: "How Much Does It Cost to Paint Kitchen Cabinets? What Sets the Price in Metro Detroit",
+    metaTitle: "Kitchen Cabinet Painting Cost: What Sets the Price",
+    excerpt:
+      "The price of painting kitchen cabinets is set by the number of doors and drawers, the surface you start from, how far the color moves, and how much of the kitchen is included. Here is how each one plays out in Metro Detroit kitchens.",
+    category: "Cabinets",
+    readMinutes: 6,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-05T12:00:00-04:00",
+    heroImage: "/blog/kitchen-cabinet-painting-cost-metro-detroit-hero.jpg",
+    heroAlt:
+      "Oak kitchen cabinets partly primed white, with the labeled doors set out on stands, in a Metro Detroit kitchen during a cabinet painting project",
+    secondaryImage: "/photos/painting-gallery--cabinet-finish.png",
+    secondaryAlt:
+      "Kitchen cabinets with a smooth new painted finish in a Metro Detroit home",
+    body: `
+There is no honest single price for painting kitchen cabinets, because two kitchens of the same size can be very different jobs. The price is set mainly by four things: how many doors, drawer fronts, and panels there are, what the existing surface is made of and how it is finished, how far the color is moving, and how much of the kitchen is included. Painting is usually far less work than replacement because the boxes, counters, and plumbing stay where they are, but the only way to get a real number is for someone to look at your cabinets.
+
+This guide walks through what moves the price on a Metro Detroit kitchen, so you know what to measure and what to ask before you call.
+
+## Count pieces, not square feet
+
+Cabinet painting is priced by the piece far more than by the size of the room. Every door has two faces and four edges, every drawer front is removed, prepared, and finished on its own, and every one has to be labeled and put back where it came from. A galley kitchen with twenty doors and drawers and an L-shaped kitchen with an island and forty pieces are different projects even if the floor area is close.
+
+Before you call, count:
+
+- Doors, including tall pantry doors and the small ones over the refrigerator and range hood.
+- Drawer fronts.
+- Exposed end panels, the island's sides and back, and any filler strips.
+- Crown molding, light rail, and decorative trim pieces.
+- Glass-front doors, which need the glass masked or removed.
+
+That count, more than anything else, sets the size of the job.
+
+## The surface you start from changes the preparation
+
+Most of the cost of a cabinet finish that lasts is in preparation, and the preparation depends on what the cabinets are made of.
+
+**Oak from the seventies through the nineties.** Red and white oak fill a great many kitchens in Livonia, Warren, Sterling Heights, Southfield, and Troy. Oak has open grain that shows through paint. You can keep that texture as a look, or have the grain filled for a smooth modern face, and grain filling is a separate, slow step on every piece. Oak also carries tannins that can bleed amber through a light color unless a stain-blocking primer goes on first.
+
+**Factory finishes.** Many cabinets came from the factory with a hard, slick varnish that a new coating will not grip on its own. It has to be cut back and primed with a bonding primer.
+
+**Thermofoil and laminate.** Vinyl-wrapped and laminate doors, common in kitchens from the nineties and two-thousands, can be painted only with the right bonding primer and only if the wrap is still fully attached. Peeling or bubbling thermofoil is a sign the doors may need replacing rather than painting, which changes the whole budget.
+
+**Earlier paint jobs.** A previous coat that is chipping, peeling, or still soft around the handles usually has to come off or be sanded back hard before anything goes over it. That can add more time than any other single factor.
+
+## Grease, wear, and repairs
+
+Doors near the range and the rails under the sink carry years of cooking grease and hand oils. Degreasing comes before sanding on every job, but a kitchen that was cooked in heavily needs more of it. Water damage under the sink, swollen particleboard, loose face frames, and hinge screws that no longer hold are all repairs that come before paint, and they are often the surprise that separates two prices for what looked like the same kitchen.
+
+## How far the color moves
+
+Going from a medium oak to a warm white usually needs more coverage than going from oak to a deep navy or green, because light colors show every shadow of the wood underneath. Two-tone kitchens, such as a dark island with lighter perimeter cabinets, add a second color to manage but not much else. If you are still choosing, our guide to [interior paint colors for Metro Detroit homes](/blog/interior-paint-colors-metro-detroit/) explains how to judge a color against your counters, floors, and the light in the room.
+
+## What is included
+
+Ask exactly which surfaces a price covers. The most common differences are:
+
+- **Cabinet interiors.** Painting the inside of the boxes and shelves is a large addition; most kitchens paint the exterior faces only.
+- **Door backs.** Normally included, but worth confirming.
+- **New hardware.** If you are changing to pulls with a different spacing, the old holes are filled and new ones drilled.
+- **Hinges.** Reusing hinges, cleaning them, or replacing them with new soft-close hinges are three different line items.
+- **Bathroom vanities, laundry cabinets, and built-ins.** Adding them at the same time is usually more efficient than coming back later.
+
+## Time is part of the cost
+
+A cabinet finish needs time between coats and time to harden before doors go back on and the kitchen is used normally. A finish can feel dry to the touch long before it is hard enough to take daily use around the handles. That is why cabinet work is scheduled as a sequence rather than a single day, and why the kitchen is partly out of service while it happens.
+
+Fall and winter suit this kind of work in Michigan. Cabinet painting happens indoors, it does not wait on the weather the way exterior work does, and once the exterior season closes at the end of October the calendar opens up. If you want the kitchen finished before family visits around the holidays, ask about timing on your first call, because cure time has to fit in front of the date.
+
+## Painting or replacing
+
+If the boxes are sound and the layout works for you, painting is usually the lower-cost way to change the kitchen. If the boxes are swollen, the layout is the real problem, or the doors are failing thermofoil, compare the full scope of replacement instead. Our guide to [cabinet painting vs. replacement](/blog/cabinet-painting-vs-replacement/) covers how to make that decision.
+
+## Get a price on your kitchen
+
+BH Painting Metro Detroit provides [cabinet painting in Metro Detroit](/services/cabinet-painting/) for kitchens, bathrooms, laundry rooms, and built-ins across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 for a price on your job, Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM. You can also text a photo of the kitchen and your door and drawer count to the same number, or [send us a message](/quote/).
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

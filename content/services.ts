@@ -131,6 +131,10 @@ export const SERVICES: Service[] = [
       "paint cabinets wayne county",
       "cabinet color update macomb county",
     ],
+    relatedArticle: {
+      slug: "kitchen-cabinet-painting-cost-metro-detroit",
+      anchor: "what sets the cost of painting kitchen cabinets",
+    },
     detail: [
       {
         heading: "Why a cabinet finish fails, and the preparation that decides it",
