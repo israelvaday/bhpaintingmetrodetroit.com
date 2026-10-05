@@ -14,19 +14,6 @@ export const dynamic = "force-static";
 // them got a refetch signal for it.
 const GLOBAL = ["app/layout.tsx", "lib/business.ts", "components/site/Footer.tsx"];
 
-// HOLIDAY-NOTICE:START simchat-torah-2026 homepage lastmod pin
-// The temporary closure notice is a component rendered from app/page.tsx, so the
-// homepage group's git date would move to the day the notice shipped. Nothing the
-// homepage says about painting changes, and a lastmod Google finds inaccurate is
-// ignored site-wide, so the homepage keeps the lastmod it is already serving
-// (1a90b43e, 2026-09-27 21:36 ET), or a later GLOBAL file date if one lands while
-// the notice is up. Delete this block and the marked override below together with
-// the notice, which puts the homepage back on lastChanged().
-const SIMCHAT_TORAH_2026_HOME_PIN = new Date(
-  Math.max(Date.parse("2026-09-28T01:36:10.000Z"), lastChanged(...GLOBAL).getTime()),
-);
-// HOLIDAY-NOTICE:END
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BIZ.url;
   // next.config.ts sets trailingSlash: true on export, so every page is served at
@@ -52,9 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         `app${p}/page.tsx`,
         ...(p === "/blog" ? ["content/blog.ts"] : []),
       ),
-      // HOLIDAY-NOTICE:START simchat-torah-2026 homepage lastmod override
-      ...(p === "" ? { lastModified: SIMCHAT_TORAH_2026_HOME_PIN } : {}),
-      // HOLIDAY-NOTICE:END
       changeFrequency: "weekly" as const,
       priority: p === "" ? 1.0 : 0.8,
     })),
