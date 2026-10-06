@@ -1073,6 +1073,72 @@ If the boxes are sound and the layout works for you, painting is usually the low
 BH Painting Metro Detroit provides [cabinet painting in Metro Detroit](/services/cabinet-painting/) for kitchens, bathrooms, laundry rooms, and built-ins across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 for a price on your job, Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM. You can also text a photo of the kitchen and your door and drawer count to the same number, or [send us a message](/quote/).
 `,
   },
+  {
+    slug: "test-paint-color-samples-metro-detroit",
+    title: "How to Test Paint Color Samples on Your Walls in a Metro Detroit Home",
+    metaTitle: "How to Test Paint Color Samples on Your Walls",
+    excerpt:
+      "Paint two coats of each finalist in a large patch, put it on more than one wall, and judge it over two or three days in morning, afternoon, and lamp light. Here is how to run that test in a Metro Detroit house as the fall light turns gray.",
+    category: "Interior",
+    readMinutes: 6,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-06T12:00:00-04:00",
+    heroImage: "/blog/test-paint-color-samples-metro-detroit-hero.jpg",
+    heroAlt:
+      "Three large paint color samples painted on a plaster wall beside a window in a Metro Detroit home on an overcast fall day",
+    secondaryImage: "/photos/painting-gallery--color-sampling.png",
+    secondaryAlt:
+      "Painter rolling a sample color onto an interior wall next to wood trim",
+    body: `
+The reliable way to test a paint color is to paint two full coats of each finalist in a patch at least the size of a sheet of paper, ideally larger, on two or more walls of the room, and then look at it for two or three days: in the morning, in the afternoon, on a cloudy day, and at night under your own lamps. A chip in the store and a swatch on a phone screen cannot show you what the room's light will do to the color. A properly sized sample on the wall can.
+
+In Metro Detroit, the timing of that test matters more than usual right now. The days are getting shorter, the sky is overcast more often through late fall and winter, and clocks go back on Sunday, November 1, so most evenings from then on are lit by bulbs, not daylight. A color you sample on a bright September afternoon can look noticeably cooler, grayer, or darker by December.
+
+## Pick no more than three finalists
+
+Sampling works best as a final check, not as a search. Narrow the field first with the room's fixed finishes in view: the floor, the counters or tile, the brick around a fireplace, and the stained wood trim that many older Royal Oak, Ferndale, Grosse Pointe, and Detroit homes still have. Our guide to [choosing interior paint colors for a Metro Detroit home](/blog/interior-paint-colors-metro-detroit/) covers how to read undertones against those finishes.
+
+Bring it down to two or three candidates before anything goes on the wall. If one of them is a new trend color, such as the soft greens several paint brands named as their 2027 colors of the year this fall, test it next to a quieter version of the same family, so you can tell whether you like the color or just the photograph of it.
+
+## Choose how you will sample
+
+There are three common ways to put a sample up, and each has a trade-off.
+
+- **Paint directly on the wall.** The most accurate, because you see the real sheen on the real surface. Use the sheen you plan to use for the finished job, since a flat sample and an eggshell wall will not look the same. The patches will need to be covered later.
+- **Paint a sample board.** Roll two coats on a piece of white poster board or foam board and leave a white border around the color. Boards can be moved from wall to wall and room to room, and they keep the old wall color from tinting your judgment.
+- **Peel-and-stick sheets.** Printed sheets from the paint brands are quick and clean, and they are useful for narrowing the list. They are not the actual paint and sheen, so confirm your final choice with real paint before ordering a full room.
+
+## Make the patch big enough to judge
+
+A tiny dab tells you almost nothing. Aim for a patch around a foot or two square for each color. Bigger is better for deep colors, which look much stronger across a full wall than on a small square.
+
+- **Two full coats.** One coat lets the old color show through and makes most samples look lighter and patchier than the real result.
+- **Keep the samples apart.** Leave a gap between colors so they do not influence each other, and do not paint them edge to edge.
+- **Label each one.** Write the exact color name and number on painter's tape below each patch, so the color you choose is the color that gets ordered.
+- **Prepare the spot.** Wipe off dust and kitchen grease first, and let the patches dry fully before you judge them, because many colors change as they dry.
+
+## Put samples where the light changes
+
+Sample on at least two walls: one that faces or sits beside a window, and one that stays in shadow. North-facing rooms get cooler, flatter light that can turn grays bluer and make whites look dull. South-facing rooms stay warmer and brighter. East- and west-facing rooms change a great deal between morning and evening.
+
+Also put a patch next to the things it has to live with, such as the trim, a cabinet door, the floor at the baseboard, or the brick. Older Metro Detroit homes often have wood or brick that pulls warm, and a cool gray that looked clean in the store can fight with it.
+
+## Look at it for two or three days
+
+Check each sample at several times of day, and include at least one gray, overcast day. That cloudy-day look is closer to how the room will feel for much of a Michigan winter than a sunny afternoon is.
+
+After dark, turn on the lamps and ceiling lights you actually use. Warm bulbs push colors toward yellow, and cooler bulbs can make warm neutrals look flat. If you are thinking about changing your bulbs, do it before you choose the paint, not after.
+
+## What to do with the patches afterward
+
+Painted sample patches leave a slight ridge and a different sheen that can show through the finished coat. Before the room is painted, the edges should be lightly sanded and the area spot-primed, especially under a light color going over a dark sample. If BH Painting Metro Detroit is painting the room, tell us where the samples are and we will prepare those areas as part of the job.
+
+## Get help with the final choice
+
+If the samples still leave you between two colors, a second opinion on the wall usually settles it faster than another round of chips. BH Painting Metro Detroit offers [color consultation in Metro Detroit](/services/color-consultation/) and carries the chosen color through [interior painting](/services/interior-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with a photo of the room and your finalists.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

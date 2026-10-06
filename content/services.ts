@@ -379,6 +379,10 @@ export const SERVICES: Service[] = [
       "paint palette help oakland county",
       "professional color selection metro detroit",
     ],
+    relatedArticle: {
+      slug: "test-paint-color-samples-metro-detroit",
+      anchor: "how to test paint color samples on your walls",
+    },
     detail: [
       {
         heading: "Undertone is what a grey Michigan sky exposes",
