@@ -1139,6 +1139,82 @@ Painted sample patches leave a slight ridge and a different sheen that can show 
 If the samples still leave you between two colors, a second opinion on the wall usually settles it faster than another round of chips. BH Painting Metro Detroit offers [color consultation in Metro Detroit](/services/color-consultation/) and carries the chosen color through [interior painting](/services/interior-painting/) across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with a photo of the room and your finalists.
 `,
   },
+  {
+    slug: "paint-brick-fireplace-metro-detroit",
+    title: "Can You Paint a Brick Fireplace? What to Know in a Metro Detroit Home",
+    metaTitle: "Can You Paint a Brick Fireplace? A Metro Detroit Guide",
+    excerpt:
+      "Yes, the brick face and surround of a fireplace can be painted if the brick is clean, dry, and sound, but the paint is close to permanent and the firebox is a separate question. Here is how to decide and how the job is done in an older Metro Detroit house.",
+    category: "Interior",
+    readMinutes: 7,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-11T12:00:00-04:00",
+    heroImage: "/blog/paint-brick-fireplace-metro-detroit-hero.jpg",
+    heroAlt:
+      "Red brick fireplace half painted warm white in an older Metro Detroit living room, with a roller and drop cloth on the floor",
+    secondaryImage: "/photos/painting-gallery--interior-living-room.png",
+    secondaryAlt:
+      "Freshly painted living room walls and trim in a Metro Detroit home",
+    body: `
+Yes, you can paint a brick fireplace. The brick face, the surround, and the hearth can all take paint when the brick is clean, dry, and in sound condition, and when a masonry primer goes on first. Two things need thought before the first coat: paint on brick is very hard to remove, so treat it as a permanent change, and the inside of the firebox is not painted with wall paint at all.
+
+In Metro Detroit this is the time of year the question comes up. Nights are dropping toward the first frost, fireplaces are about to be used again, and the room around the fireplace is where guests sit from Thanksgiving through the winter. If you want the brick painted before you start burning, the weeks before the heating season are the easiest time to do it, while the masonry is cool and dry.
+
+## When painting the brick is a good idea
+
+Paint suits brick that is structurally fine but visually dated: dark red or orange brick that makes a small living room feel heavy, brick stained by decades of smoke, or mismatched brick from an old repair. Many 1920s to 1950s houses in Detroit, Royal Oak, Ferndale, Dearborn, and the Grosse Pointes have exactly this kind of fireplace.
+
+- **The brick and mortar are solid.** No crumbling joints, loose brick, or flaking faces.
+- **The masonry is dry.** No damp patches and no white powder returning to the surface.
+- **You are sure about the look.** You like painted brick in other homes, not just in one photograph.
+
+## When to leave the brick alone
+
+- **White powdery deposits keep coming back.** That powder is efflorescence, salts carried out by moisture moving through the masonry. Michigan freeze and thaw cycles, a worn chimney cap, or failed flashing are common causes. Paint over a damp chimney breast blisters and peels, so the moisture source has to be fixed first.
+- **The brick is historic or unusual.** Original glazed tile, Pewabic-style tile, or hand-made brick in an older Detroit house is often worth more to the room and to a future buyer in its natural state.
+- **The mortar is failing.** Crumbling joints should be repointed before any coating goes on, and new mortar needs time to cure.
+- **You may want the natural brick back.** Stripping paint out of porous brick is slow, messy work and rarely returns the brick to how it looked.
+
+## Which parts can be painted, and with what
+
+A fireplace has zones that see very different temperatures, and each takes a different product.
+
+- **The face, surround, and chimney breast.** On an ordinary open masonry fireplace these surfaces get warm, not hot. A masonry or stain-blocking primer followed by a quality interior acrylic latex paint is the standard system.
+- **The hearth.** It can be painted, but it gets foot traffic, log baskets, and tools, so expect it to scuff and need touch-ups sooner than the face.
+- **The firebox.** The inside of the firebox is exposed to flame. Wall paint will burn off there. It is either left as it is or coated with a product made and labeled for high heat.
+- **Inserts, stoves, and metal trim.** A wood stove or a gas insert can make nearby surfaces much hotter than an open fireplace does. Follow the appliance manufacturer's instructions for clearances and for what may be coated, and use only coatings rated for that temperature on the metal.
+
+## How a brick fireplace is painted
+
+Most of the work, and most of the result, is in the preparation.
+
+- **Clean out the soot.** Brick around a firebox opening holds soot and creosote in its pores. The surface is vacuumed, scrubbed with a stiff brush and a degreasing cleaner, rinsed, and left to dry completely. Paint does not bond to soot.
+- **Repair first.** Cracks and open joints are filled or repointed, and the repair is allowed to cure.
+- **Protect the room.** The mantel, floor, walls, and firebox opening are masked and covered.
+- **Prime the masonry.** A primer made for masonry seals the porous surface. Where smoke staining is present, a stain-blocking primer keeps yellow and brown stains from bleeding through a light finish color.
+- **Work the paint into the joints.** Brick is rough and the mortar lines are recessed, so the paint goes on with a thick-nap roller and a brush that pushes it into every joint and pore. Expect two finish coats, and expect brick to use noticeably more paint than a flat wall of the same size.
+- **Let it cure before the first fire.** Give the coating the cure time the product label calls for before you light the fireplace.
+
+A flat or matte finish hides the uneven surface of old brick best. Satin is easier to wipe clean around the opening, where soot collects, but it shows more of the texture.
+
+## If you are not ready for solid paint
+
+There are two lighter options. A **whitewash** is thinned paint brushed on and partly wiped back, so some of the brick color and variation still shows. A **limewash** is a mineral coating that soaks into bare masonry and gives a soft, chalky look. Both soften red brick without the flat, uniform finish of full paint. Both still change the brick for good, and limewash only works on brick that has never been painted or sealed.
+
+## If the brick is already painted
+
+Older paint on a fireplace in a house built before 1978 may contain lead. Do not dry-sand or scrape it yourself. Have it tested, and if it is sound, it can usually be cleaned, primed, and painted over without disturbing it.
+
+## What affects the price
+
+We do not publish prices, because fireplaces vary too much from one house to the next. The things that move the price are the size of the brick area (a surround only, or a full floor-to-ceiling chimney breast), how much soot cleaning and stain blocking the brick needs, any mortar repair, whether the mantel and built-ins beside it are painted too, and how much masking the room requires. Call (313) 236-4558 for a price on your job.
+
+## Getting it done before the heating season
+
+BH Painting Metro Detroit paints brick fireplaces as part of [interior painting in Metro Detroit](/services/interior-painting/), usually together with the walls and trim of the same room so the new brick color is chosen against the finished wall color. If you are unsure which white or neutral will sit well against your floor and mantel, [testing paint color samples](/blog/test-paint-color-samples-metro-detroit/) on a few bricks first is worth the two or three days. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with a photo of the fireplace.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
