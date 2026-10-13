@@ -1215,6 +1215,88 @@ We do not publish prices, because fireplaces vary too much from one house to the
 BH Painting Metro Detroit paints brick fireplaces as part of [interior painting in Metro Detroit](/services/interior-painting/), usually together with the walls and trim of the same room so the new brick color is chosen against the finished wall color. If you are unsure which white or neutral will sit well against your floor and mantel, [testing paint color samples](/blog/test-paint-color-samples-metro-detroit/) on a few bricks first is worth the two or three days. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with a photo of the fireplace.
 `,
   },
+  {
+    slug: "how-often-landlord-paint-rental-michigan",
+    title: "How Often Does a Landlord Have to Paint a Rental in Michigan?",
+    metaTitle: "How Often Does a Landlord Have to Paint in Michigan?",
+    excerpt:
+      "Michigan law sets no repainting schedule for rentals. A landlord has to paint when the condition of the unit calls for it: peeling or damaged paint, a repair, a local inspection, or a promise in the lease. Here is how that works in Metro Detroit, and when repainting between tenants makes sense anyway.",
+    category: "Planning",
+    readMinutes: 7,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-13T12:00:00-04:00",
+    heroImage: "/photos/painting-gallery--rental-turnover.png",
+    heroAlt:
+      "Painter rolling a neutral wall color in an empty rental living room in a Metro Detroit neighborhood",
+    secondaryImage: "/photos/painting-gallery--multifamily-hallway.png",
+    secondaryAlt:
+      "Painting crew repainting the walls of a vacant apartment between tenants",
+    body: `
+There is no set schedule. Michigan law does not require a landlord to repaint a rental every year, every three years, or between every tenant. What the law does require is that the unit is fit to live in and kept in reasonable repair, so a landlord has to paint when the condition of the paint makes it a repair: peeling or flaking paint, walls opened up for plumbing or patched after a leak, or anything a local rental inspection writes up. A lease can also promise more than the law does.
+
+This article is general information for Metro Detroit owners and tenants, not legal advice. For a specific dispute, read your lease and speak with a Michigan attorney or a tenant or landlord organization.
+
+## What Michigan law actually says
+
+Two parts of state law do most of the work.
+
+- **The duty to repair.** Under MCL 554.139, every residential lease in Michigan carries the landlord's promise that the home is fit for its intended use, that it will be kept in reasonable repair during the lease, and that it will comply with state and local health and safety laws. Faded or dated paint is not a repair issue. Peeling paint, water-damaged walls, and mold-stained surfaces are.
+- **The security deposit rule.** Under MCL 554.607, a deposit can be used for unpaid rent and utilities and for actual damage that goes beyond what is reasonably expected in the normal course of living in a home. Paint that has simply aged over a tenancy is normal wear. Painting to refresh a unit for the next tenant is generally the owner's cost, not the outgoing tenant's.
+
+Neither statute names a number of years. Some other places do, which is why the question is so common: search results are full of rules from New York City and elsewhere that do not apply here.
+
+## When a Michigan landlord does have to paint
+
+- **Paint is peeling, flaking, or chalking.** Failed paint is a condition problem, and in an older home it can also be a lead hazard.
+- **A repair leaves the wall unfinished.** After a plumbing repair, a roof leak, or a drywall patch, finishing and painting the surface is part of the repair.
+- **A local inspection requires it.** Many Metro Detroit cities register and inspect rentals, and an inspector can write up deteriorated paint.
+- **The lease says so.** If the lease promises fresh paint at move-in or at renewal, that promise is enforceable.
+- **The home was built before 1978 and the paint is deteriorating.** Deteriorated paint in an older rental is treated as a possible lead hazard, and lead-safe rules apply to how it is fixed.
+
+## Detroit and local rental inspections
+
+Local rules matter more than state law here. Detroit requires rentals to be registered and to hold a certificate of compliance, and the city is pushing hard on it this fall. On August 25, 2026, the city announced a plan to raise compliance among roughly 85,000 one- and two-family rentals from 14 percent to 25 percent within a year, with inspectors assigned to specific areas and reminders sent before certificates expire. On September 22, 2026, City Council urged inspections of one large landlord's entire portfolio.
+
+For an owner, that means the condition of walls, ceilings, trim, and exterior paint is more likely to be looked at than it was a year ago. Detroit's inspection includes a check for deteriorated paint in older homes, and most of the city's housing was built long before 1978. Royal Oak, Southfield, Dearborn, Warren, and other cities run their own rental programs with their own checklists. Confirm the current requirements with your city's building department before you plan the work.
+
+## Can a tenant be charged for painting?
+
+Sometimes, but only for damage. Ordinary scuffs, a few nail holes from pictures, and paint that has faded or yellowed over a normal tenancy are wear. Things that typically count as damage are large holes, unapproved dark or bright colors that take extra coats to cover, crayon or marker over large areas, and heavy smoke staining that needs a stain-blocking primer.
+
+Michigan also has paperwork rules for deposits: move-in and move-out checklists, and an itemized list of damages sent to the tenant within a set number of days after move-out. An owner who wants to charge for paint damage needs that record. A tenant who disagrees can dispute the list in writing.
+
+## When repainting between tenants makes sense anyway
+
+No law requires it, yet most owners repaint more often than they have to, because paint is the cheapest way to make a vacant unit rent faster.
+
+- **Length of the last tenancy.** After a short tenancy, cleaning and touch-up may be enough. After several years, touch-ups show as patches and a full repaint looks better.
+- **Kitchens, baths, and hallways.** These wear first. They often need paint when the bedrooms do not.
+- **Smoke, cooking, and pets.** Odor and staining sit in the paint film. A stain-blocking primer and new finish coats deal with what cleaning cannot.
+- **One standard color and sheen.** Using the same neutral color and a washable finish in every unit means the next turnover can be a touch-up instead of a repaint.
+
+## What a painter does at a turnover
+
+- **Walk the unit and write the scope room by room.** Walls only, or ceilings, trim, doors, and closets too.
+- **Patch and prime.** Nail holes, dents, and anchors are filled, and stains are sealed so they do not bleed through.
+- **Paint with a durable, washable finish.** Flat ceilings, and a scrubbable finish on walls and trim that stands up to the next tenancy.
+- **Work around the other trades.** Painting is scheduled after repairs and before final cleaning and flooring.
+
+A vacant unit can be painted in any season, since the work is indoors. Fall is a common time, as owners want empty units rented before the holidays and before winter slows the rental market.
+
+## Paint in a rental built before 1978
+
+Assume old paint may contain lead until it is tested. Do not dry-sand or scrape it, and do not let a handyman grind it off. Sound paint can usually be cleaned, primed, and painted over without disturbing it. Peeling or damaged paint in a pre-1978 rental has to be handled with lead-safe work practices, and both federal rules and local rental ordinances cover that work. Ask whoever does the job how they will handle it before they start.
+
+## What affects the price
+
+We do not publish prices, because turnovers vary too much from one unit to the next. The things that move the price are the size of the unit, whether ceilings, trim, and doors are included, how much patching and stain blocking the walls need, whether the color is changing, and how many units are done on the same visit. Call (313) 236-4558 for a price on your job.
+
+## Getting a unit ready in Metro Detroit
+
+BH Painting Metro Detroit repaints vacant houses, apartments, and condos between tenants as part of [rental turnover painting in Metro Detroit](/services/rental-turnover-painting/), for individual owners and for property managers. If you are choosing a painter for a rental for the first time, our guide to [hiring a painting contractor in Michigan](/blog/hire-painting-contractor-michigan/) covers what to ask. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with the address and the number of rooms.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

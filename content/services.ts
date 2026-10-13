@@ -327,6 +327,10 @@ export const SERVICES: Service[] = [
       "move out painting wayne county",
       "multifamily painters macomb county",
     ],
+    relatedArticle: {
+      slug: "how-often-landlord-paint-rental-michigan",
+      anchor: "how often a landlord has to paint a rental in Michigan",
+    },
   },
   {
     slug: "wallpaper-removal",
