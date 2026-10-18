@@ -1297,6 +1297,69 @@ We do not publish prices, because turnovers vary too much from one unit to the n
 BH Painting Metro Detroit repaints vacant houses, apartments, and condos between tenants as part of [rental turnover painting in Metro Detroit](/services/rental-turnover-painting/), for individual owners and for property managers. If you are choosing a painter for a rental for the first time, our guide to [hiring a painting contractor in Michigan](/blog/hire-painting-contractor-michigan/) covers what to ask. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with the address and the number of rooms.
 `,
   },
+  {
+    slug: "how-long-does-paint-smell-last-michigan-winter",
+    title: "How Long Does Paint Smell Last in a Closed-Up Michigan House?",
+    metaTitle: "How Long Does Paint Smell Last? A Michigan Winter Guide",
+    excerpt:
+      "With a modern water-based wall paint, most of the smell is gone within one to three days if the room gets fresh air. Oil-based paints and stain-blocking primers can linger for one to two weeks. Here is why a Metro Detroit house with the furnace running holds a smell longer, and how to clear it.",
+    category: "Interior",
+    readMinutes: 6,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-18T12:00:00-04:00",
+    heroImage: "/photos/service-hero-interior-painting.png",
+    heroAlt:
+      "Painter rolling a warm beige wall in a Metro Detroit living room with the furniture covered in plastic and the windows letting in daylight",
+    secondaryImage: "/photos/painting-gallery--ceiling-rolling.png",
+    secondaryAlt:
+      "Painter on a rolling scaffold painting a living room ceiling, with the room's furniture and fireplace wrapped in plastic",
+    body: `
+With a modern water-based (latex or acrylic) wall paint, most of the smell is gone within one to three days, as long as the room gets some fresh air. Oil-based paints, and the oil or shellac primers used to block stains, take longer: often a week, sometimes two. In a Metro Detroit house in late fall or winter, with the windows shut and the furnace running, expect the slower end of each range unless you plan the ventilation.
+
+The smell is not the same thing as the paint being dry. Wall paint is dry to the touch in an hour or two, but it keeps releasing solvent while it cures, which takes weeks. The odor fades long before the film is fully hard.
+
+## Why a closed-up house holds the smell longer
+
+Once the first frost arrives, most Metro Detroit houses close up for the season, and that changes how a freshly painted room clears.
+
+- **Windows stay shut.** Fresh air is what carries the odor out. With no cross draft, it simply sits in the house.
+- **A forced-air furnace spreads it.** The return vents pull air from the painted room and send it through every other room, so a bedroom repaint can be smelled in the kitchen.
+- **Cool rooms release it more slowly.** If the painted room is kept cold to save heat, the paint gives off its solvent more slowly and the smell lasts longer. Keep the room at normal living temperature.
+- **Older houses breathe differently.** Many pre-war homes in Detroit, Royal Oak, Ferndale, and Grosse Pointe have radiators and plaster walls rather than forced air and drywall. A radiator room does not spread the smell through ducts, but it also gets no air movement unless you create it.
+
+## What decides how long it lasts
+
+- **The product.** Water-based paints labeled low-odor or low-VOC smell far less than conventional ones, and much less than oil-based enamels. Oil and shellac stain-blocking primers are usually the strongest smell on an interior job.
+- **How much was painted.** One accent wall clears quickly. A whole floor of walls, ceilings, and trim puts much more solvent into the air at once.
+- **Air movement.** A window cracked open and a fan blowing out of it clears a room far faster than a closed door.
+- **Temperature and humidity.** A warm room with steady airflow clears faster than a cold, still one.
+
+## How to get rid of paint smell in winter
+
+1. **Make a cross draft for a few hours each day.** Crack a window in the painted room a few inches and set a box fan in it blowing outward. Open a window on the far side of the house so fresh air has a way in. Even half an hour at a time helps.
+2. **Keep the painted room warm.** Leave its heat on so the paint cures at a normal pace.
+3. **Run the exhaust fans.** Bathroom and kitchen exhaust fans pull air out of the house, and running them during the day helps.
+4. **Keep the smell out of the ducts.** Close the painted room's door, and if the furnace has a filter due for a change, change it once the painting is finished.
+5. **Skip the cover-ups.** Candles and air fresheners only add another smell. Bowls of baking soda or activated charcoal can take the edge off a small room, but fresh air does the real work.
+
+## When can you sleep in a freshly painted room?
+
+For most adults, a room painted with a low-odor water-based paint is usually comfortable the next night if it has been aired out during the day. A practical test is simple: if you can still clearly smell paint when you walk in, give it another day. Keep babies, anyone who is pregnant, and anyone with asthma or a chemical sensitivity out of the room until the smell is completely gone, and follow the paint manufacturer's label. If you notice headaches or dizziness, leave the room and get fresh air.
+
+## Planning around the holidays
+
+If you want the guest room, dining room, or living room painted before family arrives for Thanksgiving on November 26, schedule the work so it finishes at least several days ahead. That gives the smell time to clear with the windows mostly shut, and gives the walls time to firm up before furniture goes back against them.
+
+## How we keep the smell down on an occupied job
+
+Most interior work we do in winter is in homes where people are still living, sleeping, and cooking. We choose low-odor waterborne products wherever the job allows, use stronger primers only where a stain or surface truly needs one, and sequence the work room by room so the bedrooms you need that night are not the ones still drying. We also talk through ventilation before we start, including which windows can be opened and when.
+
+## Planning a winter interior project in Metro Detroit
+
+BH Painting Metro Detroit paints walls, ceilings, and trim through the heating season as part of [interior painting in Metro Detroit](/services/interior-painting/). If you are still choosing colors, [testing paint color samples](/blog/test-paint-color-samples-metro-detroit/) on the actual walls first is worth the few extra days. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with the rooms you want painted.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
