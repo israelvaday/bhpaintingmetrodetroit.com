@@ -1360,6 +1360,76 @@ Most interior work we do in winter is in homes where people are still living, sl
 BH Painting Metro Detroit paints walls, ceilings, and trim through the heating season as part of [interior painting in Metro Detroit](/services/interior-painting/). If you are still choosing colors, [testing paint color samples](/blog/test-paint-color-samples-metro-detroit/) on the actual walls first is worth the few extra days. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) with the rooms you want painted.
 `,
   },
+  {
+    slug: "can-you-paint-basement-walls-michigan",
+    title: "Can You Paint Basement Walls in a Michigan House?",
+    metaTitle: "Can You Paint Basement Walls? A Metro Detroit Guide",
+    excerpt:
+      "Yes, if the walls are dry. Paint holds well on sound, dry poured concrete, block, or drywall, but no paint stops a wall that leaks. Here is how to test a Metro Detroit basement first, which coating fits which wall, and why late fall is a good time to do it.",
+    category: "Interior",
+    readMinutes: 6,
+    // Local noon on purpose, for the reason given on the yom-kippur-2026 entry
+    // above: a date-only string prints a day early in the Americas.
+    date: "2026-10-20T12:00:00-04:00",
+    heroImage: "/photos/painting-gallery--multifamily-hallway.png",
+    heroAlt:
+      "Three painters cutting in and rolling a long white wall, with the next wall masked in plastic and blue tape and a HEPA vacuum on the floor",
+    secondaryImage: "/photos/service-hero-ceiling-painting.png",
+    secondaryAlt:
+      "Painter rolling a ceiling with an extension pole in a Metro Detroit living room, the furniture and floor covered in plastic",
+    body: `
+Yes, you can paint basement walls, as long as the walls are dry. Paint bonds well to sound, dry poured concrete, concrete block, and basement drywall, and a light color can make a dark Michigan basement feel much brighter. What paint cannot do is fix water: if moisture is coming through the wall, the paint will bubble, peel, or grow mildew, often by the first spring thaw.
+
+So the real question is not whether you can paint the walls, but whether your walls are ready for it. Late fall is a good time to find out.
+
+## Why late fall is a good time to paint a basement
+
+Metro Detroit had its first frost advisory of the season in mid-October, and once the furnace is running, most basements reach their driest point of the year.
+
+- **The air is drier.** Summer humidity is what makes basement walls sweat. Heated winter air holds far less moisture, so walls that felt damp in August are often dry by November.
+- **The fall rains are a free test.** A wall that stays dry through October and November has passed one test. The spring thaw, when the ground around the foundation is saturated, is the hardest one.
+- **It is indoor work for the cold months.** Exterior painting season is closing, and a basement can be painted without waiting on the weather.
+
+One caution: paint needs a minimum surface temperature to cure, often 50 degrees Fahrenheit for water-based products (check the label). An unheated basement, or a block wall below grade, can sit colder than the room air. If the space is not heated, warm it for a day or two before painting and keep it warm while the paint cures.
+
+## Test the walls before you buy paint
+
+Many basements in Detroit, Dearborn, Livonia, Warren, and older parts of Oakland County sit in heavy clay soil that holds water against the foundation. Before painting, look for these signs:
+
+- **White, chalky powder on the wall.** That is efflorescence: salts left behind when water moves through concrete or block. It means water has been coming through, even if the wall feels dry today.
+- **Damp patches, stains, or a tide line** near the floor or along cracks.
+- **Peeling or blistering on old paint.** Old paint lifting off the wall in sheets is often being pushed off by moisture from behind.
+- **A musty smell** that does not clear when the space is aired out.
+
+Then do the plastic sheet test. Tape a square of clear plastic, about two feet by two feet, tightly to the bare wall on all four sides and leave it for two days.
+
+- **Moisture under the plastic** (on the wall side) means water is coming through the wall. Deal with that before you paint.
+- **Moisture on top of the plastic** (on the room side) means condensation from humid air. A dehumidifier, not a sealer, is the fix, and the wall itself can usually be painted.
+- **Dry on both sides** means the wall is ready.
+
+## When to fix the water first
+
+Do not paint a basement wall that is actively leaking, has a crack that seeps after rain, has a horizontal crack, or is bowing inward. Those are drainage or foundation problems, and a coat of paint only hides the evidence for a few months. Check the gutters, the downspouts, and the slope of the soil around the house first, and call a foundation or waterproofing specialist for anything structural. Painting comes after the water problem is solved.
+
+If there is visible mold, clean it and find the moisture source before painting. Paint applied over mold does not stop it.
+
+## Which coating for which basement wall
+
+- **Bare poured concrete or concrete block:** clean off dust, efflorescence, and loose material, let it dry, then use a primer and paint made for masonry. Block is porous, so the first coat is usually brushed or back-rolled into the pores.
+- **Masonry waterproofing coatings:** these thick coatings can slow minor dampness through a wall that is basically sound. They are not a repair for a leak, and they are harder to repaint over later, so use them only where the wall test calls for it.
+- **Previously painted walls:** scrape and sand anything loose, spot prime the bare areas, and repaint with a compatible product. If the house was built before 1978 and the old paint is flaking, test it for lead before you scrape or sand.
+- **Finished basements with drywall:** treat them like any other room, with a primer on new drywall and a scrubbable eggshell or satin finish that handles bumps from storage and laundry baskets.
+- **Exposed joists and ductwork overhead:** many owners paint an open basement ceiling one color, white or a dark tone, so the pipes and wires disappear. That is usually sprayed after everything below is masked.
+
+## Getting the color right in a basement
+
+Basements get little or no daylight, so the color you see is the color of your bulbs. Test a sample on the wall under the lights you will actually use, as described in our guide to [testing paint color samples](/blog/test-paint-color-samples-metro-detroit/). Warm whites and light neutrals brighten a low basement better than stark cool whites, which can look gray under some LED bulbs. And because a basement has few windows, plan the airing out, as our guide on [how long paint smell lasts](/blog/how-long-does-paint-smell-last-michigan-winter/) in a closed-up house explains.
+
+## Painting a basement in Metro Detroit
+
+BH Painting Metro Detroit paints basement walls, finished basement rooms, and [basement ceilings](/services/ceiling-painting/) as part of [interior painting in Metro Detroit](/services/interior-painting/), once the walls have passed the moisture checks above. We do not do waterproofing or foundation repair, and if a wall needs that first, we will tell you before any paint goes on. We work across Wayne, Oakland, and Macomb counties, including Detroit, Royal Oak, Troy, Birmingham, Grosse Pointe, and Livonia. Call (313) 236-4558 Sunday through Thursday from 9:00 AM to 5:00 PM or Friday from 9:00 AM to 12:00 PM, or [send us a message](/quote/) describing the basement and what the walls are made of.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
